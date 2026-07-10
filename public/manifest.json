@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+  "short_name": "Pack an Order",
+  "description": "Pack an Order Roblox Wiki with beginner tips, controls, order routes, item locations, upgrades, abilities, co-op strategies, leaderboards, and update news.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#F68523",
+  "background_color": "#FFF8F0",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
