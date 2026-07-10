@@ -4,18 +4,31 @@ import { useState, Suspense, lazy } from "react";
 import {
   AlertTriangle,
   ArrowRight,
+  Backpack,
   BookOpen,
   Check,
   ChevronDown,
   ClipboardCheck,
+  ClipboardList,
   Coins,
   ExternalLink,
   Keyboard,
+  Layers,
+  ListChecks,
+  Move,
+  ReceiptText,
+  ScanSearch,
   Sparkles,
   Star,
   Tag,
   TrendingUp,
+  Truck,
+  Trophy,
+  User,
   Users,
+  UsersRound,
+  Wand2,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -55,6 +68,16 @@ const TOOL_SECTION_IDS = [
   "coins-and-leveling",
   "coop-leaderboard",
 ];
+
+// Distinct lucide-react icons per card position for data-driven content modules.
+// Icons live in the component layer (not the data file) so en.json stays pure copy,
+// while every card still gets a unique icon — no duplicates within a module.
+// Module 5 (Abilities): Speed, Carry Capacity, Reach, Unlockable Abilities
+const ABILITY_ICONS = [Zap, Backpack, Move, Wand2];
+// Module 6 (Orders accordion): ticket, match, inspect, carry, load
+const ORDER_ICONS = [ReceiptText, ListChecks, ScanSearch, Layers, Truck];
+// Module 8 (Co-op): Solo, Two-Player, Three-Player, Multi-Order, Leaderboard
+const COOP_ICONS = [User, Users, UsersRound, ClipboardList, Trophy];
 
 export default function HomePageClient({
   latestArticles,
@@ -629,40 +652,48 @@ export default function HomePageClient({
 
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.packanOrderAbilitiesGuide.items.map(
-              (item: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <div className="flex items-center justify-between mb-3">
-                    <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
-                      {item.name}
-                    </h3>
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-                      {item.category}
-                    </span>
+              (item: any, index: number) => {
+                const Icon = ABILITY_ICONS[index];
+                return (
+                  <div
+                    key={index}
+                    className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center justify-between mb-3 gap-3">
+                      <div className="flex items-center gap-3 min-w-0">
+                        <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)]">
+                          <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
+                          {item.name}
+                        </h3>
+                      </div>
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                        {item.category}
+                      </span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      {item.effect}
+                    </p>
+                    <dl className="space-y-1.5 text-sm">
+                      <div className="flex gap-2">
+                        <dt className="font-semibold flex-shrink-0">Best for:</dt>
+                        <dd className="text-muted-foreground">{item.bestFor}</dd>
+                      </div>
+                      <div className="flex gap-2">
+                        <dt className="font-semibold flex-shrink-0">Timing:</dt>
+                        <dd className="text-muted-foreground">
+                          {item.recommendedTiming}
+                        </dd>
+                      </div>
+                      <div className="flex gap-2">
+                        <dt className="font-semibold flex-shrink-0">Tip:</dt>
+                        <dd className="text-muted-foreground">{item.usageTip}</dd>
+                      </div>
+                    </dl>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-3">
-                    {item.effect}
-                  </p>
-                  <dl className="space-y-1.5 text-sm">
-                    <div className="flex gap-2">
-                      <dt className="font-semibold flex-shrink-0">Best for:</dt>
-                      <dd className="text-muted-foreground">{item.bestFor}</dd>
-                    </div>
-                    <div className="flex gap-2">
-                      <dt className="font-semibold flex-shrink-0">Timing:</dt>
-                      <dd className="text-muted-foreground">
-                        {item.recommendedTiming}
-                      </dd>
-                    </div>
-                    <div className="flex gap-2">
-                      <dt className="font-semibold flex-shrink-0">Tip:</dt>
-                      <dd className="text-muted-foreground">{item.usageTip}</dd>
-                    </div>
-                  </dl>
-                </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
@@ -691,7 +722,9 @@ export default function HomePageClient({
 
           <div className="scroll-reveal space-y-3">
             {t.modules.packanOrderOrdersAndItems.items.map(
-              (item: any, index: number) => (
+              (item: any, index: number) => {
+                const Icon = ORDER_ICONS[index];
+                return (
                 <div
                   key={index}
                   className="border border-border rounded-xl overflow-hidden bg-white/5"
@@ -700,10 +733,15 @@ export default function HomePageClient({
                     onClick={() =>
                       setOrdersExpanded(ordersExpanded === index ? null : index)
                     }
-                    className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+                    className="w-full flex items-center justify-between gap-3 p-5 text-left hover:bg-white/5 transition-colors"
                   >
-                    <span className="font-semibold text-base md:text-lg">
-                      {item.heading}
+                    <span className="flex items-center gap-3 min-w-0">
+                      <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        <Icon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <span className="font-semibold text-base md:text-lg">
+                        {item.heading}
+                      </span>
                     </span>
                     <ChevronDown
                       className={`w-5 h-5 flex-shrink-0 text-[hsl(var(--nav-theme-light))] transition-transform ${ordersExpanded === index ? "rotate-180" : ""}`}
@@ -740,7 +778,8 @@ export default function HomePageClient({
                     </div>
                   )}
                 </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
@@ -868,40 +907,45 @@ export default function HomePageClient({
 
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {t.modules.packanOrderCoopAndLeaderboard.items.map(
-              (item: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
-                >
-                  <div className="flex items-center gap-2 mb-3">
-                    <Users className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
-                    <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
-                      {item.mode}
-                    </h3>
-                  </div>
-                  <p className="text-xs text-muted-foreground mb-3 uppercase tracking-wider">
-                    {item.setup}
-                  </p>
-                  <ul className="space-y-1.5 mb-3">
-                    {item.roles.map((role: string, ri: number) => (
-                      <li key={ri} className="flex items-start gap-2 text-sm">
-                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
-                        <span className="text-muted-foreground">{role}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="text-sm text-muted-foreground mb-3 flex-1">
-                    {item.execution}
-                  </p>
-                  <div className="flex items-start gap-2 p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]">
-                    <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
-                    <p className="text-xs text-muted-foreground">
-                      <span className="font-semibold">Avoid: </span>
-                      {item.mistakeToAvoid}
+              (item: any, index: number) => {
+                const Icon = COOP_ICONS[index];
+                return (
+                  <div
+                    key={index}
+                    className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
+                  >
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
+                        {item.mode}
+                      </h3>
+                    </div>
+                    <p className="text-xs text-muted-foreground mb-3 uppercase tracking-wider">
+                      {item.setup}
                     </p>
+                    <ul className="space-y-1.5 mb-3">
+                      {item.roles.map((role: string, ri: number) => (
+                        <li key={ri} className="flex items-start gap-2 text-sm">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span className="text-muted-foreground">{role}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="text-sm text-muted-foreground mb-3 flex-1">
+                      {item.execution}
+                    </p>
+                    <div className="flex items-start gap-2 p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]">
+                      <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <p className="text-xs text-muted-foreground">
+                        <span className="font-semibold">Avoid: </span>
+                        {item.mistakeToAvoid}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ),
+                );
+              },
             )}
           </div>
         </div>
