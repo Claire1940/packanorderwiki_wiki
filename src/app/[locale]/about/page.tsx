@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'About Pack an Order Wiki - Your Ultimate Roblox Game Resource',
-    description: 'Learn about Pack an Order Wiki, a community-driven resource hub providing comprehensive guides, order routes, item locations, upgrades, abilities, and strategies for the Pack an Order Roblox game.',
+    description: 'Learn about Pack an Order Wiki, a community-driven resource hub providing comprehensive guides, codes, order routes, item locations, upgrades, abilities, and strategies for the Pack an Order Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -75,10 +75,10 @@ export default function About() {
             <p>
               Pack an Order Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
               master the Roblox game "Pack an Order". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              active codes, order routes, item locations, and strategic insights to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
+              Whether you're a new player just starting your packing journey or a seasoned veteran looking to optimize your strategies,
               Pack an Order Wiki is here to support you every step of the way.
             </p>
           </div>
@@ -95,8 +95,8 @@ export default function About() {
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
-              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
+              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new codes, and balance updates</li>
+              <li><strong>Build useful tools:</strong> Develop guides, code trackers, and planners that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
@@ -105,7 +105,7 @@ export default function About() {
             <p>
               We envision Pack an Order Wiki as the <strong>go-to destination</strong> for every Pack an Order player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              code updates, want to master order routes, or are looking for advanced packing tactics.
             </p>
           </div>
         </div>
@@ -118,51 +118,51 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">🎫</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Codes & Rewards</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Up-to-date active codes, reward breakdowns, and step-by-step redemption guides.
+                Never miss free cash, items, or limited-time rewards!
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">📦</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Order Guides</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Optimal order routes, packing strategies, and delivery tips to help you fulfill
+                orders faster and more efficiently.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">🛠️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Item Locations</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Complete item database with locations, uses, and rarity details.
+                Find exactly what you need for every order.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">⬆️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Upgrade Breakdown</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Best upgrade paths, cost analysis, and priority recommendations to maximize
+                your packing speed and earnings.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">⭐</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Abilities Guide</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Ability unlocks, combinations, and synergies to help you optimize your workflow
+                and climb the leaderboards.
               </p>
             </div>
 
@@ -171,8 +171,8 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, Portuguese, and Spanish
+                to serve players around the world.
               </p>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've discovered a new code, found an optimal order route,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
@@ -221,9 +221,6 @@ export default function About() {
               <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
-            <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
-            </p>
           </div>
         </div>
       </section>

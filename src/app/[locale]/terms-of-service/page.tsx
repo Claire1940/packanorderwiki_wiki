@@ -90,11 +90,11 @@ export default function TermsOfService() {
               and resources related to the Roblox game "Pack an Order". Our services include, but are not limited to:
             </p>
             <ul>
-              <li>Game guides and survival strategies</li>
-              <li>Crafting and Apotheosis fusion guides</li>
-              <li>Biome and world region information</li>
-              <li>Creature and enemy guides</li>
-              <li>Achievement walkthroughs</li>
+              <li>Game guides and packing strategies</li>
+              <li>Active codes and reward tracking</li>
+              <li>Order routes and item locations</li>
+              <li>Upgrade and ability breakdowns</li>
+              <li>Controls and best practices</li>
               <li>Community discussion and content</li>
             </ul>
             <p>
@@ -165,7 +165,7 @@ export default function TermsOfService() {
 
             <h2>6. Limitation of Liability</h2>
             <p>
-              TO THE FULLEST EXTENT PERMITTED BY LAW, LUCID BLOCKS WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+              TO THE FULLEST EXTENT PERMITTED BY LAW, PACK AN ORDER WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
               SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY
               OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM:
             </p>

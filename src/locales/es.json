@@ -1,11 +1,653 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Pack an Order - Mejoras, habilidades y guías de Roblox",
+      "description": "Wiki de Roblox de Pack an Order con consejos para principiantes, controles, rutas de pedidos, ubicaciones de objetos, mejoras, habilidades, estrategias cooperativas, tablas de clasificación y noticias de actualizaciones.",
+      "keywords": "Pack an Order, Roblox, códigos, wiki, mejoras, habilidades, controles, pedidos, cooperativo, tabla de clasificación",
+      "ogTitle": "Wiki de Pack an Order - Mejoras, habilidades y guías de Roblox",
+      "ogDescription": "Wiki de Roblox de Pack an Order con consejos para principiantes, controles, rutas de pedidos, ubicaciones de objetos, mejoras, habilidades, estrategias cooperativas, tablas de clasificación y noticias de actualizaciones.",
+      "twitterTitle": "Wiki de Pack an Order - Mejoras, habilidades y guías de Roblox",
+      "twitterDescription": "Wiki de Roblox de Pack an Order que cubre controles, pedidos, objetos, mejoras, habilidades y estrategias cooperativas."
+    }
+  },
   "nav": {
     "guides": "Guías",
     "codes": "Códigos",
     "orders": "Pedidos",
-    "items": "Artículos",
+    "items": "Objetos",
     "upgrades": "Mejoras",
     "abilities": "Habilidades",
     "controls": "Controles"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulador de almacén cooperativo de ritmo rápido",
+    "title": "Wiki de Pack an Order",
+    "description": "Encuentra juguetes, completa pedidos de clientes, empaca cajas, carga camiones de entrega, gana monedas, desbloquea habilidades, mejora a tu trabajador y compite por conseguir tiempos de almacén más rápidos.",
+    "getFreeCodesCTA": "Consigue códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "5,3 K",
+        "label": "Jugadores en línea"
+      },
+      "stat2": {
+        "value": "85%",
+        "label": "Valoración de los jugadores"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "Mejoras principales"
+      },
+      "stat4": {
+        "value": "Solo + Cooperativo",
+        "label": "Modos de juego"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Pack an Order",
+    "description": "Encuentra juguetes en los estantes, completa los pedidos de los clientes, empaca cajas, carga camiones de reparto y mejora a tu empleado en este juego cooperativo de almacén de ritmo rápido en Roblox."
+  },
+  "tools": {
+    "title": "Pack an Order",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para encontrar artículos, empacar pedidos, mejorar a tu trabajador y subir en la tabla de clasificación en Pack an Order",
+    "cards": [
+      {
+        "icon": "Destellos",
+        "title": "Códigos de Pack an Order",
+        "description": "Estado actual de los códigos y dónde podrían aparecer futuros códigos de recompensa"
+      },
+      {
+        "icon": "Libro abierto",
+        "title": "Guía para principiantes",
+        "description": "Tendencias"
+      },
+      {
+        "icon": "Mejores mejoras",
+        "title": "Compara el orden de gasto para Velocidad, Capacidad de carga y Alcance",
+        "description": "Teclado"
+      },
+      {
+        "icon": "Controles",
+        "title": "Recoge, empaca, suelta, inspecciona y alterna entre pedidos",
+        "description": "Estrella"
+      },
+      {
+        "icon": "Guía de habilidades",
+        "title": "Habilidades desbloqueables y tres mejoras principales para el trabajador",
+        "description": "Portapapeles verificado"
+      },
+      {
+        "icon": "Pedidos y artículos",
+        "title": "Lee los tickets, asocia los productos y evita errores de empaque",
+        "description": "Paquete"
+      },
+      {
+        "icon": "Monedas y niveles",
+        "title": "Gana monedas más rápido y crea una ruta de mejora eficiente",
+        "description": "Usuarios"
+      },
+      {
+        "icon": "Cooperativo y tabla de clasificación",
+        "title": "Divide roles y supera los tiempos de completado solo o con amigos",
+        "description": "Códigos de Pack an Order"
+      }
+    ]
+  },
+  "modules": {
+    "packanOrderCodes": {
+      "title": "Recompensas gratuitas",
+      "eyebrow": "Consulta el estado actual de los códigos de Pack an Order y entérate de dónde podrían anunciarse futuros códigos de recompensa. Seguimos todas las fuentes oficiales para que sepas exactamente cuándo aparecen los códigos activos.",
+      "intro": "No hay códigos activos",
+      "items": [
+        {
+          "label": "Actual",
+          "status": "Sin recompensa anunciada",
+          "reward": "Actualmente no hay códigos activos de Pack an Order publicados en la descripción oficial del juego ni en la comunidad de desarrolladores.",
+          "description": "No se menciona ningún menú de canje"
+        },
+        {
+          "label": "Sistema de códigos",
+          "status": "No disponible",
+          "reward": "Actualmente, las instrucciones oficiales no mencionan ningún botón de Códigos, Regalo, Twitter o Canjear dentro de Pack an Order.",
+          "description": "Las instrucciones oficiales actualmente no mencionan un botón de Códigos, Regalo, Twitter o Canjear dentro de Pack an Order."
+        },
+        {
+          "label": "Fuentes oficiales de actualización",
+          "status": "Dónde consultar",
+          "reward": "Próximos anuncios",
+          "description": "Sigue la descripción del juego en Roblox y la comunidad de desarrolladores para enterarte de los nuevos códigos de Pack an Order y eventos de recompensas."
+        },
+        {
+          "label": "Resolución de problemas con códigos",
+          "status": "Ayuda para canjear",
+          "reward": "Aplica cuando se lanzan códigos",
+          "description": "Cuando lleguen los códigos, ingrésalos exactamente como fueron publicados, elimina los espacios adicionales, confirma que el código no haya caducado y asegúrate de que no haya sido utilizado ya."
+        }
+      ]
+    },
+    "packanOrderBeginnerGuide": {
+      "title": "Guía para principiantes de Pack an Order",
+      "eyebrow": "Primeros pasos",
+      "intro": "Aprende todo el flujo de trabajo del almacén, desde leer los pedidos de los clientes hasta cargar las cajas terminadas en los camiones de reparto. Completar los pedidos más rápido te otorgará monedas, mejorará tu tiempo en la tabla de clasificación y te ayudará a desbloquear mejoras y habilidades.",
+      "steps": [
+        {
+          "title": "Elige jugar solo o en multijugador",
+          "description": "Entra al almacén solo o únete a tus amigos en Pack an Order. Los equipos pueden dividirse los estantes y empacar varias partes de un pedido al mismo tiempo."
+        },
+        {
+          "title": "Lee el pedido del cliente",
+          "description": "Comprueba qué juguetes se necesitan antes de recoger nada. Presiona R para alternar entre los pedidos disponibles."
+        },
+        {
+          "title": "Busca en los estantes",
+          "description": "Muévete por el almacén y localiza los productos que coincidan con el pedido activo. Aprender la distribución de los estantes reduce el tiempo perdido en desplazamientos."
+        },
+        {
+          "title": "Inspecciona el producto",
+          "description": "Usa el clic derecho o el botón Y para inspeccionar un artículo cuando los productos similares sean difíciles de distinguir."
+        },
+        {
+          "title": "Recoge el artículo correcto",
+          "description": "Presiona E o haz clic izquierdo para recoger un producto. Usa la rueda de desplazamiento para cambiar entre artículos cuando lleves más de uno."
+        },
+        {
+          "title": "Empaca el pedido",
+          "description": "Lleva el producto correspondiente a su caja de pedido y presiona E o haz clic izquierdo para empacarlo. Presiona Q para soltar un artículo incorrecto o no deseado."
+        },
+        {
+          "title": "Carga el camión de reparto",
+          "description": "Completa todos los artículos solicitados, termina la caja y carga el pedido empacado en el camión de reparto."
+        },
+        {
+          "title": "Gasta monedas en mejoras",
+          "description": "Usa las monedas ganadas para mejorar la velocidad, el alcance y la capacidad de carga. Repite pedidos para desbloquear habilidades y competir por mejores tiempos en la tabla de clasificación."
+        }
+      ],
+      "quickTips": [
+        "Lee el ticket completo antes de salir del área de empaque para recoger todos los productos necesarios en una sola ruta.",
+        "Inspecciona los juguetes de aspecto similar antes de empacarlos para evitar colocar el artículo incorrecto en una caja.",
+        "Alterna entre los productos que llevas con la rueda de desplazamiento y empácalos en el orden que se muestra en el ticket.",
+        "Suelta los artículos incorrectos con Q cerca de su estante original en lugar de llevarlos por todo el almacén."
+      ]
+    },
+    "packanOrderBestUpgrades": {
+      "title": "Las mejores mejoras en Pack an Order",
+      "eyebrow": "Mejoras del almacén",
+      "intro": "Compara la velocidad, la capacidad de carga y el alcance para decidir en qué gastar tus monedas primero. La mejor mejora depende de cuánto tiempo pierdas al moverte, llevar productos o interactuar con los estantes.",
+      "items": [
+        {
+          "upgrade": "Velocidad",
+          "effect": "Mejora el movimiento por el almacén y reduce el tiempo de viaje entre los estantes, las estaciones de empaque y los camiones de reparto.",
+          "bestFor": "Cada jugador y cada pedido",
+          "soloPriority": "1",
+          "teamPriority": "1",
+          "recommendation": "Compra velocidad primero porque es necesario moverse durante cada etapa de un pedido."
+        },
+        {
+          "upgrade": "Capacidad de carga",
+          "effect": "Permite transportar más productos antes de regresar a una caja de pedido.",
+          "bestFor": "Jugadores en solitario y pedidos con productos de varias estanterías",
+          "soloPriority": "2",
+          "teamPriority": "3",
+          "recommendation": "Priorízala al jugar en solitario para reducir los viajes repetidos. Usa la rueda del ratón para desplazarte por los objetos que llevas."
+        },
+        {
+          "upgrade": "Alcance",
+          "effect": "Amplía la distancia desde la cual se puede interactuar con productos y objetivos de empaquetado.",
+          "bestFor": "Recogida rápida en estanterías y rutas coordinadas en el almacén",
+          "soloPriority": "3",
+          "teamPriority": "2",
+          "recommendation": "Mejora el Alcance después de establecer una buena velocidad de movimiento. Es especialmente útil cuando los compañeros dividen el almacén en secciones."
+        },
+        {
+          "upgrade": "Ruta de mejora recomendada",
+          "effect": "Equilibra el movimiento, la eficiencia de recogida y el número de viajes necesarios por pedido.",
+          "bestFor": "Gasto eficiente de monedas",
+          "soloPriority": "Velocidad a Capacidad de carga a Alcance",
+          "teamPriority": "Velocidad a Alcance a Capacidad de carga",
+          "recommendation": "Los jugadores en solitario se benefician más de llevar varios productos, mientras que los equipos organizados pueden centrarse en el movimiento e interacciones rápidas con las estanterías."
+        }
+      ]
+    },
+    "packanOrderControls": {
+      "title": "Controles de Pack an Order",
+      "eyebrow": "Controles",
+      "intro": "Usa estos controles para recoger productos, inspeccionar objetos, gestionar pedidos y empaquetar cajas sin perder velocidad. Los comandos más importantes son E o Clic izquierdo para recoger y empaquetar, R para cambiar de pedido y la rueda del ratón para gestionar los productos que llevas.",
+      "items": [
+        {
+          "input": "E o Clic izquierdo",
+          "action": "Recoger o empaquetar un objeto",
+          "device": "Teclado y ratón",
+          "tip": "Revisa el pedido activo antes de interactuar para no colocar el producto equivocado en una caja."
+        },
+        {
+          "input": "Q",
+          "action": "Soltar el objeto que sostienes actualmente",
+          "device": "Teclado",
+          "tip": "Suelta los productos incorrectos cerca de su estantería original en lugar de llevarlos por todo el almacén."
+        },
+        {
+          "input": "R",
+          "action": "Alternar entre pedidos de clientes",
+          "device": "Teclado",
+          "tip": "Selecciona un pedido antes de entrar en una sección de estanterías y recoge varios productos que coincidan en la misma ruta."
+        },
+        {
+          "input": "Rueda del ratón",
+          "action": "Alternar entre los objetos que llevas",
+          "device": "Ratón",
+          "tip": "Cambia al producto necesario antes de acercarte a su caja de empaquetado."
+        },
+        {
+          "input": "Clic derecho o Y",
+          "action": "Inspeccionar un objeto",
+          "device": "Ratón o mando",
+          "tip": "Inspecciona productos con formas o colores similares antes de empacarlos."
+        }
+      ]
+    },
+    "packanOrderAbilitiesGuide": {
+      "title": "Habilidades y mejoras de Pack an Order",
+      "eyebrow": "Habilidades y mejoras",
+      "intro": "Pack an Order incluye habilidades desbloqueables junto con tres mejoras principales: Velocidad, Alcance y Capacidad de carga. Prioriza las mejoras que eliminen los mayores retrasos en tu ruta actual y luego usa las habilidades para reducir aún más el tiempo de búsqueda, transporte o empaque.",
+      "items": [
+        {
+          "name": "Velocidad",
+          "category": "Mejora principal",
+          "effect": "Mejora la rapidez con la que te mueves entre los estantes, las estaciones de empaque y los camiones de entrega.",
+          "bestFor": "Rutas largas en el almacén y trayectos repetidos de artículos",
+          "recommendedTiming": "Una excelente primera mejora para la mayoría de los jugadores",
+          "usageTip": "Usa la velocidad de movimiento adicional para recoger artículos de estantes distantes antes de regresar al área de empaque."
+        },
+        {
+          "name": "Capacidad de carga",
+          "category": "Mejora principal",
+          "effect": "Permite cargar más productos solicitados durante un solo trayecto a los estantes.",
+          "bestFor": "Pedidos que contienen varios productos o cantidades repetidas",
+          "recommendedTiming": "Priorízala cuando los límites de inventario te obliguen a realizar viajes adicionales con frecuencia",
+          "usageTip": "Alterna entre los artículos que llevas con la rueda del ratón y empácalos en el orden que se muestra en el ticket activo."
+        },
+        {
+          "name": "Alcance",
+          "category": "Mejora principal",
+          "effect": "Extiende el rango de interacción efectivo utilizado al recoger y empacar productos.",
+          "bestFor": "Estantes densos y artículos situados ligeramente fuera del rango normal de recogida",
+          "recommendedTiming": "Cómprala una vez que los límites de movimiento y carga estén bajo control",
+          "usageTip": "Acércate a la sección correcta del estante y usa el alcance adicional para reducir los pequeños ajustes de posicionamiento."
+        },
+        {
+          "name": "Habilidades desbloqueables",
+          "category": "Sistema de habilidades",
+          "effect": "Añade herramientas diseñadas para agilizar el proceso de empaque de pedidos.",
+          "bestFor": "Reducción de retrasos durante los pedidos con tiempo más exigentes",
+          "recommendedTiming": "Desbloquéalas a medida que progreses",
+          "usageTip": "Elige habilidades que aborden tu tarea más lenta: encontrar productos, transportarlos o empacar pedidos completados."
+        }
+      ]
+    },
+    "packanOrderOrdersAndItems": {
+      "title": "Guía de pedidos y artículos de Pack an Order",
+      "eyebrow": "Pedidos y productos",
+      "intro": "Cada pedido de cliente enumera los productos y cantidades exactos que deben recogerse de los estantes del almacén. Revisa cada artículo antes de empacarlo, alterna entre los pedidos activos cuando sea necesario y carga las cajas completadas en los camiones de entrega.",
+      "items": [
+        {
+          "heading": "Lee el ticket del cliente",
+          "content": "El ticket del pedido muestra el cliente, el número de pedido, los nombres de los productos, las cantidades requeridas y una lista de verificación de artículos.",
+          "controls": [
+            "Presiona R para alternar entre los pedidos activos."
+          ],
+          "example": "Un pedido para Becca puede solicitar 1 Red Squishy, 2 Matcha Dumplings, 1 Clicker y 3 artículos de Salted Butter."
+        },
+        {
+          "heading": "Haz coincidir exactamente los nombres y las cantidades",
+          "content": "Recoge el producto indicado del estante y continúa hasta completar la cantidad solicitada. Los juguetes de apariencia similar deben verificarse por su nombre antes de colocarlos en la caja.",
+          "controls": [
+            "Usa E o el clic izquierdo para recoger y empacar un artículo.",
+            "Usa Q para soltar el artículo seleccionado actualmente."
+          ],
+          "example": "Una solicitud de dos Matcha Dumplings requiere dos artículos iguales; un solo artículo no completa esa entrada de la lista."
+        },
+        {
+          "heading": "---",
+          "content": "Inspecciona un objeto antes de empacarlo",
+          "controls": [
+            "La inspección ayuda a confirmar que el producto que llevas coincide con el pedido activo del cliente antes de añadirlo a la caja."
+          ],
+          "example": "Usa el clic derecho o Y para inspeccionar un objeto."
+        },
+        {
+          "heading": "Inspecciona los productos cuando su color, forma o posición en el estante hagan que sea fácil confundirlos con otro artículo.",
+          "content": "Gestiona los productos que llevas",
+          "controls": [
+            "Los jugadores pueden cargar productos mientras se mueven entre las secciones de estantes y la estación de empaque. Selecciona el producto correcto que llevas antes de intentar empacarlo."
+          ],
+          "example": "Usa la rueda del ratón para alternar entre los objetos que llevas."
+        },
+        {
+          "heading": "Recoger varios productos en una sola ruta se vuelve más eficiente después de aumentar la Capacidad de Carga.",
+          "content": "Finaliza y carga el pedido",
+          "controls": [
+            "Una vez que todos los productos de la lista se hayan empacado correctamente, mueve la caja terminada a través del flujo de trabajo del almacén y cárgala en el camión de reparto."
+          ],
+          "example": "Usa E o el clic izquierdo para las interacciones de recoger y empacar."
+        }
+      ]
+    },
+    "packanOrderCoinsAndLeveling": {
+      "title": "El pedido solo se completa después de haber empacado los productos requeridos y finalizado el paso de entrega.",
+      "eyebrow": "Guía de monedas y niveles de Pack an Order",
+      "intro": "Monedas y progresión",
+      "items": [
+        {
+          "stage": "Las monedas se obtienen al completar pedidos y se usan para desbloquear mejoras de progresión. Dado que Pack an Order premia el empaque eficiente y registra los tiempos de finalización, el método de farmeo más confiable es completar pedidos correctos repetidamente mientras mejoras la Velocidad, la Capacidad de Carga y el Alcance.",
+          "goal": "Partidas iniciales",
+          "actions": "Aprende la distribución del almacén y completa los pedidos correctamente",
+          "spendPriority": "Lee un ticket a la vez, inspecciona los productos dudosos, empaca las cantidades indicadas y carga la caja terminada.",
+          "progressionValue": "Ahorra las primeras monedas para una mejora principal"
+        },
+        {
+          "stage": "Las finalizaciones correctas y repetibles crean un ciclo de monedas confiable.",
+          "goal": "Primera mejora",
+          "actions": "Elimina la mayor fuente de pérdida de tiempo",
+          "spendPriority": "Elige Velocidad cuando el desplazamiento sea lento, Capacidad de Carga cuando los viajes extra sean comunes, o Alcance cuando las interacciones con los estantes requieran reposicionarse con frecuencia.",
+          "progressionValue": "Compra la mejora que solucione el cuello de botella actual"
+        },
+        {
+          "stage": "Una mejora específica optimiza cada pedido posterior.",
+          "goal": "Recolección eficiente",
+          "actions": "Recoge varios productos solicitados durante cada ruta por los estantes",
+          "spendPriority": "Revisa el ticket completo antes de salir del área de empaque, agrupa los artículos cercanos en los estantes y alterna los productos que llevas con la rueda del ratón.",
+          "progressionValue": "Sigue mejorando la Velocidad y la Capacidad de Carga"
+        },
+        {
+          "stage": "Menos viajes de ida y vuelta permiten completar más pedidos en la misma sesión de juego.",
+          "goal": "Progresión de habilidades",
+          "actions": "Añade herramientas que acorten las tareas de búsqueda, transporte o empaque",
+          "spendPriority": "Desbloquea habilidades a medida que estén disponibles y úsalas donde ahorren más tiempo en el flujo de trabajo de los pedidos.",
+          "progressionValue": "Equilibra el desbloqueo de habilidades con mejoras principales permanentes"
+        },
+        {
+          "stage": "Las habilidades complementan el sistema de mejoras básico y ayudan a conseguir tiempos de finalización más rápidos.",
+          "goal": "Farmeo para la tabla de clasificación",
+          "actions": "Completa sets de pedidos completos de la forma más rápida y constante posible",
+          "spendPriority": "Memoriza la ubicación de los estantes, evita productos incorrectos, planifica las rutas antes de moverte y minimiza el tiempo de inactividad en las cajas y camiones.",
+          "progressionValue": "Mejora cualquier estadística principal débil restante"
+        }
+      ]
+    },
+    "packanOrderCoopAndLeaderboard": {
+      "title": "Estrategia cooperativa y de tablas de clasificación de Pack an Order",
+      "eyebrow": "Modo cooperativo y tablas de clasificación",
+      "intro": "Pack an Order es compatible tanto con el juego en solitario como con equipos de amigos, con tablas de clasificación basadas en tiempos de finalización rápidos. Los equipos organizados funcionan mejor cuando los jugadores se dividen las tareas de buscar en los estantes, empacar y cargar los camiones en lugar de seguir la misma ruta.",
+      "items": [
+        {
+          "mode": "Partida en solitario",
+          "setup": "Un solo jugador se encarga de todo el flujo de trabajo",
+          "roles": [
+            "Leer y alternar pedidos",
+            "Recoger productos de los estantes",
+            "Empacar cajas",
+            "Cargar camiones de reparto"
+          ],
+          "execution": "Lee el boleto completo antes de moverte, recoge productos cercanos en lotes, inspecciona los artículos dudosos y usa la Capacidad de carga para reducir los viajes de regreso.",
+          "mistakeToAvoid": "Regresar corriendo a la estación de empaque tras recoger un solo artículo cuando hay más productos solicitados cerca."
+        },
+        {
+          "mode": "Equipo de dos jugadores",
+          "setup": "Dividir la recolección del empaque y la entrega",
+          "roles": [
+            "El jugador 1 busca en los estantes y entrega los productos solicitados",
+            "El jugador 2 verifica los artículos, empaca las cajas y carga los camiones"
+          ],
+          "execution": "El recolector anuncia el pedido que está procesando mientras el jugador que empaca mantiene en movimiento el área de cajas y entregas.",
+          "mistakeToAvoid": "Que ambos jugadores dejen la estación de empaque para buscar el mismo artículo."
+        },
+        {
+          "mode": "Equipo de tres jugadores",
+          "setup": "Asignar a un jugador a cada tarea principal del almacén",
+          "roles": [
+            "El recolector recoge los productos de los estantes",
+            "El empacador asocia los productos con los boletos y llena las cajas",
+            "El cargador lleva los pedidos completados a los camiones de reparto"
+          ],
+          "execution": "Mantén cada rol activo de forma continua y rota solo cuando una etapa acumule retrasos.",
+          "mistakeToAvoid": "Permitir que las cajas listas esperen mientras todos los jugadores buscan en los estantes."
+        },
+        {
+          "mode": "Varios pedidos activos",
+          "setup": "Asignar un pedido específico o una zona de estantes a cada recolector",
+          "roles": [
+            "Usa R para alternar pedidos",
+            "Di en voz alta los nombres de los clientes o los números de pedido",
+            "Reporta las cantidades completadas antes de cambiar de tarea"
+          ],
+          "execution": "Separa las asignaciones por pedido activo o sección del almacén para que cada jugador tenga un objetivo claro.",
+          "mistakeToAvoid": "Recoger productos duplicados después de que otro compañero ya haya completado el mismo elemento de la lista de verificación."
+        },
+        {
+          "mode": "Intento para la tabla de clasificación",
+          "setup": "Usar una ruta practicada y responsabilidades de equipo fijas",
+          "roles": [
+            "El jugador más rápido se encarga de las rutas de estantes largas",
+            "El jugador más preciso verifica y empaca",
+            "El compañero disponible mantiene abastecidos los camiones de reparto"
+          ],
+          "execution": "Memoriza las ubicaciones comunes de los artículos, empieza a moverte tan pronto como aparezcan los pedidos y evita cambios de rol innecesarios durante la partida.",
+          "mistakeToAvoid": "Priorizar la velocidad de movimiento sobre la precisión del pedido y empacar productos incorrectos."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Pack an Order",
+    "questions": [
+      {
+        "question": "¿Es Pack an Order multijugador?",
+        "answer": "Sí. Pack an Order es un juego cooperativo de almacén en Roblox. Puedes jugar solo o formar equipo con amigos para encontrar juguetes, empaquetar pedidos y cargar camiones de reparto más rápido."
+      },
+      {
+        "question": "¿Cuáles son las mejoras principales en Pack an Order?",
+        "answer": "Las tres mejoras principales en Pack an Order son Velocidad, Alcance y Capacidad de carga. Mejoran permanentemente a tu trabajador y te ayudan a completar pedidos mucho más rápido."
+      },
+      {
+        "question": "¿Dónde puedo jugar Pack an Order?",
+        "answer": "Pack an Order está disponible gratis en Roblox. Puedes jugarlo en PC, móvil, Xbox y cualquier otro dispositivo compatible con Roblox."
+      },
+      {
+        "question": "¿Tiene códigos Pack an Order?",
+        "answer": "Pack an Order se ha lanzado recientemente y aún no se ha confirmado un sistema oficial de códigos. Hacemos un seguimiento del estado de los códigos y listaremos los códigos de Pack an Order que funcionen tan pronto como se publiquen."
+      },
+      {
+        "question": "¿Es Pack an Order compatible con mandos?",
+        "answer": "Roblox es compatible con mandos en plataformas compatibles, pero el teclado y el ratón o el modo táctil son las opciones más fluidas para agarrar y empaquetar objetos rápidamente en Pack an Order."
+      },
+      {
+        "question": "¿Recibirá actualizaciones Pack an Order?",
+        "answer": "Sí. Como juego de Roblox en vivo, se espera que Pack an Order reciba actualizaciones con nuevos objetos, habilidades, mejoras y cambios de equilibrio con el tiempo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para Pack an Order?",
+    "description": "¡Entra en Pack an Order en Roblox, encuentra juguetes en los estantes, empaqueta cajas rápido y vence al reloj solo o con amigos!",
+    "joinCommunity": "Jugar en Roblox",
+    "joinGame": "Ver gameplay"
+  },
+  "footer": {
+    "title": "Pack an Order Wiki",
+    "description": "Tu centro de recursos completo para guías, pedidos, objetos, mejoras, habilidades, controles y códigos de Pack an Order en Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "robloxGame": "Jugar en Roblox",
+    "watchGameplay": "Ver gameplay",
+    "robloxBlog": "Roblox Charts",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Pack an Order Wiki. No afiliado con los desarrolladores de Pack an Order ni con Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guides": {
+      "title": "Guías de Pack an Order",
+      "description": "Guías completas de juego de Pack an Order que cubren el flujo de trabajo del almacén, rutas de pedidos y consejos de eficiencia.",
+      "metaTitle": "Guías de Pack an Order - Consejos para principiantes y estrategias de almacén",
+      "metaDescription": "Guías completas de Pack an Order que cubren consejos para principiantes, rutas de pedidos, controles, mejoras, habilidades y estrategias cooperativas.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Guías exhaustivas que cubren el flujo de trabajo del almacén de Pack an Order, desde la lectura de pedidos hasta la carga de camiones de reparto.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "---",
+        "step2Title": "Entiende el ciclo de pedido, empaquetado y carga y evita errores comunes de principiante",
+        "step2Description": "Progresión rápida",
+        "step3Title": "Sigue rutas de estantería probadas para completar pedidos y ganar Monedas rápidamente",
+        "step3Description": "Estrategias maestras"
+      },
+      "featured": "Desarrolla tácticas avanzadas para partidas en solitario e intentos en la clasificación cooperativa",
+      "all": "Destacados y esenciales"
+    },
+    "codes": {
+      "title": "Todas las guías",
+      "description": "Códigos de Pack an Order",
+      "metaTitle": "Rastrea el estado actual de los códigos de Pack an Order y descubre dónde se anunciarán futuros códigos de recompensa.",
+      "metaDescription": "Códigos de Pack an Order - Códigos activos y estado de canje",
+      "categoryLabel": "Consulta el estado de los últimos códigos de Pack an Order, encuentra el menú de canje y descubre dónde se anuncian nuevos códigos de recompensa.",
+      "whatIs": "CÓDIGOS",
+      "whatIsDescription": "¿Qué son los códigos?",
+      "why": "Los códigos son cadenas de recompensa gratuitas que pueden otorgar Monedas, potenciadores u objetos de progresión cuando se añada un sistema de canje a Pack an Order.",
+      "whySteps": {
+        "step1Title": "¿Por qué revisar los códigos?",
+        "step1Description": "Mantente al día",
+        "step2Title": "Consulta el estado actual de los códigos sin buscar en fuentes dispersas",
+        "step2Description": "Canjea rápidamente",
+        "step3Title": "Descubre dónde aparece el botón de canje cuando se lancen los códigos",
+        "step3Description": "Evita códigos caducados"
+      },
+      "featured": "Usa solo códigos que funcionen y soluciona errores de canje",
+      "all": "Destacados y esenciales"
+    },
+    "orders": {
+      "title": "Todos los códigos",
+      "description": "Pedidos de Pack an Order",
+      "metaTitle": "Aprende a leer los tickets de los clientes, emparejar productos y completar las rutas de pedido más rápidas.",
+      "metaDescription": "Pedidos de Pack an Order - Tickets, productos y rutas más rápidas",
+      "categoryLabel": "PEDIDOS",
+      "whatIs": "¿Qué son los pedidos?",
+      "whatIsDescription": "Los pedidos son tickets de clientes que detallan los productos y cantidades exactos que debes recoger, empaquetar y cargar en Pack an Order.",
+      "why": "¿Por qué estudiar los pedidos?",
+      "whySteps": {
+        "step1Title": "Lee los tickets con precisión",
+        "step1Description": "Empareja nombres de productos y cantidades antes de empaquetar",
+        "step2Title": "Alterna entre pedidos activos",
+        "step2Description": "Usa R para cambiar entre varios trabajos activos",
+        "step3Title": "Planifica rutas rápidas",
+        "step3Description": "Agrupa artículos de estanterías cercanas para terminar los pedidos rápido"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los pedidos"
+    },
+    "items": {
+      "title": "Objetos de Pack an Order",
+      "description": "Explora los juguetes, comida y productos que aparecen en los estantes del almacén y en los tickets de los clientes.",
+      "metaTitle": "Objetos de Pack an Order: ubicaciones de juguetes, comida y productos",
+      "metaDescription": "Encuentra ubicaciones de objetos de Pack an Order, nombres de productos, zonas de estanterías y una comparación de objetos fáciles de confundir.",
+      "categoryLabel": "OBJETOS",
+      "whatIs": "¿Qué son los objetos?",
+      "whatIsDescription": "Los objetos son los juguetes, comida y otros productos colocados en los estantes que coinciden con las entradas de cada ticket de pedido de los clientes.",
+      "why": "¿Por qué consultar las guías de objetos?",
+      "whySteps": {
+        "step1Title": "Encuentra productos rápido",
+        "step1Description": "Aprende qué zona de estanterías contiene cada producto",
+        "step2Title": "Evita confusiones",
+        "step2Description": "Distingue juguetes con aspecto similar antes de empacarlos",
+        "step3Title": "Planifica rutas",
+        "step3Description": "Agrupa objetos cercanos para reducir el tiempo de desplazamiento"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los objetos"
+    },
+    "upgrades": {
+      "title": "Mejoras de Pack an Order",
+      "description": "Compara la Velocidad, el Alcance y la Capacidad de carga para gastar monedas en las mejores mejoras de trabajador.",
+      "metaTitle": "Mejoras de Pack an Order: Velocidad, Alcance y Capacidad de carga",
+      "metaDescription": "Compara las mejoras de Pack an Order por efecto, costo y prioridad para juego en solitario y en equipo para gastar monedas de manera eficiente.",
+      "categoryLabel": "MEJORAS",
+      "whatIs": "¿Qué son las mejoras?",
+      "whatIsDescription": "Las mejoras son optimizaciones permanentes del trabajador en Pack an Order que aumentan la Velocidad, el Alcance y la Capacidad de carga.",
+      "why": "¿Por qué planificar las mejoras?",
+      "whySteps": {
+        "step1Title": "Gasta monedas de forma inteligente",
+        "step1Description": "Soluciona primero tu mayor pérdida de tiempo",
+        "step2Title": "Rutas en solitario y en equipo",
+        "step2Description": "Sigue el orden de mejora adecuado para tu modo de juego",
+        "step3Title": "Beneficios a largo plazo",
+        "step3Description": "Cada mejora beneficia a todos los pedidos futuros"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las mejoras"
+    },
+    "abilities": {
+      "title": "Habilidades de Pack an Order",
+      "description": "Descubre habilidades desbloqueables que hacen que buscar, llevar y empacar productos sea más rápido.",
+      "metaTitle": "Habilidades de Pack an Order: efectos de desbloqueo y mejores casos de uso",
+      "metaDescription": "Conoce cada habilidad de Pack an Order, su condición de desbloqueo, efecto, tiempo de recarga y el mejor caso de uso en solitario o cooperativo.",
+      "categoryLabel": "HABILIDADES",
+      "whatIs": "¿Qué son las habilidades?",
+      "whatIsDescription": "Las habilidades son herramientas desbloqueables en Pack an Order que reducen el tiempo de búsqueda, transporte o empaque durante los pedidos cronometrados.",
+      "why": "¿Por qué desbloquear habilidades?",
+      "whySteps": {
+        "step1Title": "Acelera el ritmo de trabajo",
+        "step1Description": "Reduce el tiempo de tu tarea más lenta",
+        "step2Title": "Elige lo que encaje",
+        "step2Description": "Adapta las habilidades a tu estilo de juego",
+        "step3Title": "Combínalas con mejoras",
+        "step3Description": "Equilibra las habilidades con las mejoras principales"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las habilidades"
+    },
+    "controls": {
+      "title": "Controles de Pack an Order",
+      "description": "Domina los controles de teclado, ratón y mando para recoger, empaquetar y gestionar pedidos.",
+      "metaTitle": "Controles de Pack an Order: teclado, ratón y entradas móviles",
+      "metaDescription": "Aprende todos los controles de Pack an Order para recoger, empaquetar, soltar, inspeccionar y alternar pedidos en teclado, ratón y mando.",
+      "categoryLabel": "CONTROLES",
+      "whatIs": "¿Qué son los controles?",
+      "whatIsDescription": "Los controles son las entradas usadas para recoger productos, inspeccionar artículos, gestionar pedidos y empaquetar cajas en Pack an Order.",
+      "why": "¿Por qué aprender los controles?",
+      "whySteps": {
+        "step1Title": "Empaqueta más rápido",
+        "step1Description": "Usa la entrada correcta para cada acción",
+        "step2Title": "Evita errores",
+        "step2Description": "Inspecciona y suelta artículos sin perder velocidad",
+        "step3Title": "Juego multidispositivo",
+        "step3Description": "Cambia entre teclado, ratón y mando"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los controles"
+    }
   }
 }
