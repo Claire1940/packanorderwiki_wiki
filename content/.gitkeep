@@ -1,0 +1,3 @@
+# 占位文件：content/ 目录在 Part 3 后被清空（旧模板 MDX 已删除）。
+# 新游戏内容将在后续 part 由内容流水线写入 content/en/<type>/、content/pt/、content/es/。
+# 保留此空目录是因为 scripts/generate-content-manifest.mjs 在 content/ 不存在时会 exit(1)。
