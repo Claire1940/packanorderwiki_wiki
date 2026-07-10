@@ -56,692 +56,393 @@
     "description": "Find toys on the shelves, match customer orders, pack boxes, load delivery trucks, and upgrade your worker in this fast-paced Roblox co-op warehouse game."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Pack an Order",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to find items, pack orders, upgrade your worker, and climb the leaderboard in Pack an Order",
     "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "Pack an Order Codes",
+        "description": "Current code status and where future reward codes may appear"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "description": "Full warehouse workflow from reading orders to loading trucks"
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Best Upgrades",
+        "description": "Compare Speed, Carry Capacity, and Reach spending order"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Controls",
+        "description": "Pick up, pack, drop, inspect, and cycle through orders"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Abilities Guide",
+        "description": "Unlockable abilities and three core worker upgrades"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "title": "Orders and Items",
+        "description": "Read tickets, match products, and avoid packing errors"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "icon": "Package",
+        "title": "Coins and Leveling",
+        "description": "Earn Coins faster and build an efficient upgrade route"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Users",
+        "title": "Co-op and Leaderboard",
+        "description": "Split roles and beat completion times solo or with friends"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "packanOrderCodes": {
+      "title": "Pack an Order Codes",
+      "eyebrow": "Free Rewards",
+      "intro": "Check the current Pack an Order code status and learn where future reward codes may be announced. We track every official source so you know exactly when working codes appear.",
+      "items": [
+        {
+          "label": "No active codes",
+          "status": "Current",
+          "reward": "No reward announced",
+          "description": "No working Pack an Order codes are published in the official game description or developer community right now."
+        },
+        {
+          "label": "No redeem menu listed",
+          "status": "Code System",
+          "reward": "Not available",
+          "description": "The official instructions do not currently mention a Codes, Gift, Twitter, or Redeem button inside Pack an Order."
+        },
+        {
+          "label": "Official update sources",
+          "status": "Where to Check",
+          "reward": "Future announcements",
+          "description": "Watch the Roblox game description and the developer community for newly released Pack an Order codes and reward events."
+        },
+        {
+          "label": "Code troubleshooting",
+          "status": "Redemption Help",
+          "reward": "Applies when codes launch",
+          "description": "When codes arrive, enter them exactly as published, remove extra spaces, confirm the code has not expired, and make sure it has not already been used."
+        }
+      ]
+    },
+    "packanOrderBeginnerGuide": {
+      "title": "Pack an Order Beginner Guide",
+      "eyebrow": "Getting Started",
+      "intro": "Learn the complete warehouse workflow, from reading customer orders to loading finished boxes onto delivery trucks. Faster completions earn Coins, improve your leaderboard time, and help you unlock upgrades and abilities.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Choose Solo or Multiplayer",
+          "description": "Enter the warehouse alone or join friends in Pack an Order. Teams can divide the shelves and pack several parts of an order at the same time."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Read the Customer Order",
+          "description": "Check which toys are required before collecting anything. Press R to cycle between available orders."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Search the Shelves",
+          "description": "Move through the warehouse and locate products that match the active order. Learning the shelf layout reduces wasted travel time."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Inspect the Product",
+          "description": "Use Right Click or the Y button to inspect an item when similar products are difficult to distinguish."
+        },
+        {
+          "title": "Pick Up the Correct Item",
+          "description": "Press E or Left Click to collect a product. Use the scroll wheel to switch between items when carrying more than one."
+        },
+        {
+          "title": "Pack the Order",
+          "description": "Bring the matching product to its order box and press E or Left Click to pack it. Press Q to drop an incorrect or unwanted item."
+        },
+        {
+          "title": "Load the Delivery Truck",
+          "description": "Complete every requested item, finish the box, and load the packed order onto the delivery truck."
+        },
+        {
+          "title": "Spend Coins on Upgrades",
+          "description": "Use earned Coins to improve Speed, Reach, and Carry Capacity. Repeat orders to unlock abilities and compete for faster leaderboard times."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Read the full ticket before leaving the packing area so you grab every required product in one route.",
+        "Inspect similar-looking toys before packing to avoid placing the wrong item in a box.",
+        "Cycle carried products with the scroll wheel and pack them in the order shown on the ticket.",
+        "Drop incorrect items with Q near their original shelf instead of carrying them across the warehouse."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "packanOrderBestUpgrades": {
+      "title": "Best Upgrades in Pack an Order",
+      "eyebrow": "Warehouse Upgrades",
+      "intro": "Compare Speed, Carry Capacity, and Reach to decide where to spend your Coins first. The best upgrade depends on how much time you lose while moving, carrying products, or interacting with shelves.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "upgrade": "Speed",
+          "effect": "Improves movement through the warehouse and reduces travel time between shelves, packing stations, and delivery trucks.",
+          "bestFor": "Every player and every order",
+          "soloPriority": "1",
+          "teamPriority": "1",
+          "recommendation": "Buy Speed first because movement is required during every stage of an order."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "upgrade": "Carry Capacity",
+          "effect": "Allows more products to be transported before returning to an order box.",
+          "bestFor": "Solo players and orders with products from several shelves",
+          "soloPriority": "2",
+          "teamPriority": "3",
+          "recommendation": "Prioritize it in solo play to reduce repeated trips. Use the scroll wheel to cycle through carried items."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "upgrade": "Reach",
+          "effect": "Extends the distance from which products and packing targets can be interacted with.",
+          "bestFor": "Fast shelf collection and coordinated warehouse routes",
+          "soloPriority": "3",
+          "teamPriority": "2",
+          "recommendation": "Upgrade Reach after establishing good movement speed. It is especially useful when teammates divide the warehouse into sections."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "upgrade": "Recommended Upgrade Route",
+          "effect": "Balances movement, collection efficiency, and the number of trips required per order.",
+          "bestFor": "Efficient Coin spending",
+          "soloPriority": "Speed to Carry Capacity to Reach",
+          "teamPriority": "Speed to Reach to Carry Capacity",
+          "recommendation": "Solo players benefit more from carrying several products, while organized teams can focus on movement and quick shelf interactions."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "packanOrderControls": {
+      "title": "Pack an Order Controls",
+      "eyebrow": "Controls",
+      "intro": "Use these controls to collect products, inspect items, manage orders, and pack boxes without slowing down. The most important inputs are E or Left Click for collecting and packing, R for switching orders, and the scroll wheel for managing carried products.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "input": "E or Left Click",
+          "action": "Pick up or pack an item",
+          "device": "Keyboard and mouse",
+          "tip": "Check the active order before interacting so the wrong product is not placed into a box."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "input": "Q",
+          "action": "Drop the currently held item",
+          "device": "Keyboard",
+          "tip": "Drop incorrect products near their original shelf instead of carrying them across the warehouse."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "input": "R",
+          "action": "Cycle through customer orders",
+          "device": "Keyboard",
+          "tip": "Select an order before entering a shelf section and collect several matching products during the same route."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "input": "Scroll Wheel",
+          "action": "Cycle through carried items",
+          "device": "Mouse",
+          "tip": "Switch to the required product before approaching its packing box."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "input": "Right Click or Y",
+          "action": "Inspect an item",
+          "device": "Mouse or gamepad",
+          "tip": "Inspect products with similar shapes or colors before packing them."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "packanOrderAbilitiesGuide": {
+      "title": "Pack an Order Abilities and Upgrades",
+      "eyebrow": "Abilities and Upgrades",
+      "intro": "Pack an Order includes unlockable abilities alongside three core upgrades: Speed, Reach, and Carry Capacity. Prioritize upgrades that remove the biggest delay from your current route, then use abilities to reduce searching, carrying, or packing time further.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "name": "Speed",
+          "category": "Core Upgrade",
+          "effect": "Improves how quickly you move between shelves, packing stations, and delivery trucks.",
+          "bestFor": "Large warehouse routes and repeated item runs",
+          "recommendedTiming": "Strong first upgrade for most players",
+          "usageTip": "Use the extra movement speed to collect items from distant shelves before returning to the packing area."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "name": "Carry Capacity",
+          "category": "Core Upgrade",
+          "effect": "Allows more requested products to be carried during one shelf run.",
+          "bestFor": "Orders containing several products or repeated quantities",
+          "recommendedTiming": "Prioritize when inventory limits regularly force extra trips",
+          "usageTip": "Cycle carried items with the scroll wheel and pack them in the order shown on the active ticket."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
+          "name": "Reach",
+          "category": "Core Upgrade",
+          "effect": "Extends the effective interaction range used while collecting and packing products.",
+          "bestFor": "Dense shelves and items positioned slightly outside normal pickup range",
+          "recommendedTiming": "Purchase after movement and carrying limits are under control",
+          "usageTip": "Approach the correct shelf section and use the added reach to reduce small positioning adjustments."
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
+          "name": "Unlockable Abilities",
+          "category": "Ability System",
+          "effect": "Adds tools designed to make the order-packing process faster.",
+          "bestFor": "Reducing delays during more demanding timed orders",
+          "recommendedTiming": "Unlock as progression allows",
+          "usageTip": "Choose abilities that address your slowest task: finding products, transporting them, or packing completed orders."
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "packanOrderOrdersAndItems": {
+      "title": "Pack an Order Orders and Items Guide",
+      "eyebrow": "Orders and Products",
+      "intro": "Each customer order lists the exact products and quantities that must be collected from the warehouse shelves. Check every item before packing it, cycle between active orders when needed, and load completed boxes onto the delivery trucks.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "heading": "Read the Customer Ticket",
+          "content": "The order ticket displays the customer, order number, product names, required quantities, and an item checklist.",
+          "controls": [
+            "Press R to cycle between active orders."
+          ],
+          "example": "An order for Becca may request 1 Red Squishy, 2 Matcha Dumplings, 1 Clicker, and 3 Salted Butter items."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "heading": "Match Names and Quantities Exactly",
+          "content": "Collect the named shelf product and continue until the requested quantity is satisfied. Similar-looking toys should be checked by name before they are placed in the box.",
+          "controls": [
+            "Use E or Left Click to pick up and pack an item.",
+            "Use Q to drop the currently selected item."
+          ],
+          "example": "A request for two Matcha Dumplings requires two matching items; one item does not complete that checklist entry."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "heading": "Inspect an Item Before Packing",
+          "content": "Inspection helps confirm that the carried product matches the active customer order before it is added to the box.",
+          "controls": [
+            "Use Right Click or Y to inspect an item."
+          ],
+          "example": "Inspect products when their color, shape, or shelf position makes them easy to confuse with another item."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "heading": "Manage Carried Products",
+          "content": "Players can hold products while moving between shelf sections and the packing station. Select the correct carried product before attempting to pack it.",
+          "controls": [
+            "Use the scroll wheel to cycle through carried items."
+          ],
+          "example": "Collecting several products during one route becomes more efficient after increasing Carry Capacity."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "heading": "Finish and Load the Order",
+          "content": "After every listed product has been packed correctly, move the completed box through the warehouse workflow and load it onto the delivery truck.",
+          "controls": [
+            "Use E or Left Click for pickup and packing interactions."
+          ],
+          "example": "The order is complete only after the required products have been packed and the delivery step has been finished."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "packanOrderCoinsAndLeveling": {
+      "title": "Pack an Order Coins and Leveling Guide",
+      "eyebrow": "Coins and Progression",
+      "intro": "Coins are earned through the order-completion loop and are used to unlock progression upgrades. Since Pack an Order rewards efficient packing and tracks completion times, the most reliable farming method is to finish correct orders repeatedly while improving Speed, Carry Capacity, and Reach.",
+      "items": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "stage": "Starting Runs",
+          "goal": "Learn the warehouse layout and complete orders correctly",
+          "actions": "Read one ticket at a time, inspect uncertain products, pack the listed quantities, and load the completed box.",
+          "spendPriority": "Save the first Coins for a core upgrade",
+          "progressionValue": "Correct, repeatable completions create a dependable Coin loop."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "stage": "First Upgrade",
+          "goal": "Remove the largest source of wasted time",
+          "actions": "Choose Speed when travel is slow, Carry Capacity when extra trips are common, or Reach when shelf interactions require frequent repositioning.",
+          "spendPriority": "Buy the upgrade that fixes the current bottleneck",
+          "progressionValue": "A targeted upgrade improves every order that follows."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "stage": "Efficient Collection",
+          "goal": "Collect several requested products during each shelf route",
+          "actions": "Review the full ticket before leaving the packing area, group nearby shelf items, and cycle carried products with the scroll wheel.",
+          "spendPriority": "Continue improving Speed and Carry Capacity",
+          "progressionValue": "Fewer return trips allow more orders to be completed during the same play session."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "stage": "Ability Progression",
+          "goal": "Add tools that shorten searching, carrying, or packing tasks",
+          "actions": "Unlock abilities as they become available and use them where they remove the most time from the order workflow.",
+          "spendPriority": "Balance ability unlocks with permanent core upgrades",
+          "progressionValue": "Abilities supplement the basic upgrade system and support faster completion times."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "stage": "Leaderboard Farming",
+          "goal": "Complete full order sets as quickly and consistently as possible",
+          "actions": "Memorize shelf locations, avoid incorrect products, plan routes before moving, and minimize idle time at boxes and trucks.",
+          "spendPriority": "Improve any remaining weak core stat",
+          "progressionValue": "Faster repeatable runs increase completed-order throughput and improve leaderboard performance."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "packanOrderCoopAndLeaderboard": {
+      "title": "Pack an Order Co-op and Leaderboard Strategy",
+      "eyebrow": "Co-op and Leaderboards",
+      "intro": "Pack an Order supports both solo play and teams of friends, with leaderboards based on fast completion times. Organized crews perform best when players divide shelf searching, packing, and truck-loading duties instead of following the same route.",
+      "items": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "mode": "Solo Run",
+          "setup": "One player handles the full workflow",
+          "roles": [
+            "Read and cycle orders",
+            "Collect shelf products",
+            "Pack boxes",
+            "Load delivery trucks"
+          ],
+          "execution": "Read the complete ticket before moving, collect nearby products in batches, inspect uncertain items, and use Carry Capacity to reduce return trips.",
+          "mistakeToAvoid": "Running back to the packing station after collecting only one item when more requested products are nearby."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "mode": "Two-Player Team",
+          "setup": "Split collection from packing and delivery",
+          "roles": [
+            "Player 1 searches shelves and delivers requested products",
+            "Player 2 verifies items, packs boxes, and loads trucks"
+          ],
+          "execution": "The collector announces the order being handled while the packing player keeps the box and delivery area moving.",
+          "mistakeToAvoid": "Both players leaving the packing station to search for the same item."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "mode": "Three-Player Team",
+          "setup": "Assign one player to each major warehouse task",
+          "roles": [
+            "Picker collects products from shelves",
+            "Packer matches products to tickets and fills boxes",
+            "Loader moves completed orders to delivery trucks"
+          ],
+          "execution": "Keep each role active continuously and rotate only when one stage develops a backlog.",
+          "mistakeToAvoid": "Allowing completed boxes to wait while every player searches the shelves."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "mode": "Multiple Active Orders",
+          "setup": "Assign a specific order or shelf zone to each collector",
+          "roles": [
+            "Use R to cycle orders",
+            "Call out customer names or order numbers",
+            "Report completed quantities before changing tasks"
+          ],
+          "execution": "Separate assignments by active order or warehouse section so each player has a clear target.",
+          "mistakeToAvoid": "Collecting duplicate products after another teammate has already completed the same checklist entry."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "mode": "Leaderboard Attempt",
+          "setup": "Use a practiced route and fixed team responsibilities",
+          "roles": [
+            "Fastest player handles long shelf routes",
+            "Most accurate player verifies and packs",
+            "Available teammate keeps delivery trucks supplied"
+          ],
+          "execution": "Memorize common item locations, start moving as soon as orders appear, and avoid unnecessary role changes during the run.",
+          "mistakeToAvoid": "Prioritizing movement speed over order accuracy and packing incorrect products."
         }
       ]
     }
@@ -757,7 +458,7 @@
       },
       {
         "question": "What are the core upgrades in Pack an Order?",
-        "answer": "The three core upgrades are Speed, Reach, and Carry Capacity. They permanently improve your worker and help you complete orders much faster."
+        "answer": "The three core upgrades in Pack an Order are Speed, Reach, and Carry Capacity. They permanently improve your worker and help you complete orders much faster."
       },
       {
         "question": "Where can I play Pack an Order?",
@@ -765,11 +466,11 @@
       },
       {
         "question": "Does Pack an Order have codes?",
-        "answer": "The game is newly launched and an official codes system has not been confirmed yet. We track the codes status and will list working codes as soon as they are verified."
+        "answer": "Pack an Order is newly launched and an official codes system has not been confirmed yet. We track the codes status and will list working Pack an Order codes as soon as they are released."
       },
       {
         "question": "Does Pack an Order support controllers?",
-        "answer": "Roblox supports controllers on compatible platforms, but keyboard and mouse or touch are the smoothest options for quickly grabbing and packing items."
+        "answer": "Roblox supports controllers on compatible platforms, but keyboard and mouse or touch are the smoothest options for quickly grabbing and packing items in Pack an Order."
       },
       {
         "question": "Will Pack an Order receive updates?",
@@ -789,10 +490,9 @@
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Play on Roblox",
-    "twitter": "Watch Gameplay",
-    "steamCommunity": "Roblox Charts",
-    "steamStore": "Roblox",
+    "robloxGame": "Play on Roblox",
+    "watchGameplay": "Watch Gameplay",
+    "robloxBlog": "Roblox Charts",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
@@ -802,124 +502,164 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Pack an Order Guides",
+      "description": "Complete Pack an Order gameplay guides covering the warehouse workflow, order routes, and efficiency tips.",
+      "metaTitle": "Pack an Order Guides - Beginner Tips and Warehouse Strategies",
+      "metaDescription": "Complete Pack an Order guides covering beginner tips, order routes, controls, upgrades, abilities, and co-op strategies.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering the Pack an Order warehouse workflow, from reading orders to loading delivery trucks.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the order, pack, and load loop and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven shelf routes to complete orders and earn Coins quickly",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for solo runs and co-op leaderboard attempts"
       },
-      "featured": "Featured & Essential",
+      "featured": "Featured and Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "codes": {
+      "title": "Pack an Order Codes",
+      "description": "Track the current Pack an Order code status and learn where future reward codes may be announced.",
+      "metaTitle": "Pack an Order Codes - Active Codes and Redemption Status",
+      "metaDescription": "Check the latest Pack an Order codes status, find the redeem menu, and learn where new reward codes are announced.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes are free reward strings that may grant Coins, boosts, or progression items when a redeem system is added to Pack an Order.",
+      "why": "Why check codes?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Stay Updated",
+        "step1Description": "See the current code status without checking scattered sources",
+        "step2Title": "Redeem Quickly",
+        "step2Description": "Learn where the redeem button appears when codes launch",
+        "step3Title": "Avoid Expired Codes",
+        "step3Description": "Use only working codes and troubleshoot redemption errors"
       },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "featured": "Featured and Essential",
+      "all": "All Codes"
+    },
+    "orders": {
+      "title": "Pack an Order Orders",
+      "description": "Learn how to read customer tickets, match products, and complete the fastest order routes.",
+      "metaTitle": "Pack an Order Orders - Tickets, Products, and Fastest Routes",
+      "metaDescription": "Master Pack an Order orders by reading tickets, matching shelf products, cycling orders, and loading delivery trucks efficiently.",
+      "categoryLabel": "ORDERS",
+      "whatIs": "What are Orders?",
+      "whatIsDescription": "Orders are customer tickets listing the exact products and quantities you must collect, pack, and load in Pack an Order.",
+      "why": "Why study orders?",
+      "whySteps": {
+        "step1Title": "Read Tickets Accurately",
+        "step1Description": "Match product names and quantities before packing",
+        "step2Title": "Cycle Active Orders",
+        "step2Description": "Use R to switch between several active jobs",
+        "step3Title": "Plan Fast Routes",
+        "step3Description": "Group nearby shelf items to finish orders quickly"
+      },
+      "featured": "Featured and Essential",
+      "all": "All Orders"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
+      "title": "Pack an Order Items",
+      "description": "Browse the toys, food, and products that appear on warehouse shelves and customer tickets.",
+      "metaTitle": "Pack an Order Items - Toy, Food, and Product Locations",
+      "metaDescription": "Find Pack an Order item locations, product names, shelf areas, and a comparison of easily confused items.",
+      "categoryLabel": "ITEMS",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
+      "whatIsDescription": "Items are the toys, food, and other products placed on shelves that match the entries on each customer order ticket.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Find Products Fast",
+        "step1Description": "Learn which shelf area holds each product",
+        "step2Title": "Avoid Mix-Ups",
+        "step2Description": "Tell apart similar-looking toys before packing",
+        "step3Title": "Plan Routes",
+        "step3Description": "Group nearby items to reduce travel time"
       },
-      "featured": "Featured & Essential",
+      "featured": "Featured and Essential",
       "all": "All Items"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "upgrades": {
+      "title": "Pack an Order Upgrades",
+      "description": "Compare Speed, Reach, and Carry Capacity to spend Coins on the best worker upgrades.",
+      "metaTitle": "Pack an Order Upgrades - Speed, Reach, and Carry Capacity",
+      "metaDescription": "Compare Pack an Order upgrades by effect, cost, and priority for solo and team play to spend Coins efficiently.",
+      "categoryLabel": "UPGRADES",
+      "whatIs": "What are Upgrades?",
+      "whatIsDescription": "Upgrades are permanent worker improvements in Pack an Order that boost Speed, Reach, and Carry Capacity.",
+      "why": "Why plan upgrades?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Spend Coins Smartly",
+        "step1Description": "Fix your biggest time loss first",
+        "step2Title": "Solo and Team Paths",
+        "step2Description": "Follow the right upgrade order for your mode",
+        "step3Title": "Long-Term Gains",
+        "step3Description": "Each upgrade improves every future order"
       },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "featured": "Featured and Essential",
+      "all": "All Upgrades"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "abilities": {
+      "title": "Pack an Order Abilities",
+      "description": "Discover unlockable abilities that make finding, carrying, and packing products faster.",
+      "metaTitle": "Pack an Order Abilities - Unlock Effects and Best Use Cases",
+      "metaDescription": "Learn every Pack an Order ability, its unlock condition, effect, cooldown, and best solo or co-op use case.",
+      "categoryLabel": "ABILITIES",
+      "whatIs": "What are Abilities?",
+      "whatIsDescription": "Abilities are unlockable tools in Pack an Order that reduce searching, carrying, or packing time during timed orders.",
+      "why": "Why unlock abilities?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Speed Up Workflow",
+        "step1Description": "Cut time from your slowest task",
+        "step2Title": "Choose What Fits",
+        "step2Description": "Match abilities to your play style",
+        "step3Title": "Pair With Upgrades",
+        "step3Description": "Balance abilities with core upgrades"
       },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "featured": "Featured and Essential",
+      "all": "All Abilities"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "controls": {
+      "title": "Pack an Order Controls",
+      "description": "Master the keyboard, mouse, and gamepad inputs for collecting, packing, and managing orders.",
+      "metaTitle": "Pack an Order Controls - Keyboard, Mouse, and Mobile Inputs",
+      "metaDescription": "Learn every Pack an Order control for picking up, packing, dropping, inspecting, and cycling orders on keyboard, mouse, and gamepad.",
+      "categoryLabel": "CONTROLS",
+      "whatIs": "What are Controls?",
+      "whatIsDescription": "Controls are the inputs used to collect products, inspect items, manage orders, and pack boxes in Pack an Order.",
+      "why": "Why learn controls?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Pack Faster",
+        "step1Description": "Use the right input for each action",
+        "step2Title": "Avoid Errors",
+        "step2Description": "Inspect and drop items without slowing down",
+        "step3Title": "Multi-Device Play",
+        "step3Description": "Switch between keyboard, mouse, and gamepad"
       },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "featured": "Featured and Essential",
+      "all": "All Controls"
+    },
+    "updates": {
+      "title": "Pack an Order Updates",
+      "description": "Track version changes, new items, abilities, balance updates, and bug fixes.",
+      "metaTitle": "Pack an Order Updates - Patch Notes and New Content",
+      "metaDescription": "Read the latest Pack an Order update log including new products, abilities, upgrades, balance changes, and bug fixes.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Updates record version changes, new content, balance adjustments, and fixes released for Pack an Order.",
+      "why": "Why follow updates?",
+      "whySteps": {
+        "step1Title": "Stay Current",
+        "step1Description": "See new items, abilities, and upgrades",
+        "step2Title": "Adapt Strategies",
+        "step2Description": "Adjust routes when balance changes",
+        "step3Title": "Catch Fixes",
+        "step3Description": "Know which bugs have been resolved"
+      },
+      "featured": "Featured and Essential",
+      "all": "All Updates"
     }
   }
 }
