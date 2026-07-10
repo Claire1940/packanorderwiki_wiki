@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pedidos activos en Pack an Order: Guía de empaque eficiente y rutas",
+  description: "Domina los pedidos activos en Pack an Order con nuestra guía sobre rotación de tickets, navegación de estantes y mejoras de almacén para mejorar tus tiempos en la tabla de clasificación de Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f97316/fff?text=Active+Orders+Guide",
+  date: "2026-07-11",
+  author: "Equipo de la Wiki de Pack an Order",
+  keywords: "pedidos activos, guía de empaque, roblox, pack an order, consejos de almacén"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Pedidos activos de Pack an Order**: Usa la **tecla R** para rotar entre múltiples tickets de clientes y planificar rutas de estantes eficientes.
+- **Mecánicas Principales**: Coincide exactamente los nombres y cantidades de los juguetes solicitados antes de cargar el camión de entrega.
+- **Prioridad de Mejora**: Enfócate primero en la **Velocidad de Movimiento** para reducir el tiempo de viaje entre estantes distantes del almacén.
+- **Verificación**: Usa el **Clic Derecho** o la **Y** para inspeccionar artículos, evitando que productos incorrectos retrasen tu flujo de trabajo.
+- **Estrategia Cooperativa**: Divide los roles entre Recolectores y Empacadores para maximizar las ganancias de monedas por sesión.
+</Callout>
+
+<Section icon={Target} title="Dominando los Pedidos Activos y Tickets en Pack an Order">
+
+Comprender cómo gestionar los **pedidos activos de Pack an Order** es la base para convertirse en un trabajador de almacén de élite en este simulador de Roblox. Cada solicitud de cliente se genera como un ticket digital que aparece en tu pantalla, detallando juguetes específicos, cantidades y el nombre del cliente. En un entorno de ritmo rápido, simplemente agarrar el primer artículo que ves es ineficiente. En su lugar, debes aprender a leer los datos del ticket y priorizar tu movimiento basándote en la proximidad de los estantes.
+
+**Puntos destacados del video:**
+- Descripción general del diseño del almacén y la organización de los estantes.
+- Cómo usar las teclas de interacción para recoger y empacar.
+- Demostración de la diferencia entre rutas de empaque en solitario y en equipo.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Jugabilidad de Pack an Order en Roblox" />
+
+Cuando lidias con múltiples tareas, la capacidad de rotar a través de tu cola es vital. El juego te permite tener varias solicitudes pendientes a la vez. Al rotar entre ellas, puedes identificar si dos clientes diferentes requieren el mismo artículo, como "Matcha Dumplings" o "Red Squishies", lo que te permite recolectarlos en un solo viaje a esa zona específica de estantes.
+
+| Elemento del Ticket | Descripción | Utilidad Práctica |
+| :--- | :--- | :--- |
+| **Número de Pedido** | ID único para la solicitud actual del cliente | Ayuda a rastrear el progreso durante sesiones largas |
+| **Nombre del Cliente** | El NPC o jugador que recibe el paquete | Se usa para la identificación en el muelle de carga |
+| **Lista de Artículos** | Lista de juguetes y cantidades requeridas | Referencia principal para la búsqueda en estantes |
+| **Rastreador de Cantidad** | Muestra artículos empacados vs. solicitados | Evita el exceso de empaque o la falta de artículos |
+| **Tecla de Rotación (R)** | Cambia entre diferentes tickets activos | Esencial para planificar rutas de múltiples pedidos |
+
+<Callout type="tip" title="Secreto de Eficiencia">
+Siempre revisa tu lista completa de **pedidos activos de Pack an Order** antes de salir de la estación de empaque. Si tres pedidos diferentes requieren artículos del estante trasero izquierdo, puedes recolectarlos todos en un solo viaje si tu Capacidad de Carga está mejorada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Flujo de Trabajo del Almacén Paso a Paso">
+
+El éxito en el almacén depende de un flujo de trabajo repetible y lógico. Los principiantes a menudo luchan con el síndrome de "ida y vuelta", donde corren a un estante por un artículo, regresan para empacarlo y luego se dan cuenta de que necesitan otro artículo del mismo estante. Seguir un proceso estructurado reduce el tiempo de inactividad y aumenta tu rendimiento de monedas por hora.
+
+<Steps>
+  <Step num="1" title="Analizar el Ticket Activo">
+    Abre tu pedido actual y memoriza los artículos. Busca palabras clave específicas como "Clicker" o "Salted Butter". Si tienes múltiples pedidos, rótalos para encontrar ubicaciones de estantes que se superpongan.
+  </Step>
+  <Step num="2" title="Planificar la Ruta de Estantes">
+    Muévete hacia las secciones de estantes que contienen la mayoría de tus artículos solicitados. Usa tu conocimiento del diseño del almacén para tomar el camino más corto, evitando obstáculos y otros jugadores.
+  </Step>
+  <Step num="3" title="Verificar y Recolectar">
+    Acércate al estante y usa la tecla de interacción (E o Clic Izquierdo) para recoger el artículo. Si dos artículos se ven similares, usa la función de Inspeccionar (Clic Derecho o Y) para confirmar que el nombre del producto coincida con el ticket.
+  </Step>
+  <Step num="4" title="Empacar y Finalizar">
+    Regresa al área de empaque. Usa la rueda del mouse para seleccionar el artículo correcto de tu inventario e interactúa con la caja para empacarlo. Una vez que la lista esté en verde, mueve la caja al camión de entrega.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita Errores de Empaque">
+Empacar un artículo incorrecto no solo desperdiciará el objeto, sino que puede requerir que reinicies la caja o retires el artículo, lo que afectará significativamente tu tiempo de finalización. Siempre inspecciona los juguetes si tienes dudas.
+</Callout>
+
+| Etapa del Flujo de Trabajo | Acción Principal | Error Común |
+| :--- | :--- | :--- |
+| **Recuperación** | Recolectar juguetes de los estantes | Recoger artículos sin revisar el pedido |
+| **Verificación** | Inspeccionar nombres de artículos | Confiar únicamente en el color o forma del juguete |
+| **Inventario** | Gestionar artículos transportados | Olvidar desplazarse hasta el artículo correcto |
+| **Carga** | Mover cajas al camión | Dejar cajas completadas en la estación de empaque |
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras Principales y Progresión de Habilidades">
+
+Para manejar los **pedidos activos de Pack an Order** a mayores velocidades, debes reinvertir tus monedas ganadas en mejoras permanentes para el trabajador. Hay tres estadísticas principales que dictan tu eficiencia: Velocidad, Alcance y Capacidad de Carga. Aunque todas son útiles, el orden en que las compres puede cambiar drásticamente tu experiencia al inicio del juego.
+
+<CardGrid cols={3}>
+  <Card title="Mejora de Velocidad">
+    - **Efecto Principal**: Aumenta la velocidad al caminar
+    - **Ideal para**: Reducir el tiempo de viaje
+    - **Prioridad**: Alta (Beneficio universal)
+  </Card>
+  <Card title="Capacidad de Carga">
+    - **Efecto Principal**: Permite llevar más artículos
+    - **Ideal para**: Jugadores solitarios y pedidos grandes
+    - **Prioridad**: Media (Reduce los viajes totales)
+  </Card>
+  <Card title="Mejora de Alcance">
+    - **Efecto Principal**: Mayor rango de interacción
+    - **Ideal para**: Limpieza rápida de estantes
+    - **Prioridad**: Baja (Calidad de vida)
+  </Card>
+</CardGrid>
+
+Más allá de las estadísticas básicas, el juego cuenta con un sistema de habilidades. Estas son herramientas desbloqueables diseñadas para abordar cuellos de botella específicos en el almacén. Por ejemplo, algunas habilidades te ayudan a localizar productos más rápido, mientras que otras podrían proporcionar un impulso temporal de velocidad o la capacidad de empacar artículos a distancia.
+
+| Tipo de Mejora | Beneficio Nivel 1 | Beneficio Nivel 5 | Recomendado Para |
+| :--- | :--- | :--- | :--- |
+| **Velocidad de Movimiento** | Ligero aumento al caminar | Sprint rápido por el almacén | Todos los estilos |
+| **Capacidad de Carga** | +1 Espacio de artículo | Capacidad para múltiples pedidos | Eficiencia en solitario |
+| **Alcance de Interacción** | Pequeño aumento de alcance | Agarrar objetos a través de pasillos | Speedrunning |
+
+<Callout type="success" title="Estrategia Meta">
+Para jugadores en solitario, la configuración más efectiva es **Velocidad 3 -> Capacidad de Carga 2 -> Velocidad 5**. Ser capaz de llevar cuatro artículos a la vez mientras te mueves rápido te permite completar la mayoría de los pedidos iniciales en un solo viaje.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias Cooperativas vs. En Solitario">
+
+El juego admite tanto el juego en solitario como equipos de almacén colaborativos. Dependiendo del tamaño de tu equipo, tu enfoque hacia los **pedidos activos de Pack an Order** debe cambiar. En un equipo, la mayor amenaza para la eficiencia es "duplicar esfuerzos", donde dos jugadores van a buscar el mismo artículo porque no se están comunicando sobre qué ticket están trabajando.
+
+**Estrategia en Solitario:**
+En el modo solitario, tú eres el recolector, empacador y cargador. Tu enfoque debe estar en la gestión del inventario. Como no tienes a nadie que te ayude, usa la tecla R constantemente para asegurarte de nunca caminar con el inventario vacío. Si te diriges al fondo del almacén para el Pedido A, revisa si el Pedido B necesita algo de esa área.
+
+**Estrategia Multijugador:**
+Los equipos deben asignar roles específicos para evitar el caos. Un "Empacador" dedicado se queda cerca de las cajas y camiones, mientras que los "Recolectores" corren hacia los estantes.
+
+<Checklist
+  id="team-roles"
+  title="Responsabilidades Esenciales del Equipo:"
+  items={[
+    "Recolector: Se enfoca completamente en recuperar artículos de los estantes y llevarlos al centro.",
+    "Empacador: Se queda en la estación, verifica los artículos y llena las cajas.",
+    "Cargador: Mueve las cajas terminadas al camión y monitorea el reloj de la tabla de clasificación.",
+    "Coordinador: Rota a través de todos los pedidos activos y anuncia las ubicaciones de los estantes."
+  ]}
+/>
+
+<Callout type="info" title="La Comunicación es Clave">
+Usa el chat del juego o la comunicación por voz para anunciar qué pedido estás "reclamando". Esto asegura que si el Pedido #5 necesita un "Red Squishy", solo una persona se dedique a buscarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Referencia de Controles y Navegación">
+
+Dominar los controles es esencial para mantener una alta tasa de "Pedidos por Hora" (OPH). La mayoría de las interacciones están mapeadas a la tecla E o al Clic Izquierdo, pero los jugadores avanzados hacen un uso intensivo de las teclas secundarias para gestionar su inventario sin detener su movimiento.
+
+| Entrada | Acción | Consejo Pro |
+| :--- | :--- | :--- |
+| **E / Clic Izquierdo** | Recoger / Empacar artículo | Toca dos veces para agarrar y guardar rápidamente |
+| **Q** | Soltar artículo actual | Suelta artículos incorrectos cerca de sus estantes, no en los pasillos |
+| **R** | Rotar pedidos activos | Revisa esto cada vez que termines un artículo |
+| **Rueda del Mouse** | Cambiar artículos sostenidos | Cambia al siguiente artículo mientras corres de regreso |
+| **Clic Derecho / Y** | Inspeccionar producto | Usa esto para diferenciar artículos como 'Matcha' vs 'Wasabi' |
+
+La navegación adecuada también implica comprender las "zonas" de los estantes. El almacén suele estar organizado por tipo de artículo (ej. Juguetes, Electrónica, Comida). Memorizar qué pasillo contiene los "Matcha Dumplings" te ahorrará más tiempo que cualquier mejora de velocidad.
+
+<Callout type="tip" title="Consejo de Navegación">
+No corras solo en líneas rectas. Cortar esquinas alrededor de los extremos de los estantes y usar el espacio abierto cerca de los muelles de carga puede restar segundos a tu tiempo total de entrega.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo manejo múltiples pedidos activos de Pack an Order a la vez?",
+    answer: "Usa la tecla 'R' para rotar entre tus tickets actuales. Esto te permite ver todos los artículos requeridos para que puedas planificar una ruta que visite varios estantes en un solo viaje."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de ganar monedas?",
+    answer: "El método más rápido es mejorar primero tu Velocidad de Movimiento y enfocarte en completar pedidos con un 100% de precisión. Los bonos por precisión y los tiempos de finalización rápidos aumentan significativamente tu pago de monedas."
+  },
+  {
+    question: "¿Puedo soltar un artículo si recogí el equivocado?",
+    answer: "Sí, presiona la tecla 'Q' para soltar el artículo que tienes en la mano. Lo mejor es soltarlo cerca de su estante original para que otros jugadores (o tú mismo) puedan encontrarlo fácilmente más tarde."
+  },
+  {
+    question: "¿Afecta la Capacidad de Carga a cuántos pedidos puedo tomar?",
+    answer: "La Capacidad de Carga afecta a cuántos artículos físicos puedes sostener en tus manos/inventario. El número de pedidos activos suele estar fijado por el modo de juego o el nivel, pero una mayor capacidad facilita mucho su cumplimiento."
+  }
+]} />
+
+</Section>

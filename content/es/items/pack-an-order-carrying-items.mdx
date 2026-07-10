@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "¡Empaca un pedido!: Guía completa para una logística rápida en el almacén",
+  description: "Aprende a empacar un pedido llevando objetos de manera eficiente en Roblox. Descubre rutas óptimas, mejoras, controles y estrategias para equipos cooperativos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f97316/fff?text=Pack+An+Order+Guide",
+  date: "2026-07-11",
+  author: "Equipo de la Wiki de Pack an Order"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Dominar el flujo de trabajo sobre cómo **empacar un pedido llevando objetos** emparejando juguetes, sellando cajas y cargando camiones bajo estrictos límites de tiempo.
+- **Mejoras clave**: Prioriza primero la Velocidad para minimizar los tiempos de tránsito, seguida de la Capacidad de carga para lotes más grandes y el Alcance para recoger juguetes de los estantes más rápido.
+- **Dinámica de equipo**: Divide los roles en partidas multijugador entre Recolectores, Empacadores y Cargadores para optimizar el flujo de trabajo y evitar la recolección duplicada de objetos.
+- **Truco de eficiencia**: Usa la rueda de desplazamiento para alternar entre los objetos de tu inventario y presiona R para revisar los diferentes tickets de clientes antes de salir de la estación de empaque.
+</Callout>
+
+<Section icon={Map} title="Dominar el flujo de trabajo del almacén">
+
+Tener éxito en este dinámico simulador de Roblox requiere comprender claramente el ciclo principal. Para **empacar un pedido llevando objetos** de manera eficiente, debes coordinar tus movimientos, leer los tickets de los clientes con precisión y gestionar el espacio de tu inventario. No organizar tu ruta provocará pérdida de tiempo y menores recompensas de monedas.
+
+**Puntos destacados del video:**
+- **Logística en solitario**: Cómo gestionar múltiples tickets de pedidos sin confundirse.
+- **Navegación de estantes**: Memorizar la ubicación de los juguetes para reducir los tiempos de búsqueda.
+- **Ruta de mejoras**: Demostración en tiempo real de cómo las mejoras de velocidad afectan tu relación de monedas por minuto.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Gameplay de Pack an Order en Roblox" />
+
+### El ciclo principal de empaque
+
+Cada turno en el almacén sigue una secuencia estructurada. Memorizar estas fases garantiza que no busques el juguete equivocado ni dejes caer mercancía valiosa.
+
+| Fase | Acción | Objetivo clave |
+| :--- | :--- | :--- |
+| **1. Revisar** | Leer ticket | Comprobar los nombres de los productos y las cantidades exactas. |
+| **2. Trazar ruta** | Planificar camino | Localizar los objetos en los estantes antes de moverse. |
+| **3. Recolectar** | Agarrar juguetes | Llenar el inventario utilizando un alcance óptimo. |
+| **4. Verificar** | Inspeccionar objeto | Usar Clic derecho/Y para confirmar juguetes similares. |
+| **5. Empacar** | Llenar caja | Depositar los objetos en la caja correspondiente. |
+| **6. Enviar** | Cargar camión | Entregar la caja completada para asegurar monedas. |
+
+<Callout type="tip" title="Consejo profesional">
+Nunca corras a los estantes sin revisar primero el ticket activo. Presionar R te permite alternar entre los pedidos para que puedas planificar una ruta que recolecte juguetes para varias cajas en un solo viaje.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Controles y gestión de inventario">
+
+Navegar por el almacén requiere comandos precisos, especialmente cuando llevas varios objetos. Hacer un clic incorrecto puede hacer que dejes caer un juguete o que coloques el producto equivocado en la caja de un cliente, reiniciando tu progreso en esa lista de verificación.
+
+### Distribución oficial de controles
+
+| Entrada | Acción | Consejo práctico de juego |
+| :--- | :--- | :--- |
+| **E / Clic izquierdo** | Recoger / Empacar | Revisa el ticket activo antes de interactuar para evitar errores de empaque. |
+| **Q** | Soltar objeto sostenido | Suelta los objetos incorrectos cerca de sus estantes en lugar de llevarlos a la caja. |
+| **R** | Alternar pedidos activos | Selecciona tu pedido antes de entrar a la zona de estantes para maximizar la eficiencia. |
+| **Rueda de desplazamiento** | Alternar objetos sostenidos | Cambia al producto exacto requerido antes de acercarte a la caja. |
+| **Clic derecho / Y** | Inspeccionar objeto | Usa esto para diferenciar objetos con formas o colores muy similares. |
+
+### Comparación de inventario: Solitario vs. Cooperativo
+
+La gestión de tus manos es diferente según el tamaño de tu equipo. Usa esta comparación para ajustar tus hábitos de empaque.
+
+<CardGrid cols={2}>
+  <Card title="Tácticas de inventario en solitario">
+    - **Maximizar capacidad de carga**: Lleva hasta 3 o 4 objetos a la vez para limitar los viajes.
+    - **Recolección en lotes**: Reúne juguetes para diferentes pedidos en el mismo estante.
+    - **Alternar frecuentemente**: Usa la rueda de desplazamiento para hacer un seguimiento de tu cola de espera.
+  </Card>
+  <Card title="Tácticas de inventario multijugador">
+    - **Transporte especializado**: Los recolectores llevan los objetos; los empacadores no llevan nada.
+    - **Zonas de entrega**: Lanza objetos al suelo cerca de la estación de empaque para tus compañeros.
+    - **Viajes de un solo objeto**: Concéntrate en la velocidad en lugar de transportar objetos en lote.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia">
+Colocar un objeto incorrecto en una caja de envío hace perder tiempo. Si no estás seguro de la identidad de un objeto, usa la función de inspección antes de colocarlo en el paquete.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía de mejoras y habilidades">
+
+Las monedas obtenidas de los envíos exitosos deben reinvertirse inmediatamente en las estadísticas de tu trabajador. Equilibrar tus mejoras principales con las habilidades desbloqueables es la forma más rápida de subir en las tablas de clasificación globales.
+
+### Prioridad de mejoras principales
+
+Hay tres mejoras principales disponibles en el almacén. Mejorarlas en la secuencia correcta evita cuellos de botella en la eficiencia.
+
+<Steps>
+  <Step num="1" title="Mejora de velocidad">
+    Esta es tu estadística más importante. Reduce el tiempo de viaje entre los estantes distantes, las mesas de empaque y los camiones de entrega. Compra esto primero.
+  </Step>
+  <Step num="2" title="Capacidad de carga">
+    Incrementa la cantidad de objetos que puedes sostener simultáneamente. Esto es muy crítico para los jugadores en solitario que no pueden depender de compañeros para traer partes de un pedido.
+  </Step>
+  <Step num="3" title="Mejora de alcance">
+    Extiende la distancia desde la cual puedes agarrar juguetes o interactuar con las cajas. Compra esto al final, una vez que tu velocidad de movimiento esté optimizada.
+  </Step>
+</Steps>
+
+### Comparación de eficiencia de mejoras
+
+| Mejora | Ideal para | Prioridad en solitario | Prioridad en equipo |
+| :--- | :--- | :--- | :--- |
+| **Velocidad** | Movimiento universal | **Alta** (1ª) | **Alta** (1ª) |
+| **Capacidad de carga** | Reducir viajes de ida y vuelta | **Media** (2ª) | **Baja** (3ª) |
+| **Alcance** | Recogidas rápidas en estantes | **Baja** (3ª) | **Media** (2ª) |
+
+<Callout type="success" title="Habilidades desbloqueables">
+Las habilidades activas complementan tus mejoras principales. Equipa habilidades que compensen tu área más débil, como aumentos de velocidad para carreras de larga distancia o radares de búsqueda si tienes dificultades para localizar juguetes específicos en los estantes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias cooperativas y de tabla de clasificación">
+
+Aunque jugar en solitario es una excelente manera de aprender la distribución, las partidas de alto nivel en la tabla de clasificación requieren equipos multijugador coordinados. Dividir las tareas evita que los jugadores corran al mismo estante y dupliquen el trabajo.
+
+### Distribución de roles en el equipo
+
+Para un equipo de tres jugadores, asigna estos roles antes de iniciar el temporizador:
+
+1. **El Recolector**: Se queda en los pasillos de los estantes. Agarra los juguetes enumerados en los tickets activos y los deja en el borde de la zona de empaque.
+2. **El Empacador**: Se sitúa en las mesas de empaque. Inspecciona los objetos entrantes, alterna entre los tickets y los empaca en las cajas correctas.
+3. **El Cargador**: Agarra las cajas completadas de las mesas, las lleva corriendo a los camiones de entrega y monitorea la siguiente cola de pedidos entrantes.
+
+<Checklist
+  id="coop-milestones"
+  title="Lista de verificación de coordinación de equipo:"
+  items={[
+    "Asignar zonas de estantes dedicadas para evitar colisiones",
+    "Anunciar los números de pedidos activos antes de correr",
+    "Soltar los objetos incorrectos de inmediato en lugar de acumularlos",
+    "Mantener la zona del camión de entrega despejada de cajas vacías",
+    "Coordinar las rutas de mejoras para que al menos un jugador tenga la Velocidad al máximo"
+  ]}
+/>
+
+<Callout type="info" title="Nota">
+Los tiempos de la tabla de clasificación son muy sensibles a los errores. Un solo objeto incorrecto empacado puede añadir segundos de retraso, lo que suele ser suficiente para arruinar una partida de alto nivel. La precisión siempre supera a la velocidad pura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo empaco un pedido llevando objetos cuando mi inventario está lleno?",
+    answer: "Usa la rueda de desplazamiento para seleccionar el objeto específico requerido por el ticket activo, acércate a la caja de envío y presiona E o Clic izquierdo para empacarlo. Si tienes objetos adicionales que no pertenecen al pedido actual, presiona Q para soltarlos cerca para más tarde."
+  },
+  {
+    question: "¿Hay códigos promocionales activos para Pack an Order?",
+    answer: "Actualmente, no hay un sistema de canje de códigos activo ni un menú integrado en el juego. Revisa los anuncios de los desarrolladores en el grupo oficial de Roblox para obtener actualizaciones sobre futuros sistemas de recompensas."
+  },
+  {
+    question: "¿Qué debería mejorar primero como jugador en solitario?",
+    answer: "Mejora la Velocidad primero para reducir los tiempos de viaje a través del almacén. Sigue con la Capacidad de carga para poder transportar múltiples juguetes en un solo viaje, minimizando las carreras de ida y vuelta."
+  },
+  {
+    question: "¿Cómo distingo entre juguetes que se ven similares?",
+    answer: "Usa el Clic derecho en PC o el botón Y en un controlador para inspeccionar el objeto en tu mano. Esto mostrará el nombre exacto del producto, ayudándote a evitar errores de empaque."
+  }
+]} />
+
+</Section>

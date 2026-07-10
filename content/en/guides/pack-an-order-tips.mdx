@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pack an Order Tips: Best Warehouse Strategies & Upgrades",
+  description: "Master Pack an Order on Roblox with our expert tips. Learn the fastest packing routes, optimal upgrade paths, and co-op strategies to dominate the leaderboards.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Warehouse+Packing+Tips",
+  date: "2026-07-11",
+  author: "pack an order Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Loop**: Read customer tickets, grab toys from shelves, pack them into designated boxes, and load delivery trucks.
+- **Primary Focus**: Prioritize movement speed upgrades early to minimize travel times across the warehouse floor.
+- **Efficiency Goal**: Group your shelf routes to collect multiple items per trip instead of making single runs.
+- **Controls Mastery**: Use key shortcuts like R to cycle active orders and the scroll wheel to manage carried inventory.
+- **Team Dynamics**: Divide labor into dedicated Picker, Packer, and Loader roles when playing in multiplayer lobbies.
+</Callout>
+
+<Section icon={Map} title="Mastering the Warehouse Workflow">
+
+To maximize your earnings and climb the leaderboards in this fast-paced Roblox simulator, players must master the fundamentals of order fulfillment. The core loop requires finding toys, completing customer orders, packing boxes, and loading delivery trucks. Every second saved translates directly into more Coins and faster clear times.
+
+Understanding the layout of the warehouse shelves is your first step toward efficiency. Memorizing where specific toy categories are stored prevents wasted movement.
+
+| Stage | Primary Action | Key Objective |
+| :--- | :--- | :--- |
+| **1. Order Intake** | Read active customer ticket | Identify required items and plan shelf routes |
+| **2. Collection** | Search shelves and gather toys | Grab multiple matching items in a single trip |
+| **3. Verification** | Inspect similar-looking products | Prevent packing errors using the inspect function |
+| **4. Packaging** | Place items in the order box | Fill the container according to checklist quantities |
+| **5. Dispatch** | Load packed box onto delivery truck | Finalize the run to secure Coins and record times |
+
+<Callout type="tip" title="Pro Tip: Route Planning">
+Never leave the packing station without reviewing the entire ticket. Grouping your shelf destinations by warehouse sections will drastically reduce your total travel time.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Essential Controls and Navigation">
+
+Speed is nothing without control. Utilizing the correct keybinds allows you to cycle through active orders, drop incorrect items instantly, and manage a stacked inventory on the fly. Memorizing these inputs makes your movement much more fluid.
+
+| Input | Action | Practical Application |
+| :--- | :--- | :--- |
+| **E / Left Click** | Pick up or pack item | Interact with shelves, boxes, and delivery trucks |
+| **Q** | Drop currently held item | Toss incorrect items near their shelves to clear space |
+| **R** | Cycle customer orders | Check alternative orders to match nearby shelf items |
+| **Scroll Wheel** | Cycle carried items | Switch to the exact product needed before packing |
+| **Right Click / Y** | Inspect item | Verify names of similar-looking toys to avoid mistakes |
+
+<Callout type="warning" title="Avoid Packing Penalties">
+Placing the wrong item in a box wastes valuable time. If you accidentally grab an incorrect toy, press **Q** to drop it immediately near its home shelf rather than carrying it to the packing station.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimal Upgrade Progression Path">
+
+Reinvesting your hard-earned Coins into permanent character upgrades is the most reliable way to scale your efficiency. Players can upgrade three core statistics: Speed, Reach, and Carry Capacity. However, purchasing them in the correct sequence is vital for both solo and cooperative playstyles.
+
+<CardGrid cols={3}>
+  <Card title="Speed Upgrade">
+    - **Universal Benefit**: Reduces travel time between distant shelves.
+    - **Solo Priority**: Tier 1
+    - **Team Priority**: Tier 1
+    - **Best For**: All map layouts
+  </Card>
+  <Card title="Carry Capacity">
+    - **Trips Reduction**: Hold more toys before returning to pack.
+    - **Solo Priority**: Tier 2
+    - **Team Priority**: Tier 3
+    - **Best For**: Multi-item orders
+  </Card>
+  <Card title="Reach Upgrade">
+    - **Faster Pickups**: Interact with shelves from further away.
+    - **Solo Priority**: Tier 3
+    - **Team Priority**: Tier 2
+    - **Best For**: Tight shelf spaces
+  </Card>
+</CardGrid>
+
+| Playstyle | Recommended Upgrade Order | Strategic Reasoning |
+| :--- | :--- | :--- |
+| **Solo Player** | Speed → Carry Capacity → Reach | Solo runners must carry multiple items to minimize back-and-forth trips. |
+| **Multiplayer Team** | Speed → Reach → Carry Capacity | Specialized roles allow players to focus on fast pickups and quick handoffs. |
+
+<Callout type="success" title="Upgrade Recommendation">
+Always prioritize your first few levels of **Speed**. Because movement is required in every single phase of the packing loop, it offers the highest return on investment.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Step-by-Step Solo Speedrun Strategy">
+
+For players looking to dominate the solo leaderboards, executing a highly optimized route is mandatory. Follow these steps to maximize your solo performance and earn coins quickly.
+
+<Steps>
+  <Step num="1" title="Analyze the Ticket">
+    As soon as the round begins, press **R** to review your active orders. Identify the items that are clustered closest together in the warehouse.
+  </Step>
+  <Step num="2" title="Batch Collect Shelves">
+    Run to the furthest required shelf first. Grab all requested items in that section using your Carry Capacity before working your way back toward the packing station.
+  </Step>
+  <Step num="3" title="Double-Check Similar Items">
+    Use **Right Click / Y** to inspect toys that look identical. Verifying the exact item name before packing prevents costly mistakes.
+  </Step>
+  <Step num="4" title="Sequence the Packing">
+    Approach the order box, use your **Scroll Wheel** to cycle to the correct item, and press **E** to pack. Repeat rapidly until the box is full.
+  </Step>
+  <Step num="5" title="Deliver and Reinvest">
+    Load the completed box onto the truck. Head straight to the upgrade shop to spend your Coins on Speed to make your next run even faster.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Farming Loop Efficiency">
+Consistency beats frantic movement. Developing muscle memory for toy locations on the shelves is faster than relying purely on high movement speed.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Co-op Roles and Team Coordination">
+
+Multiplayer lobbies allow teams to divide and conquer the warehouse. To prevent players from duplicating work or collecting the same items, you should assign dedicated roles before starting a shift.
+
+| Role | Primary Responsibilities | Key Upgrades Needed |
+| :--- | :--- | :--- |
+| **The Picker** | Search shelves, collect toys, drop them near packing area | Speed, Reach |
+| **The Packer** | Retrieve dropped toys, verify ticket, pack the boxes | Carry Capacity, Reach |
+| **The Loader** | Transport finished boxes, load trucks, manage order cycling | Speed, Carry Capacity |
+
+<Checklist
+  id="coop-rules"
+  title="Co-op Team Rules:"
+  items={[
+    "Call out the active customer name before running to shelves",
+    "Never have two players fetch the same checklist item",
+    "Keep the packing station clear of clutter by dropping items neatly",
+    "Cycle to the next order immediately when a box is 90% complete"
+  ]}
+/>
+
+<Callout type="tip" title="Synergy Bonus">
+Have your Packer stand permanently at the boxing station while Pickers throw items toward them. This eliminates travel time entirely for the packing phase.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the best pack an order tips for beginners?",
+    answer: "Focus entirely on upgrading your movement Speed first, memorize the general shelf locations of toys, and always check your entire order checklist before leaving the packing station."
+  },
+  {
+    question: "How do I cycle through items when my inventory is full?",
+    answer: "Use the Scroll Wheel on your mouse or the corresponding gamepad buttons to cycle through your carried items. This allows you to select and pack the exact toy required."
+  },
+  {
+    question: "Is it better to play Pack an Order solo or with friends?",
+    answer: "Co-op is faster for climbing leaderboards if your team coordinates roles. However, solo play is highly efficient for farming Coins at your own steady pace."
+  },
+  {
+    question: "How do I avoid packing the wrong item?",
+    answer: "Use the inspect key (Right Click or Y) on any toy to verify its exact name. If you pick up the wrong item, press Q to drop it immediately."
+  }
+]} />
+
+</Section>

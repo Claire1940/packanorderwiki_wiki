@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pack an Order Roblox: Ultimate Upgrades & Packing Guide",
+  description: "Master Pack an Order Roblox with our complete guide. Learn shelf locations, optimal upgrade paths, co-op strategies, and how to pack boxes fast.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Pack+an+Order+Roblox+Guide",
+  date: "2026-07-11",
+  author: "pack an order Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Gameplay**: Locate requested toys on warehouse shelves, verify names, pack them into order boxes, and load delivery trucks.
+- **Primary Upgrades**: Prioritize **Speed** first to decrease travel times, followed by Carry Capacity for solo play or Reach for coordinated team sessions.
+- **Order Management**: Press **R** to cycle through active customer tickets and plan efficient multi-item collection routes.
+- **Redemption Code Status**: There is currently **no active code system** or redeem menu available in the official Roblox release.
+- **Team Synergy**: Divide warehouse roles into Pickers, Packers, and Loaders to maximize leaderboard efficiency and prevent duplicate collections.
+</Callout>
+
+<Section icon={Map} title="Pack an Order Roblox Beginner Guide">
+
+**Pack an Order Roblox** is a fast-paced co-op warehouse simulator where players work against the clock to fulfill customer orders. Whether playing solo or collaborating with friends, your primary objective is to locate specific toys on the warehouse shelves, verify their details, pack them into shipping boxes, and load them onto the delivery truck. Fast and accurate completions reward you with Coins, which are crucial for unlocking permanent character upgrades and special abilities.
+
+**Video Highlights:**
+- **Basic Workflow**: Visual walkthrough of picking, packing, and loading.
+- **Shelf Layout**: Key locations for high-demand items.
+- **Control Demonstration**: How to cycle items and inspect tags quickly.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Pack an Order Roblox Gameplay" />
+
+To establish a consistent workflow, beginners should familiarize themselves with the standard warehouse pipeline. The table below outlines the core progression stages of a standard shift.
+
+| Stage | Action Required | Key Objective |
+|---|---|---|
+| **1. Order Intake** | Read active customer tickets | Identify required products and quantities |
+| **2. Shelf Retrieval** | Navigate shelves and grab items | Locate matching toys without grabbing wrong items |
+| **3. Verification** | Inspect similar-looking items | Prevent packing penalties by checking details |
+| **4. Packing** | Bring items to the boxing station | Fill the designated order box completely |
+| **5. Dispatch** | Load the packed box onto the truck | Complete the delivery sequence to earn Coins |
+
+<Callout type="tip" title="Pro Tip">
+Always review your entire customer ticket before leaving the packing station. Planning a route that collects multiple items from the same shelf section in a single trip drastically reduces wasted travel time.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Upgrades and Progression Path">
+
+To keep up with increasingly demanding order sizes, players must reinvest their hard-earned Coins into core character upgrades. The game features three primary upgrades: **Speed**, **Carry Capacity**, and **Reach**. Balancing these stats is the key to climbing the leaderboards.
+
+| Upgrade | Primary Effect | Best Suited For | Solo Priority | Team Priority |
+|---|---|---|---|---|
+| **Speed** | Increases movement velocity | Reducing travel time between shelves and trucks | **1** | **1** |
+| **Carry Capacity** | Increases maximum inventory slots | Transporting multiple different items in one trip | **2** | **3** |
+| **Reach** | Extends interaction distance | Rapid shelf collection and quick box packing | **3** | **2** |
+
+The optimal progression route depends heavily on your team size. Solo players face a massive travel bottleneck, making Carry Capacity highly valuable early on. Co-ordinated teams can divide shelf territories, making Reach far more effective for snatching items from adjacent aisles.
+
+<CardGrid cols={3}>
+  <Card title="Speed Upgrade">
+    - **Universal Benefit**: Essential for all roles.
+    - **Time Saver**: Shaves seconds off every single delivery run.
+    - **Recommendation**: Buy this first regardless of team size.
+  </Card>
+  <Card title="Carry Capacity">
+    - **Solo Lifesaver**: Allows you to grab up to 3+ items at once.
+    - **Item Management**: Use the scroll wheel to cycle through held toys.
+    - **Recommendation**: Prioritize second if playing without a team.
+  </Card>
+  <Card title="Reach Upgrade">
+    - **Precision Grabbing**: Grab items without micro-adjusting your position.
+    - **Stationary Packing**: Pack boxes from a comfortable distance.
+    - **Recommendation**: Prioritize second in organized multiplayer teams.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warning">
+Do not neglect Speed upgrades in favor of hoarding Coins for expensive abilities. High base movement speed is the foundation of every successful high-score run.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Controls and Input Guide">
+
+Executing actions quickly requires muscle memory of the game's control layout. Misclicking can cause you to drop items or pack incorrect products, which resets your progress on that specific box checklist.
+
+| Input Key | Device | In-Game Action | Practical Application Tip |
+|---|---|---|---|
+| **E / Left Click** | PC (Mouse/KB) | Pick up or pack item | Stand close to the shelf or box before pressing |
+| **Q** | PC (Keyboard) | Drop held item | Drop wrong items near shelves instead of packing areas |
+| **R** | PC (Keyboard) | Cycle active orders | Use this to review other tickets while searching |
+| **Scroll Wheel** | PC (Mouse) | Cycle carried items | Align the correct toy in hand before approaching the box |
+| **Right Click / Y** | PC / Gamepad | Inspect item | Use this to verify similar-looking toys before packing |
+
+<Steps>
+  <Step num="1" title="Select Order">
+    Press **R** to view available customer tickets and choose your active target.
+  </Step>
+  <Step num="2" title="Retrieve and Inspect">
+    Navigate to the shelves, pick up items with **E**, and use **Right Click** to inspect and verify names.
+  </Step>
+  <Step num="3" title="Cycle and Pack">
+    Use the **Scroll Wheel** to select the correct item from your inventory, then press **E** at the box to pack it.
+  </Step>
+</Steps>
+
+<Callout type="info" title="System Info">
+If you accidentally pick up an item that is not on any active order, press **Q** immediately to drop it. Carrying dead weight limits your inventory space and slows down your overall packing rate.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Co-op and Leaderboard Strategies">
+
+Playing with a team changes the gameplay dynamic entirely. Instead of every player running through the entire loop individually, assigning dedicated roles maximizes efficiency and prevents players from duplicating efforts.
+
+| Team Size | Recommended Setup | Key Roles | Common Mistake to Avoid |
+|---|---|---|---|
+| **Solo Run** | All-rounder route | Collector, Packer, Loader | Returning to base with only one item at a time |
+| **2-Player Team** | Split duties | 1 Runner (shelves), 1 Packer (loading/boxing) | Both players running to the same aisle |
+| **3-Player Team** | Full specialization | 1 Picker (aisles), 1 Packer (boxes), 1 Loader (trucks) | Leaving the packing station completely unattended |
+
+<Checklist
+  id="coop-milestones"
+  title="Team Coordination Checklist:"
+  items={[
+    "Assign specific shelf zones to each runner to prevent crowded aisles",
+    "Call out active customer names (e.g., Becca's order) to coordinate collections",
+    "Verify item quantities before bringing them to the packing station",
+    "Keep the delivery truck loading area clear of dropped clutter",
+    "Rotate roles if a bottleneck develops at the packing or loading stations"
+  ]}
+/>
+
+<Callout type="success" title="Success Strategy">
+For high-tier leaderboard runs, have your fastest player focus entirely on long-distance shelf runs, while the player with the highest Reach upgrade stays stationary at the packing table to receive and box items rapidly.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Codes and Free Rewards Status">
+
+Many players search for active promo codes to get free Coins or boosts. This section tracks the current status of the redemption system in the game.
+
+| Code Status | Redemption Menu | Official Sources | Troubleshooting Tip |
+|---|---|---|---|
+| **No active codes** | Not currently implemented | Roblox Game Page / Developer Group | Watch out for fake code generators online |
+
+Currently, the developer group *lost to pc to game* has not integrated a code redemption system or a dedicated "Codes" button in the user interface. If a code system is added in a future update, we will update this section immediately with working codes and instructions on how to claim rewards.
+
+<Callout type="warning" title="Important Safety Notice">
+Never share your Roblox password or account details with external websites claiming to offer free codes or coins for Pack an Order. Official codes will only ever be redeemable directly inside the Roblox game client.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I earn Coins fast in Pack an Order Roblox?",
+    answer: "The fastest way to earn Coins is to complete multi-item orders quickly without errors. Prioritize buying the Speed upgrade first to minimize the time spent traveling between shelves and the delivery truck."
+  },
+  {
+    question: "What should I do if I pick up the wrong item?",
+    answer: "If you pick up an incorrect toy, press Q on your keyboard to drop it. It is best to drop it near its original shelf so it does not clutter the central packing station."
+  },
+  {
+    question: "How does the Carry Capacity upgrade work?",
+    answer: "Carry Capacity allows you to hold multiple toys at the same time. You can use your mouse scroll wheel to cycle through your held items and select the correct one before packing it into the shipping box."
+  },
+  {
+    question: "Are there any active codes for Pack an Order Roblox?",
+    answer: "Currently, there is no active code system or redemption menu in the game. Be sure to check the official Roblox game page and the developer community group for future updates."
+  }
+]} />
+
+</Section>

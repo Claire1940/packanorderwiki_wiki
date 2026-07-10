@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guides": "Guias",
+    "codes": "Códigos",
+    "orders": "Pedidos",
+    "items": "Itens",
+    "upgrades": "Melhorias",
+    "abilities": "Habilidades",
+    "controls": "Controles"
+  }
+}

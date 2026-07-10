@@ -1,0 +1,160 @@
+import { Map, Target, Trophy, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pack an Order Controls: Mastering Warehouse Efficiency (2026)",
+  description: "Master Pack an Order controls with our expert guide. Learn how to manage orders, optimize shelf routes, and boost your warehouse efficiency.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/fb923c/fff?text=Pack+an+Order+Controls",
+  date: "2026-07-11",
+  author: "pack an order Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pack an Order controls** are essential for optimizing your warehouse workflow and maximizing your coin earnings.
+- Use **R to cycle through orders** and **E or Left Click** for all primary item interactions.
+- Master the **scroll wheel** to manage multiple carried products efficiently during your collection runs.
+- Always **inspect items with Y or Right Click** if you are unsure about product matches to avoid mistakes.
+</Callout>
+
+<Section icon={Map} title="Understanding Pack an Order Controls">
+
+Success in this fast-paced warehouse simulator relies heavily on your ability to execute tasks without hesitation. By mastering the basic **Pack an Order controls**, you can significantly reduce the time spent moving between shelves and delivery trucks, ultimately climbing the leaderboard faster.
+
+**Video Highlights:**
+- Demonstrating the core warehouse picking loop
+- How to efficiently navigate shelves to find toys
+- Tips for managing orders and truck loading
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Pack an Order Roblox Gameplay" />
+
+Whether you are playing solo or coordinating with a team, your input speed determines your output. Below is a breakdown of the primary inputs you need to internalize for optimal performance.
+
+| Input | Action | Best Practice |
+| :--- | :--- | :--- |
+| **E / Left Click** | Pick up or pack items | Use for both shelf collection and box filling. |
+| **R** | Cycle active orders | Switch before entering a new warehouse zone. |
+| **Q** | Drop held items | Use to clear mistakes near the shelves. |
+| **Scroll Wheel** | Cycle carried items | Switch items before reaching the packing station. |
+| **Y / Right Click** | Inspect product | Use when items look similar to avoid errors. |
+
+<Callout type="tip" title="Pro Tip">
+Always clear your inventory of incorrect items using **Q** right at the shelf where you found them. Carrying them to the packing station wastes precious seconds that could be used for productive tasks.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Warehouse Workflow Optimization">
+
+Efficiency is the key to earning more coins. Your goal is to minimize idle time by grouping tasks. Instead of running back and forth for every single item, plan your route based on the active order ticket.
+
+<Steps>
+  <Step num="1" title="Review the Ticket">
+    Press R to view your current order. Identify the specific items and quantities required before moving away from the packing station.
+  </Step>
+  <Step num="2" title="Plan Your Route">
+    Group items by shelf location. If you have multiple orders, prioritize the ones that share common shelf zones to save travel time.
+  </Step>
+  <Step num="3" title="Collect and Verify">
+    Pick up required items using E. If you are unsure about an item's identity, use Y to inspect it before adding it to your carry inventory.
+  </Step>
+  <Step num="4" title="Pack and Deliver">
+    Return to the box, cycle to the correct item using your scroll wheel, and press E to pack. Once the box is full, load it onto the truck.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Efficiency Boost">
+Upgrading your **Carry Capacity** is the most effective way to utilize these controls, as it allows you to complete more of the order in a single trip.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Core Upgrades Comparison">
+
+In **Pack an Order**, your character stats directly influence how well you can utilize your controls. Investing your coins into the right upgrades early on will make your manual inputs feel much more impactful.
+
+| Upgrade | Benefit | Solo Priority | Team Priority |
+| :--- | :--- | :--- | :--- |
+| **Speed** | Increases movement velocity | High | High |
+| **Carry Capacity** | Allows more items per trip | High | Medium |
+| **Reach** | Extends interaction distance | Medium | High |
+
+<CardGrid cols={3}>
+  <Card title="Speed">
+    - **Universal benefit**
+    - Reduces travel time
+    - Best first upgrade
+  </Card>
+  <Card title="Carry Capacity">
+    - **Efficiency multiplier**
+    - Fewer return trips
+    - Essential for solo play
+  </Card>
+  <Card title="Reach">
+    - **Precision tool**
+    - Reduces positioning errors
+    - Perfect for team roles
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Important Note">
+Do not neglect your **Reach** upgrade in the late game. While Speed helps you get there, Reach ensures you don't waste time making micro-adjustments in front of the shelves.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Co-op and Leaderboard Strategies">
+
+When playing with friends, communication is just as important as your keyboard inputs. Assigning roles ensures that no two players are grabbing the same items or ignoring the same boxes.
+
+| Role | Responsibility | Key Input |
+| :--- | :--- | :--- |
+| **Picker** | Gather items from shelves | E (Pickup) |
+| **Packer** | Match items to boxes | E (Pack) |
+| **Loader** | Move boxes to trucks | E (Load) |
+
+<Checklist
+  id="co-op-checklist"
+  title="Team Coordination Goals:"
+  items={[
+    "Assign one dedicated Picker per warehouse zone",
+    "Communicate order numbers to avoid duplicate collection",
+    "Keep the Packer supplied with items at all times",
+    "Rotate roles if someone falls behind in efficiency"
+  ]}
+/>
+
+<Callout type="info" title="Leaderboard Strategy">
+For competitive times, the most successful teams use a "relay" system where the Picker leaves items in a central area for the Packer to quickly box, allowing the Picker to immediately return to the shelves.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I know if I have picked up the wrong item?",
+    answer: "You can inspect any held item by pressing Y or Right Click. If it is incorrect, press Q to drop it immediately at the shelf."
+  },
+  {
+    question: "Can I use Pack an Order controls on mobile?",
+    answer: "Yes, the controls are adapted for touchscreens, utilizing screen taps for picking up and packing, similar to the E/Left Click functionality on PC."
+  },
+  {
+    question: "Which upgrade should I buy first?",
+    answer: "Speed is generally recommended as the first purchase, as it improves your efficiency regardless of your current order or team size."
+  },
+  {
+    question: "Why should I cycle through orders with R?",
+    answer: "Cycling through orders allows you to plan your route more effectively by seeing which items are needed across different tasks, preventing redundant trips."
+  }
+]} />
+
+</Section>

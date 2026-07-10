@@ -1,0 +1,161 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pack an Order Multiple Orders: Speed & Co-op Packing Guide",
+  description: "Master how to pack an order multiple orders in Roblox. Learn to cycle tickets, manage inventory, optimize upgrades, and coordinate co-op warehouse routes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/d97706/fff?text=Pack+Multiple+Orders+Guide",
+  date: "2026-07-11",
+  author: "pack an order Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanic**: Master how to **pack an order multiple orders** by using the R key to cycle active tickets.
+- **Inventory Control**: Carry multiple matching items and use your scroll wheel to cycle through them at the packing station.
+- **Solo Priority**: Upgrade Carry Capacity early to reduce repetitive trips back and forth.
+- **Co-op Strategy**: Divide your team into dedicated Pickers, Packers, and Loaders to avoid duplicate work.
+</Callout>
+
+<Section icon={Map} title="Mastering Multiple Orders in Roblox">
+
+Managing your warehouse workflow efficiently requires understanding how to **pack an order multiple orders** simultaneously. Instead of focusing on a single box, top-tier players cycle through active customer tickets to plan highly efficient collection routes. This strategy minimizes backtracking and maximizes your Coin earnings per run.
+
+**Video Highlights:**
+- Learn basic warehouse navigation and shelf structures.
+- See how to cycle active tickets using PC and mobile controls.
+- Observe efficient packing and delivery truck loading methods.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Pack an Order Roblox Gameplay" />
+
+| Feature | Single Order Focus | Multiple Orders Focus |
+|---|---|---|
+| **Key Bind** | None (Default ticket) | Press **R** to cycle tickets |
+| **Travel Time** | High (One trip per item) | Low (Grouped shelf routes) |
+| **Best For** | Absolute beginners | Advanced solo & co-op teams |
+| **Coin Yield** | Standard progression | Maximum efficiency bonuses |
+
+<Callout type="tip" title="Pro Tip">
+Always cycle through all active orders using the **R** key before leaving the packing station. Grouping items from the same shelf area saves valuable seconds on the timer.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Multi-Order Packing Route">
+
+Executing a perfect multi-order run requires a systematic approach. Follow this optimized pipeline to keep your delivery trucks constantly supplied.
+
+<Steps>
+  <Step num="1" title="Read and Cycle Tickets">
+    Interact with the active order board. Press **R** to cycle through your available customer tickets. Memorize or note down matching items located in the same warehouse zone.
+  </Step>
+  <Step num="2" title="Plan Your Shelf Route">
+    Head to the shelf sections containing your target items. Pick up multiple different products in one trip, utilizing your Carry Capacity to hold several toys at once.
+  </Step>
+  <Step num="3" title="Inspect and Verify Items">
+    Use **Right Click** (PC) or **Y** (Gamepad) to inspect items that look similar. This prevents packing incorrect products, which resets your progress on that checklist slot.
+  </Step>
+  <Step num="4" title="Cycle and Pack at the Station">
+    Return to the packing area. Use your **Scroll Wheel** to cycle through the items in your hands, and press **R** to match the correct active ticket before pressing **E** to pack.
+  </Step>
+  <Step num="5" title="Load the Delivery Truck">
+    Once all items on a ticket are checked off, interact with the completed box to seal it, carry it to the loading dock, and throw it onto the delivery truck.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Watch Out for Duplicates">
+In multiplayer, always call out which ticket you are working on. If two players try to **pack an order multiple orders** without communicating, you will waste time collecting duplicate items.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Upgrades & Abilities for Multi-Order Runs">
+
+To handle multiple orders successfully, you must reinvest your hard-earned Coins into core worker upgrades and unlockable abilities. 
+
+<CardGrid cols={3}>
+  <Card title="Speed Upgrade">
+    - **Priority**: High (Solo & Co-op)
+    - **Effect**: Increases overall movement speed
+    - **Best Use**: Cuts travel time between distant shelves and delivery trucks
+  </Card>
+  <Card title="Carry Capacity">
+    - **Priority**: High (Solo) / Medium (Co-op)
+    - **Effect**: Hold more items simultaneously
+    - **Best Use**: Essential for gathering parts of multiple orders at once
+  </Card>
+  <Card title="Reach Upgrade">
+    - **Priority**: Medium (Solo & Co-op)
+    - **Effect**: Grab items from further away
+    - **Best Use**: Speeds up collection on dense, high shelves
+  </Card>
+</CardGrid>
+
+| Upgrade Stat | Solo Priority | Co-op Priority | Recommended Leveling Path |
+|---|---|---|---|
+| **Speed** | Rank 1 | Rank 1 | Maximize first to improve overall mobility |
+| **Carry Capacity** | Rank 2 | Rank 3 | Level up to hold at least 3 items for solo runs |
+| **Reach** | Rank 3 | Rank 2 | Upgrade once movement speed is comfortable |
+
+<Callout type="success" title="Ability Synchronization">
+Unlock passive abilities that complement your role. If you are the dedicated runner in a team, prioritize speed-boosting abilities. If you are the packer, look for instant-packing skills.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Co-op Roles and Leaderboard Strategies">
+
+Organized teams can dominate the leaderboards by dividing warehouse responsibilities. Split your crew into specialized roles to handle multiple orders simultaneously.
+
+| Role | Primary Responsibility | Key Controls Used | Upgrade Focus |
+|---|---|---|---|
+| **The Picker** | Searches shelves, gathers items, groups them by zone | **E** (Grab), **Q** (Drop) | Speed, Reach |
+| **The Packer** | Cycles tickets, verifies items, fills boxes | **R** (Cycle), Scroll Wheel | Carry Capacity |
+| **The Loader** | Seals completed boxes, loads delivery trucks | **E** (Interact) | Speed |
+
+<Checklist
+  id="coop-milestones"
+  title="Co-op Run Checklist:"
+  items={[
+    "Assign specific shelf zones to your Pickers",
+    "Ensure the Packer remains at the station to cycle tickets",
+    "Use the Scroll Wheel to verify held items before packing",
+    "Keep the delivery truck area clear of stray, incorrect items",
+    "Achieve a sub-2 minute completion time on multiple orders"
+  ]}
+/>
+
+<Callout type="info" title="Redeem Codes Status">
+Currently, Pack an Order! does not feature an active promo code system. Keep an eye on the official [lost to pc to game Roblox Group](https://www.roblox.com/communities/618093734/lost-to-pc-to-game) for future update logs and code announcements.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I cycle through multiple active orders?",
+    answer: "You can cycle through active customer tickets by pressing the R key on your keyboard, using the Y button on a controller, or tapping the cycle button on mobile devices."
+  },
+  {
+    question: "What happens if I pack an incorrect item?",
+    answer: "The box will reject the item. You must press Q to drop the incorrect product. To avoid this, inspect similar-looking items using Right Click before packing."
+  },
+  {
+    question: "Is it better to complete orders solo or in co-op?",
+    answer: "Co-op is much faster for managing multiple orders because players can divide roles (Picker, Packer, Loader), whereas solo players must handle all tasks alone."
+  },
+  {
+    question: "Which upgrade should I buy first to pack an order multiple orders?",
+    answer: "Buy the Speed upgrade first to reduce travel time, followed closely by Carry Capacity so you can transport multiple requested items in a single run."
+  }
+]} />
+
+</Section>

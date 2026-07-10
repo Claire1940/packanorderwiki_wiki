@@ -1,0 +1,168 @@
+import { Map, Target, Trophy, Swords, Sparkles, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ubicaciones de objetos en Pack an Order: Distribución de estanterías y guía de búsqueda",
+  description: "¡Domina el almacén en Pack an Order! Conoce todas las ubicaciones de los objetos, la distribución de las estanterías y consejos de identificación para completar pedidos más rápido en esta guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f97316/fff?text=Item+Locations+Guide",
+  date: "2026-07-11",
+  author: "Equipo de Wiki de Pack an Order"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las ubicaciones de los objetos en Pack an Order** se clasifican en distintas zonas del almacén, que incluyen las secciones de Juguetes, Comida y Utilidades.
+- **La inspección visual** mediante el clic derecho o el botón Y es fundamental para distinguir entre objetos similares, como los diferentes tipos de dumplings.
+- **La rotación de pedidos** con la tecla R te permite planificar tu ruta por las estanterías antes de empezar a recoger los productos.
+- **La prioridad de mejoras** debe centrarse primero en la Velocidad para reducir el tiempo de desplazamiento entre estanterías distantes.
+- **El transporte múltiple** se activa con la mejora de Capacidad de carga, lo que te permite despejar un pasillo entero en un solo viaje.
+</Callout>
+
+<Section icon={Map} title="Dominar la distribución del almacén">
+
+¡Navegar por el almacén de manera eficiente es la base del éxito en Pack an Order! El entorno está diseñado para desafiar tu memoria espacial, con objetos repartidos por varios pasillos y estanterías. Para maximizar tu eficiencia, debes tratar el almacén como una cuadrícula. La mayoría de los principiantes pierden tiempo corriendo de un lado a otro entre la estación de embalaje y las estanterías para cada objeto individual. En cambio, los jugadores veteranos memorizan las **ubicaciones de los objetos en Pack an Order** para agrupar sus rutas de recolección.
+
+El almacén se divide generalmente en secciones codificadas por colores o temáticas. Los juguetes suelen estar en los pasillos centrales, mientras que los alimentos y los productos pesados de utilidad se sitúan hacia el perímetro. Entender estas zonas te permite \"agrupar\" tu trabajo: recoger todo lo necesario para un pedido en un solo recorrido circular en lugar de realizar múltiples viajes lineales.
+
+| Zona del almacén | Tipos de objetos principales | Distancia desde embalaje | Dificultad de navegación |
+| :--- | :--- | :--- | :--- |
+| **Pasillo central** | Juguetes, Electrónica pequeña | Corta | Baja |
+| **Estanterías perimetrales** | Comida, Productos a granel | Media | Media |
+| **Almacén trasero** | Objetos raros, Utilidades | Larga | Alta |
+| **Muelle de carga** | Cajas vacías, Cinta adhesiva | Variable | Baja |
+
+<Callout type="tip" title="Consejo de conciencia espacial">
+Antes de empezar una ronda, colócate en la estación de embalaje y presiona R para alternar entre todos los pedidos activos. Esto te dará una lista mental de qué pasillos necesitas visitar, evitando viajes redundantes a la misma estantería.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategias de identificación y emparejamiento de objetos">
+
+En el frenesí de un pedido contrarreloj, muchos objetos pueden parecer idénticos a primera vista. ¡Pack an Order! utiliza sutiles diferencias visuales para distinguir entre productos. Por ejemplo, un \"Red Squishy\" (Peluche blando rojo) y una \"Crimson Stress Ball\" (Pelota antiestrés carmesí) pueden parecer similares desde la distancia, pero sus etiquetas y formas difieren al inspeccionarlos de cerca. Aprender a identificar objetos sin depender únicamente del botón \"Inspeccionar\" mejorará significativamente tus tiempos en la tabla de clasificación.
+
+El juego requiere que hagas coincidir los nombres y las cantidades con total exactitud. Si un pedido solicita tres \"Matcha Dumplings\", traer dos dumplings y una \"Salted Butter\" detendrá el proceso de embalaje. Debes ser preciso. A continuación se muestra una referencia de los objetos comunes que se encuentran en la versión actual de 2026 del almacén.
+
+| Nombre del objeto | Categoría | Características visuales | Ubicación común |
+| :--- | :--- | :--- | :--- |
+| **Red Squishy** | Juguete | Rojo brillante, textura suave | Pasillo 1 (Estante inferior) |
+| **Matcha Dumpling** | Comida | Envase verde, tamaño pequeño | Sección de comida (Norte) |
+| **Clicker** | Electrónica | Pequeño, de mano, metálico | Pasillo 2 (Estante medio) |
+| **Salted Butter** | Comida | Envoltura amarilla, rectangular | Sección de comida (Sur) |
+| **Blue Car** | Juguete | Vehículo en miniatura, plástico | Pasillo 1 (Estante superior) |
+
+<Callout type="warning" title="Advertencia de precisión">
+Embalar el objeto equivocado en una caja no solo hace perder tiempo; requiere que retires o sueltes manualmente el objeto (tecla Q), lo que puede desordenar tu espacio de trabajo y confundir a tus compañeros en el modo cooperativo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Paso a paso: Ruta de recogida optimizada">
+
+Para lograr los tiempos de finalización más rápidos posibles, necesitas un flujo de trabajo estandarizado. Este método de \"Buscar y embalar\" es utilizado por los jugadores de alto nivel para mantener una alta proporción de \"Monedas por minuto\" (CPM). Al seguir una secuencia específica, minimizas el \"tiempo de inactividad\" en el que te desplazas sin un objeto en las manos.
+
+<Steps>
+  <Step num="1" title="Revisar el ticket">
+    Examina el ticket de pedido del cliente en la estación de embalaje. Anota las cantidades específicas de cada objeto para evitar realizar viajes adicionales por unidades olvidadas.
+  </Step>
+  <Step num="2" title="Agrupar por proximidad">
+    Identifica qué **ubicaciones de objetos en Pack an Order** están más cerca entre sí. Si necesitas dos juguetes del Pasillo 1 y un alimento de la parte trasera, ve primero al Pasillo 1.
+  </Step>
+  <Step num="3" title="Recogida por lotes">
+    Usa tu Capacidad de carga para agarrar varios objetos. Utiliza la rueda de desplazamiento para moverte por tu inventario mientras los recoges para asegurarte de no soltar accidentalmente algo que necesitas.
+  </Step>
+  <Step num="4" title="Verificación y embalaje">
+    Regresa a la estación de embalaje. Haz clic derecho o pulsa el botón Y para verificar el nombre del objeto una última vez antes de presionar E para embalarlo en la caja.
+  </Step>
+  <Step num="5" title="Carga final">
+    Una vez que la caja esté sellada, transpórtala inmediatamente al camión de reparto. No esperes para comenzar el siguiente pedido; la carga del camión es el paso final del flujo de trabajo activo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bonificación por eficiencia">
+En el modo multijugador, haz que un jugador se quede en la estación de embalaje como \"Embalador\" mientras los otros dos actúan como \"Corredores\". El Embalador puede indicar las ubicaciones de los objetos a los Corredores, reduciendo significativamente el tiempo de búsqueda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejoras para mejorar el descubrimiento de objetos">
+
+A medida que ganes monedas, podrás invertirlas en mejoras para el trabajador que afectarán directamente a la forma en que interactúas con las ubicaciones de los objetos. Aunque la \"Velocidad\" es la opción más obvia, el \"Alcance\" y la \"Capacidad de carga\" ofrecen ventajas tácticas que cambian tu forma de navegar por el almacén. Por ejemplo, un Alcance alto te permite agarrar objetos de los estantes superiores sin tener que saltar o posicionar a tu personaje a la perfección.
+
+<CardGrid cols={3}>
+  <Card title="Mejora de Velocidad">
+    - **Velocidad de movimiento**: Aumenta la velocidad base al caminar.
+    - **Ideal para**: Almacenes grandes y juego en solitario.
+    - **Impacto**: Reduce el tiempo de viaje entre pasillos distantes hasta en un 40%.
+  </Card>
+  <Card title="Capacidad de carga">
+    - **Tamaño del inventario**: Lleva más objetos simultáneamente.
+    - **Ideal para**: Pedidos de gran cantidad (p. ej., más de 5 de un mismo objeto).
+    - **Impacto**: Permite completar pedidos complejos en un solo viaje.
+  </Card>
+  <Card title="Mejora de Alcance">
+    - **Rango de interacción**: Agarra objetos desde más lejos.
+    - **Ideal para**: Esquinas estrechas y estanterías altas.
+    - **Impacto**: Minimiza los micromovimientos necesarios para alinearse con un producto.
+  </Card>
+</CardGrid>
+
+| Nivel de mejora | Coste de Velocidad | Coste de Carga | Coste de Alcance |
+| :--- | :--- | :--- | :--- |
+| **Nivel 1** | 100 Monedas | 150 Monedas | 100 Monedas |
+| **Nivel 2** | 250 Monedas | 400 Monedas | 250 Monedas |
+| **Nivel 3** | 600 Monedas | 900 Monedas | 500 Monedas |
+| **Nivel 4** | 1.500 Monedas | 2.200 Monedas | 1.200 Monedas |
+
+<Callout type="info" title="Estrategia de mejoras">
+La ruta más equilibrada para los nuevos jugadores es **Velocidad 1 → Carga 1 → Velocidad 2 → Alcance 1**. Esto asegura que no vayas demasiado lento, pero que tampoco tengas que hacer tres viajes para un solo pedido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de control maestra y preguntas frecuentes">
+
+Para convertirte en un profesional del almacén, deberías intentar alcanzar estos hitos. Estos objetivos están diseñados para poner a prueba tus conocimientos sobre las **ubicaciones de los objetos en Pack an Order** y tu capacidad para gestionar múltiples tareas bajo presión.
+
+<Checklist
+  id="warehouse-mastery"
+  title="Objetivos profesionales del almacén:"
+  items={[
+    "Memorizar la ubicación de los 10 objetos más comunes",
+    "Completar un pedido de 5 objetos en menos de 45 segundos en solitario",
+    "Alcanzar el Nivel 3 en todas las mejoras principales (Velocidad, Carga, Alcance)",
+    "Utilizar con éxito la herramienta 'Inspeccionar' para detectar un objeto incorrecto antes de embalarlo",
+    "Terminar una sesión cooperativa con cero objetos incorrectos embalados"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo profesional final">
+Los objetos de las estanterías más altas suelen ser los que los jugadores olvidan. Si no encuentras un objeto a la altura de los ojos, ¡mira hacia arriba! La mejora de Alcance es tu mejor aliada para estas ubicaciones \"ocultas\".
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué debo hacer si no encuentro la ubicación de un objeto específico?",
+    answer: "Primero, revisa los carteles indicadores del almacén al final de cada pasillo. Si es un alimento, dirígete al perímetro. Si es un juguete, revisa los pasillos centrales numerados. Recuerda que algunos objetos están en las estanterías más altas o más bajas, lo que requiere que ajustes el ángulo de la cámara."
+  },
+  {
+    question: "¿Cómo gestiono los objetos que se parecen entre sí en Pack an Order?",
+    answer: "La mecánica de 'Inspeccionar' (clic derecho o Y) es tu herramienta más confiable. Muestra el nombre exacto del objeto que estás mirando. Úsala siempre que estés en la sección de Comida, ya que muchos envases tienen combinaciones de colores similares."
+  },
+  {
+    question: "¿Es mejor mejorar primero la Velocidad o la Capacidad de carga?",
+    answer: "La Velocidad suele ser mejor para la primerísima mejora porque ayuda en absolutamente todos los pedidos. La Capacidad de carga adquiere más valor una vez que empiezas a recibir pedidos que requieren 3 o más unidades del mismo objeto."
+  },
+  {
+    question: "¿Cambia la distribución del almacén entre partidas?",
+    answer: "En la versión actual, la estructura general de los pasillos se mantiene constante, pero las 'ubicaciones de los objetos en Pack an Order' para artículos raros pueden variar ligeramente entre actualizaciones para mantener la jugabilidad fresca. Revisa siempre las cabeceras de los pasillos."
+  }
+]} />
+
+</Section>

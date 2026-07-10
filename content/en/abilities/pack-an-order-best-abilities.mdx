@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pack an Order Best Abilities: Upgrade Paths & Co-op Meta",
+  description: "Discover the best abilities and upgrades in Roblox Pack an Order. Master Speed, Carry Capacity, and Reach to optimize your warehouse routes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Best+Abilities+Guide",
+  date: "2026-07-11",
+  author: "pack an order Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Unlock the **pack an order best abilities** to slash delivery times and maximize your coin earnings.
+- **Core upgrades**: Prioritize **Speed** over Carry Capacity and Reach to establish a strong movement baseline.
+- **Co-op strategy**: Divide warehouse roles into **Pickers, Packers, and Loaders** to dominate the leaderboards.
+- **Control mastery**: Use **R** to cycle active orders and the **Scroll Wheel** to manage carried products.
+</Callout>
+
+<Section icon={Sparkles} title="Abilities and Core Upgrades System Overview">
+
+In the fast-paced Roblox warehouse simulator Pack an Order, efficiency is the difference between an average run and a leaderboard-topping performance. To minimize your packing times, you must balance three permanent core upgrades alongside powerful unlockable abilities. While core upgrades provide passive, permanent stat boosts, abilities introduce active tools that target specific bottlenecks in your retrieval and packing pipeline.
+
+**Video Highlights:**
+- **Core Mechanics**: Learn how to match customer tickets with shelf items accurately.
+- **Movement Flow**: See the optimal paths between warehouse shelves and packing stations.
+- **Upgrade Impact**: Visual comparison of base stats versus fully upgraded worker stats.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Pack an Order Roblox Gameplay" />
+
+| System Type | Primary Focus | How to Unlock | Impact on Workflow |
+|---|---|---|---|
+| **Core Upgrades** | Speed, Reach, Carry Capacity | Purchase with Coins | Permanent passive stat boosts |
+| **Abilities** | Active tools & specialized buffs | Level progression | Target specific task bottlenecks |
+
+<Callout type="tip" title="Upgrade Priority">
+Always secure basic movement upgrades before investing heavily in niche abilities. Speed acts as the foundation for every single route you run.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Core Upgrades Comparison and Priority Paths">
+
+Before diving into specialized skills, mastering the core upgrades is essential. Your worker has three main attributes: Speed, Carry Capacity, and Reach. The optimal upgrade path diverges depending on whether you play solo or in coordinated multiplayer teams.
+
+<CardGrid cols={3}>
+  <Card title="Speed Upgrade">
+    - **Universal utility** for all runs
+    - Reduces travel time significantly
+    - **Solo Priority: 1** / **Team Priority: 1**
+  </Card>
+  <Card title="Carry Capacity">
+    - Hold more items simultaneously
+    - Minimizes back-and-forth trips
+    - **Solo Priority: 2** / **Team Priority: 3**
+  </Card>
+  <Card title="Reach Upgrade">
+    - Interact with distant shelves
+    - Speeds up item retrieval
+    - **Solo Priority: 3** / **Team Priority: 2**
+  </Card>
+</CardGrid>
+
+To spend your hard-earned Coins efficiently, refer to the recommended upgrade progression pathways below:
+
+| Play Mode | Optimal Upgrade Route | Primary Strategic Reason |
+|---|---|---|
+| **Solo Player** | Speed → Carry Capacity → Reach | Solo players must carry multiple items to avoid wasting time on repeated trips. |
+| **Co-op Team** | Speed → Reach → Carry Capacity | Specialized runners need reach to grab items fast, while packers stay stationary. |
+
+<Callout type="warning" title="Inventory Management">
+Increasing your Carry Capacity requires high mechanical awareness. Use the scroll wheel to cycle through held items and ensure you pack them in the correct sequence.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Warehouse Workflow Mastery">
+
+To consistently earn Coins and unlock the **pack an order best abilities**, you must execute the warehouse workflow flawlessly. Follow these steps to optimize your loop from the moment an order appears.
+
+<Steps>
+  <Step num="1" title="Select and Cycle Orders">
+    Approach the order board. Press **R** to cycle through active customer tickets. Analyze the list to group items located in similar warehouse zones.
+  </Step>
+  <Step num="2" title="Plan and Retrieve">
+    Navigate to the shelves. Use **E or Left Click** to pick up the required items. If items look similar, use **Right Click or Y** to inspect and verify their names.
+  </Step>
+  <Step num="3" title="Pack the Box">
+    Return to the packing station. Cycle to the correct item using your scroll wheel and press **E or Left Click** to pack it. Drop incorrect items nearby with **Q**.
+  </Step>
+  <Step num="4" title="Load and Reinvest">
+    Carry the completed, sealed box to the delivery truck. Deposit it to secure your Coins, then head straight to the upgrade shop to boost your stats.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verification Tip">
+Mispacking a single item ruins your completion time. Double-check item names like 'Matcha Dumplings' vs 'Salted Butter' using the inspection tool before placing them in the box.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solo vs Co-op Leaderboard Strategies">
+
+Whether you are running the warehouse alone or coordinating with a crew, dividing tasks efficiently prevents duplicated effort and maximizes your output. 
+
+| Team Size | Role Assignments | Key Execution Strategy | Common Mistake to Avoid |
+|---|---|---|---|
+| **1 Player (Solo)** | All-in-One | Batch-collect items from the same shelf zones before returning. | Running back to the box with only one item. |
+| **2 Players** | 1 Runner, 1 Packer | Runner delivers items to the station; Packer verifies and loads. | Both players running to the same shelf. |
+| **3+ Players** | Picker, Packer, Loader | Picker stays at shelves; Packer fills boxes; Loader runs to trucks. | Leaving the packing station empty. |
+
+<Checklist
+  id="leaderboard-prep"
+  title="Leaderboard Run Checklist:"
+  items={[
+    "Memorize the exact shelf locations of high-frequency toys",
+    "Ensure all team members have Speed upgraded to at least Level 3",
+    "Designate a single player to call out active order changes",
+    "Keep the delivery zone clear of dropped, incorrect items"
+  ]}
+/>
+
+<Callout type="info" title="Communication is Key">
+In multiplayer, always call out the customer name (e.g., 'Order for Becca') before grabbing items to prevent teammates from retrieving duplicate products.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Coins and Leveling Progression Guide">
+
+Reinvesting your earnings systematically ensures you never hit a wall. Use this progression guide to transition from a rookie packer to a warehouse master.
+
+| Stage | Gameplay Goal | Active Pocket Strategy | Reinvestment Focus |
+|---|---|---|---|
+| **Starting Runs** | Learn layout & items | Focus on 100% order accuracy | Save all early Coins for Speed |
+| **Mid Game** | Optimize batching | Group nearby shelf items together | Upgrade Carry Capacity & Reach |
+| **Late Game** | Speedrun leaderboards | Unlock active abilities for time saves | Max out remaining core stats |
+
+<Callout type="tip" title="Farming Loop">
+If you are short on Coins, run short, high-density orders. Rapid completions yield faster payouts than struggling solo through massive, multi-item orders.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the pack an order best abilities to unlock first?",
+    answer: "The best abilities are those that boost your movement speed and item retrieval efficiency. Prioritize passive speed boosts and active tools that reduce shelf searching times."
+  },
+  {
+    question: "How do I switch between different customer orders?",
+    answer: "You can cycle through active customer tickets at any time by pressing 'R' on your keyboard."
+  },
+  {
+    question: "What should I do if I pick up the wrong item?",
+    answer: "Press 'Q' to drop the currently held item. It is best to drop it near its original shelf so it does not clutter the packing station."
+  },
+  {
+    question: "Does Carry Capacity affect my movement speed?",
+    answer: "Carrying more items does not inherently slow you down, making Carry Capacity an incredibly strong upgrade for solo players who need to batch-collect."
+  }
+]} />
+
+</Section>

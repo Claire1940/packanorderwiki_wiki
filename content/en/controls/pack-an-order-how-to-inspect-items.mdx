@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pack an Order How to Inspect Items: Warehouse Efficiency Guide",
+  description: "Master item inspection, order management, and shelf navigation in Roblox Pack an Order. Learn how to identify toys quickly and maximize your Coin earnings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/f97316/fff?text=Inspect+Items+Guide",
+  date: "2026-07-11",
+  author: "pack an order Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: Learn **pack an order how to inspect items** using Right Click or the Y button to avoid packing errors.
+- **Workflow Loop**: Read the customer ticket, locate matching shelf items, verify details, pack the box, and load the delivery truck.
+- **Key Upgrades**: Prioritize Speed first, followed by Carry Capacity for solo runs and Reach for team coordination.
+- **Error Prevention**: Press Q to drop incorrect items near their original shelves instead of cluttering your packing station.
+</Callout>
+
+<Section icon={Map} title="Mastering Item Inspection and Order Workflows">
+
+In the fast-paced warehouse environment of Roblox Pack an Order, accuracy is just as important as speed. When the conveyor belts start moving and several customer tickets pile up, grabbing the wrong product can stall your entire operation. Learning **pack an order how to inspect items** is the single most effective way to prevent packing errors, safeguard your completion times, and secure your place on the global leaderboards.
+
+When similar-looking toys or products are placed close together on the warehouse shelves, a quick verification prevents you from loading incorrect items. The basic workflow requires you to balance observation with physical movement.
+
+| Step | Phase | Core Action | Interaction Input |
+| :--- | :--- | :--- | :--- |
+| 1 | Reading | Review active customer ticket | Press R to cycle |
+| 2 | Locating | Navigate to designated shelf zone | WASD / Left Stick |
+| 3 | Verification | Check product details and names | Right Click / Y Button |
+| 4 | Collection | Pick up the correct product | E / Left Click |
+| 5 | Packing | Place item in the active order box | E / Left Click |
+
+<Callout type="tip" title="Pro Tip: Spot the Differences">
+Always inspect items when dealing with products that share similar shapes or color schemes, such as different flavors of dumplings or similarly colored squishy toys. A split-second check saves you from the time-consuming process of clearing an incorrect box.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Inspecting and Packing">
+
+To maintain a flawless packing streak, you must integrate item verification into your muscle memory. This step-by-step sequence ensures you handle every customer box with professional efficiency.
+
+<Steps>
+  <Step num="1" title="Cycle and Select Your Target Order">
+    Before leaving the packing area, check your active tickets. Press R to cycle through available customer orders. Identify the exact items and quantities required before you make a run to the shelves.
+  </Step>
+  <Step num="2" title="Locate and Inspect the Shelf Items">
+    Walk to the designated warehouse shelf. Before picking up the product, hover your reticle over it and use Right Click (PC) or the Y button (Gamepad) to inspect the item. This action displays the exact name of the item.
+  </Step>
+  <Step num="3" title="Collect and Manage Your Inventory">
+    Press E or Left Click to collect the verified item. If you have upgraded your Carry Capacity, you can hold multiple items. Use your mouse scroll wheel to cycle through your carried items so the correct toy is active.
+  </Step>
+  <Step num="4" title="Pack the Box and Load the Truck">
+    Return to your packing station, select the correct carried item, and press E or Left Click to place it in the box. Once the checklist on the order ticket is fully complete, carry the finished box to the delivery truck to claim your Coins.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Efficiency Boost">
+If you accidentally pick up an incorrect product, do not carry it all the way to the packing station. Press Q immediately to drop the item near its original shelf, keeping your hands and your packing area completely clear of clutter.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Core Upgrades and Ability Progression">
+
+Reinvesting your hard-earned Coins into the right upgrades will directly improve how quickly you can navigate shelves, inspect products, and complete orders. The game features three core statistics that can be permanently upgraded at the warehouse shop.
+
+<CardGrid cols={3}>
+  <Card title="Speed Upgrade">
+    - **Universal Utility**: Reduces travel time between distant shelves and packing stations.
+    - **Solo Priority**: High.
+    - **Team Priority**: High.
+  </Card>
+  <Card title="Carry Capacity">
+    - **Multi-Item Runs**: Allows you to collect several requested products during a single trip.
+    - **Solo Priority**: High.
+    - **Team Priority**: Medium.
+  </Card>
+  <Card title="Reach Upgrade">
+    - **Distant Interaction**: Pick up and pack items from a greater distance.
+    - **Solo Priority**: Medium.
+    - **Team Priority**: High.
+  </Card>
+</CardGrid>
+
+To spend your Coins efficiently, follow a progression path tailored to your specific playstyle.
+
+| Player Setup | Recommended Upgrade Path | Primary Focus |
+| :--- | :--- | :--- |
+| Solo Player | Speed → Carry Capacity → Reach | Minimizing return trips to the packing station |
+| Co-op Team | Speed → Reach → Carry Capacity | Rapid shelf collection and specialized roles |
+
+<Callout type="warning" title="Watch Your Inventory">
+When carrying multiple items, always verify which product is currently selected in your hand before pressing the pack button. Packing a mismatched item by mistake will force you to restart the box checklist.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Co-op Roles and Leaderboard Strategies">
+
+While solo runs are excellent for learning the warehouse layout, coordinated multiplayer teams can achieve incredibly fast completion times. Dividing responsibilities prevents players from running to the same shelves or collecting duplicate products.
+
+<Checklist
+  id="co-op-roles"
+  title="Essential Team Responsibilities:"
+  items={[
+    "Assign one dedicated Picker to search shelves and fetch items",
+    "Assign one dedicated Packer to verify, inspect, and fill boxes",
+    "Assign one Loader to transport completed boxes to the delivery truck",
+    "Communicate active customer names and order numbers before moving",
+    "Use R to cycle through backlogged orders and prevent duplicate collections"
+  ]}
+/>
+
+| Team Size | Role Assignments | Key Communication Tip |
+| :--- | :--- | :--- |
+| 2 Players | 1 Collector / 1 Packer & Loader | Call out active shelf zones |
+| 3 Players | 1 Picker / 1 Packer / 1 Loader | Announce completed checklist items |
+| Solo | All roles handled by one worker | Plan routes to collect nearby items together |
+
+<Callout type="info" title="Leaderboard Tip">
+On high-level leaderboard runs, the Packer should stand directly at the shipping station. The Picker should drop items on the floor near the Packer, allowing the Packer to inspect and box them without either player wasting movement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I inspect items on different platforms in Pack an Order?",
+    answer: "On PC, hover your cursor over the item and Right Click. On console or gamepad, focus on the item and press the Y button. This displays the product name to ensure it matches your order ticket."
+  },
+  {
+    question: "What should I do if I pack an incorrect item by mistake?",
+    answer: "If an incorrect item is placed in the box, you must clear the mistake. To prevent this, always inspect similar-looking toys before picking them up, and use Q to drop unwanted items on the floor."
+  },
+  {
+    question: "How do I switch between multiple items when my inventory is full?",
+    answer: "Use your mouse scroll wheel on PC, or the designated bumper buttons on your gamepad, to cycle through your carried items. Ensure the correct item is selected in your hand before interacting with the box."
+  },
+  {
+    question: "Which upgrade should I purchase first to get faster completion times?",
+    answer: "Speed is the best overall upgrade for both solo and co-op players. Upgrading your movement speed reduces the time spent traveling between the shelves, the packing station, and the delivery truck."
+  }
+]} />
+
+</Section>

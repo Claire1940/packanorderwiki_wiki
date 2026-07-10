@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Itens de Pack an Order: Localização nas Prateleiras e Guia de Embalagem",
+  description: "Domine o armazém em Pack an Order! Aprenda a encontrar itens nas prateleiras, verificar pedidos, gerenciar inventário e otimizar suas rotas de embalagem.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Pack+An+Order+Items+Guide",
+  date: "2026-07-11",
+  author: "Equipe da Wiki de Pack an Order"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Itens do pedido**: Combine os nomes e cores dos brinquedos com precisão para evitar erros no pedido.
+- **Mecânica de verificação**: Use o Botão Direito ou o botão Y para inspecionar os itens antes de embalar.
+- **Melhor progressão**: Reinvista suas Moedas iniciais em melhorias permanentes de Velocidade do personagem.
+- **Gerenciamento de inventário**: Use a roda do mouse (scroll) para alternar entre vários itens carregados.
+- **Coordenação de equipe**: Divida as funções entre Coletores, Embaladores e Carregadores para dominar os placares.
+</Callout>
+
+<Section icon={Map} title="Como Embalar os Itens de um Pedido Corretamente">
+
+Gerenciar o fluxo de trabalho do armazém em **Pack an Order** exige velocidade, precisão e percepção espacial. Para completar os pedidos dos clientes, você deve navegar pelas prateleiras do armazém, identificar os brinquedos solicitados, embalá-los nas caixas de envio corretas e carregá-los nos caminhões de entrega. Deixar de verificar os detalhes do item pode levar a caixas trocadas e desperdício de tempo no cronômetro.
+
+**Destaques do Vídeo:**
+- Passo a passo do ciclo básico de envio no armazém.
+- Localizações visuais dos brinquedos iniciais comuns nas prateleiras.
+- Demonstração de como alternar entre vários pedidos e itens.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Jogabilidade de Pack an Order Roblox" />
+
+| Fase | Ação Principal | Controle Principal | Dica de Eficiência |
+|---|---|---|---|
+| **1. Revisão** | Ler o ticket do cliente ativo | Pressione **R** para alternar | Planeje sua rota de prateleiras antes de sair da área de embalagem |
+| **2. Localizar** | Encontrar brinquedos correspondentes | WASD / Analógico Esquerdo | Agrupe itens próximos para minimizar viagens de retorno |
+| **3. Verificar** | Inspecionar produtos semelhantes | Botão Direito / **Y** | Verifique os nomes dos itens quando as cores ou formas forem parecidas |
+| **4. Coletar** | Pegar os itens corretos | Botão Esquerdo / **E** | Melhore a Capacidade de Carga para segurar mais itens de uma vez |
+| **5. Embalar** | Colocar itens na caixa do pedido | Botão Esquerdo / **E** | Use **Q** para soltar qualquer item coletado acidentalmente |
+| **6. Entregar** | Carregar caixa pronta no caminhão | Botão Esquerdo / **E** | Mantenha a zona de carregamento livre para evitar atrasos no envio |
+
+<Callout type="tip" title="Dica Profissional de Embalagem">
+Sempre pressione **R** para alternar entre seus tickets de clientes ativos enquanto estiver nas prateleiras. Isso permite que você pegue itens para vários pedidos em uma única viagem, reduzindo drasticamente seu tempo total de deslocamento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Diretório e Identificação de Itens nas Prateleiras">
+
+O armazém está repleto de vários brinquedos, itens colecionáveis e lanches. Alguns itens parecem incrivelmente semelhantes à primeira vista, tornando a identificação cuidadosa essencial. Abaixo está um diretório de referência de **itens de Pack an Order** confirmados que você encontrará durante seus turnos.
+
+| Nome do Item | Descrição Visual | Localização na Prateleira | Riscos Comuns de Confusão |
+|---|---|---|---|
+| **Red Squishy** | Vermelho brilhante, textura macia | Prateleiras de Brinquedos Frontais | Não confunda com brinquedos rosa ou laranja |
+| **Matcha Dumpling** | Forma redonda pequena, verde claro | Seção de Comida Central | Facilmente confundido com brinquedos de blocos verdes |
+| **Clicker** | Pequeno dispositivo plástico de mão | Rack de Eletrônicos | O tamanho pequeno facilita passar despercebido |
+| **Salted Butter** | Embalagem de bloco retangular amarelo | Prateleira da Despensa ao Fundo | Parece semelhante a blocos de brinquedo amarelos |
+
+<CardGrid cols={2}>
+  <Card title="Leia o Ticket com Atenção">
+    Os tickets dos clientes exibem o nome do comprador, número do pedido, nomes dos produtos e quantidades exatas. Sempre verifique a lista antes de embalar.
+  </Card>
+  <Card title="Inspecione Antes de Embalar">
+    Se dois itens parecerem idênticos na prateleira, use a ação **Inspecionar** para exibir o nome real do item e evitar erros de embalagem.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cuidado com as Quantidades">
+Uma única linha de pedido pode solicitar várias quantidades do mesmo item (ex: 3x Salted Butter). Embalar apenas um não completará a lista, e o caminhão de entrega não aceitará a caixa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rota de Progressão Passo a Passo no Armazém">
+
+Para maximizar seus ganhos de Moedas e desbloquear habilidades avançadas, você deve otimizar seu processo de embalagem. Siga esta rota de progressão passo a passo para otimizar sua eficiência no armazém.
+
+<Steps>
+  <Step num="1" title="Memorize o Layout das Prateleiras">
+    Gaste suas primeiras rodadas aprendendo onde categorias específicas são armazenadas. Comida, eletrônicos e pelúcias são agrupados em zonas dedicadas do armazém.
+  </Step>
+  <Step num="2" title="Domine o Ciclo de Itens">
+    Ao carregar vários itens, use a roda do mouse para alternar pelo seu inventário. Isso garante que você embale o item correto que está destacado no ticket ativo.
+  </Step>
+  <Step num="3" title="Reinvista em Melhorias Principais">
+    Não acumule suas Moedas no início. Gaste-as imediatamente em melhorias de atributos permanentes para aumentar sua velocidade de movimento e alcance físico.
+  </Step>
+  <Step num="4" title="Utilize Habilidades Desbloqueáveis">
+    Uma vez desbloqueadas, equipe habilidades que foquem no seu maior gargalo, seja busca mais rápida nas prateleiras, maiores limites de carga ou assistências de embalagem automatizadas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estratégia de Ciclo de Farm">
+O ciclo de farm solo mais eficiente é: Ler Ticket → Pegar 3 itens correspondentes → Embalar → Carregar Caminhão → Reinvestir Moedas em **Velocidade**. Velocidade é o atributo mais importante para reduzir o tempo de deslocamento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparação das Melhores Melhorias Principais">
+
+As moedas ganhas com pedidos enviados com sucesso devem ser gastas na melhoria do seu trabalhador. Existem três melhorias principais disponíveis no armazém. Escolher o caminho de melhoria certo depende se você joga solo ou em uma equipe coordenada.
+
+| Melhoria | Efeito Primário | Prioridade Solo | Prioridade Equipe | Melhor Usado Para |
+|---|---|---|---|---|
+| **Velocidade** | Aumenta a velocidade de movimento | **1ª** | **1ª** | Reduzir o tempo de viagem entre prateleiras distantes e caminhões |
+| **Capacidade de Carga** | Aumenta o máximo de itens carregados | **2ª** | **3ª** | Finalizar pedidos complexos de vários itens em uma única viagem |
+| **Alcance** | Estende a distância de interação | **3ª** | **2ª** | Coleta rápida em prateleiras e embalagem à distância |
+
+<CardGrid cols={3}>
+  <Card title="Melhoria de Velocidade">
+    - Benefício universal para todos os modos
+    - Reduz o tempo de inatividade em viagens
+    - Altamente recomendado maximizar primeiro
+  </Card>
+  <Card title="Capacidade de Carga">
+    - Vital para jogadores solo
+    - Reduz viagens repetidas
+    - Alterne itens com a roda do mouse
+  </Card>
+  <Card title="Melhoria de Alcance">
+    - Excelente para jogo em equipe
+    - Pegue itens por cima de obstáculos
+    - Acelera a entrega na estação de embalagem
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Recomendação de Caminho de Melhoria">
+Para jogadores solo, siga o caminho **Velocidade → Capacidade de Carga → Alcance**. Para equipes multijogador coordenadas, dividam as funções e façam com que os corredores foquem em **Velocidade → Alcance → Capacidade de Carga**.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Funções Cooperativas e Marcos do Placar">
+
+Coordenar com amigos permite que você divida o trabalho do armazém e domine os placares de velocidade. Atribuir funções dedicadas evita que os jogadores dupliquem o trabalho ou coletem os itens errados.
+
+<Checklist
+  id="coop-roles"
+  title="Funções Cooperativas Essenciais para Atribuir:"
+  items={[
+    "Coletor (Picker): Permanece nos corredores das prateleiras para localizar e lançar os itens solicitados.",
+    "Embalador (Packer): Fica na estação de embalagem, combina itens com os tickets e enche as caixas.",
+    "Carregador (Loader): Pega as caixas finalizadas da estação de embalagem e as carrega nos caminhões de entrega.",
+    "Corredor (Runner): Alterna entre funções e busca itens de emergência quando os tickets de pedido mudam."
+  ]}
+/>
+
+| Tamanho da Equipe | Estratégia Recomendada | Erro Comum a Evitar |
+|---|---|---|
+| **Solo** | Use alta Capacidade de Carga para pegar pedidos inteiros em uma viagem | Voltar para a caixa com apenas um item de cada vez |
+| **2 Jogadores** | Um Coletor dedicado, um Embalador/Carregador dedicado | Ambos os jogadores correndo para a mesma prateleira pelo mesmo item |
+| **3+ Jogadores** | Divida as prateleiras por zonas; Embalador pede itens por voz/chat | Deixar caixas prontas paradas na estação sem serem carregadas |
+
+<Callout type="warning" title="Evite Embalagem Duplicada">
+Se dois jogadores embalarem o mesmo item na mesma caixa, o item extra é desperdiçado e não pode ser recuperado. Comunique-se claramente ou atribua pedidos específicos a jogadores individuais para evitar desperdício de inventário.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes (FAQ) de Pack an Order">
+
+<FAQ items={[
+  {
+    question: "Como encontro itens específicos de Pack an Order nas prateleiras?",
+    answer: "Os itens são agrupados por categoria (brinquedos, lanches, eletrônicos) em prateleiras dedicadas. Gaste suas primeiras partidas explorando o layout do armazém para memorizar onde essas categorias estão localizadas."
+  },
+  {
+    question: "O que devo fazer se pegar o item errado?",
+    answer: "Pressione Q no seu teclado para soltar o item que está segurando no momento. É melhor soltar itens incorretos perto de suas prateleiras originais para não bagunçar a área de embalagem."
+  },
+  {
+    question: "Existem códigos ativos para Pack an Order?",
+    answer: "Atualmente não há um sistema oficial de resgate de códigos ou códigos ativos listados na descrição do jogo. Se os desenvolvedores adicionarem um menu de códigos em uma atualização futura, as recompensas como Moedas grátis serão rastreadas aqui."
+  },
+  {
+    question: "Por que não consigo carregar a caixa pronta no caminhão de entrega?",
+    answer: "Certifique-se de que todas as quantidades de itens no ticket do cliente ativo foram totalmente marcadas. Se faltar apenas um item ou houver um item incorreto, o caminhão rejeitará a caixa."
+  }
+]} />
+
+</Section>

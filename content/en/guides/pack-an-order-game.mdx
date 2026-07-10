@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pack an Order Game: Best Upgrades & Beginner Warehouse Guide",
+  description: "Master the pack an order game on Roblox. Learn item locations, optimal upgrade paths, co-op strategies, and how to complete delivery routes fast.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Pack+An+Order+Guide",
+  date: "2026-07-11",
+  author: "pack an order Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Loop**: Find requested toys on warehouse shelves, pack them into order boxes, and load delivery trucks.
+- **Primary Upgrades**: Prioritize **Speed** first to reduce travel times, followed by **Carry Capacity** and **Reach**.
+- **Co-op Strategy**: Divide roles between Pickers, Packers, and Loaders to maximize efficiency and dominate leaderboards.
+- **Controls**: Master **E/Left Click** to pack, **R** to cycle orders, and **Scroll Wheel** to cycle carried items.
+</Callout>
+
+<Section icon={Map} title="How to Play Pack an Order Game: Beginner Workflow">
+
+The **pack an order game** on Roblox is a fast-paced, collaborative warehouse simulation where efficiency is key. Whether playing solo or with a team, your main objective is to fulfill customer tickets accurately before the timer runs out. Completing orders rewards you with Coins, which are reinvested into character upgrades to complete future runs even faster.
+
+| Step | Action | Key Control | Pro Tip |
+|------|--------|-------------|---------|
+| 1 | Read Ticket | Press R to Cycle | Group orders by shelf proximity |
+| 2 | Collect Items | E / Left Click | Carry multiple items to save trips |
+| 3 | Verify Toys | Right Click / Y | Inspect similar shapes or colors |
+| 4 | Pack Box | E / Left Click | Drop wrong items with Q near shelves |
+| 5 | Load Truck | Drag to Truck | Keep loading zones clear of clutter |
+
+To help you get started, we have mapped out the complete step-by-step warehouse pipeline below.
+
+<Steps>
+  <Step num="1" title="Select Your Game Mode">
+    Choose between Solo or Multiplayer. Playing with friends is highly recommended as you can divide the warehouse sections to avoid backtracking.
+  </Step>
+  <Step num="2" title="Analyze the Customer Ticket">
+    Check the active order ticket on your screen. It lists the customer name, order number, required items, and exact quantities. Press **R** to cycle through available orders to find the most efficient route.
+  </Step>
+  <Step num="3" title="Locate and Retrieve Items">
+    Navigate through the warehouse shelves to find the requested toys. Memorizing the general layout of the warehouse is the fastest way to drop your run times.
+  </Step>
+  <Step num="4" title="Pack and Deliver">
+    Bring the collected items to the packing station. Press **E** to place them in the box. Once the checklist is complete, grab the sealed box and load it onto the delivery truck to claim your Coins.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Warehouse Layout Tip">
+Spend your first few solo runs simply walking the aisles. Knowing exactly where items like the Matcha Dumpling or Red Squishy sit on the shelves will save you more time than any early-game upgrade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Upgrades and Progression Priority">
+
+Reinvesting your hard-earned Coins into the right upgrades is essential for climbing the leaderboards. The game features three core upgrades: **Speed**, **Carry Capacity**, and **Reach**. Balancing these stats based on your playstyle (Solo vs. Co-op) determines how quickly you can scale your warehouse operations.
+
+<CardGrid cols={3}>
+  <Card title="Speed Upgrade">
+    - **Universal utility** for all runs
+    - Reduces travel time between shelves
+    - **Priority #1** for both Solo and Teams
+  </Card>
+  <Card title="Carry Capacity">
+    - Carry more items at once
+    - Cycle items with the Scroll Wheel
+    - **Priority #2** for Solo players
+  </Card>
+  <Card title="Reach Upgrade">
+    - Grab items from further away
+    - Speeds up packing station interactions
+    - **Priority #2** for Co-op teams
+  </Card>
+</CardGrid>
+
+To maximize your Coin efficiency, use the recommended upgrade progression paths outlined in the table below.
+
+| Playstyle | Upgrade Priority Path | Reasoning |
+|-----------|-----------------------|-----------|
+| **Solo Player** | Speed → Carry Capacity → Reach | Solo runs require massive backtracking; carrying more items per trip is vital. |
+| **Co-op Team** | Speed → Reach → Carry Capacity | Teams can divide shelves, making high interaction reach more valuable than inventory size. |
+| **Speedrunner** | Speed Max → Reach Max → Capacity | Minimizes movement frames and allows instant pickups from the main aisle. |
+
+<Callout type="success" title="Ability System Unlock">
+As you level up, you will unlock specialized Abilities. Always equip abilities that supplement your weakest stat. For example, if you have not upgraded Carry Capacity, use a transport-boosting ability to compensate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering the Controls and Item Verification">
+
+In the **pack an order game**, speed means nothing if you pack incorrect items. A single wrong item can ruin your completion time. Utilizing the built-in inspection controls guarantees a 100% accuracy rate.
+
+| Input Key | Action | Practical Warehouse Application |
+|-----------|--------|---------------------------------|
+| **E / Left Click** | Pick up / Pack | Primary interaction key for shelves and boxes. |
+| **Q** | Drop Item | Use this to discard wrong items near their original shelves. |
+| **R** | Cycle Orders | Switch active tickets to gather items for multiple orders. |
+| **Scroll Wheel** | Cycle Inventory | Switch your active held item before approaching the box. |
+| **Right Click / Y** | Inspect Item | Zoom in on an item to confirm its name and color. |
+
+<Callout type="warning" title="Watch Out for Lookalikes">
+Several toys share highly similar shapes but have different names or colors. Always use **Right Click** or **Y** to inspect items if you are uncertain. Packing a wrong item forces you to waste time sorting the box.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Co-op Roles and Leaderboard Strategies">
+
+Coordinating a multiplayer crew is the ultimate way to achieve top-tier leaderboard times. Instead of having every player run aimlessly around the warehouse, assigning dedicated roles prevents duplicated work and keeps the delivery trucks moving constantly.
+
+| Role | Primary Responsibility | Best Upgrade Focus | Key Actions |
+|------|------------------------|--------------------|-------------|
+| **Picker** | Retrieve items from shelves | Speed, Carry Capacity | Drops items near packing stations |
+| **Packer** | Verify tickets and fill boxes | Reach, Speed | Cycles orders, manages inventory |
+| **Loader** | Move finished boxes to trucks | Speed | Keeps the loading dock clear |
+
+Use this checklist to ensure your team is operating at peak efficiency before starting a high-score attempt:
+
+<Checklist
+  id="coop-readiness"
+  title="Pre-Run Team Checklist:"
+  items={[
+    "Assign distinct warehouse zones to each Picker",
+    "Ensure the Packer is calling out active ticket requirements",
+    "Have Pickers drop items on the floor near the Packer to avoid bottlenecking",
+    "Upgrade everyone's Speed to at least Level 3 before attempting leaderboard runs"
+  ]}
+/>
+
+<Callout type="info" title="Communication is Key">
+Use the in-game chat or voice comms to report completed quantities. If a Picker knows a teammate already grabbed the required "Matcha Dumplings," they can immediately pivot to the next order item.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ: Pack an Order Game Guide">
+
+<FAQ items={[
+  {
+    question: "Are there active promo codes for the pack an order game on Roblox?",
+    answer: "Currently, there is no active code redemption system or working codes listed in the official Roblox game description. Check the developer community group 'lost to pc to game' for future updates."
+  },
+  {
+    question: "What is the fastest way to earn Coins in the game?",
+    answer: "The fastest way to farm Coins is to play in a 2-to-3 player team. Dividing the tasks of picking, packing, and loading allows you to complete orders in a fraction of the time compared to solo play."
+  },
+  {
+    question: "How do I deal with carrying the wrong item?",
+    answer: "Simply press Q to drop the item. It is best to drop it near its original shelf so other players do not confuse it with active order items later."
+  },
+  {
+    question: "Does the game support mobile or controller inputs?",
+    answer: "Yes! The game is fully optimized for mobile and console play. Mobile players can use on-screen tap targets, and controller players can use the Y button to inspect items."
+  }
+]} />
+
+</Section>

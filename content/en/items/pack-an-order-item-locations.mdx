@@ -1,0 +1,168 @@
+import { Map, Target, Trophy, Swords, Sparkles, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pack an Order Item Locations: Shelf Layout & Finding Guide",
+  description: "Master the warehouse in Pack an Order! Learn all item locations, shelf layouts, and identification tips to complete orders faster in this 2026 guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/f97316/fff?text=Item+Locations+Guide",
+  date: "2026-07-11",
+  author: "pack an order Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pack an order item locations** are categorized into distinct warehouse zones including Toys, Food, and Utility sections.
+- **Visual inspection** using Right Click or the Y button is critical for distinguishing between similar items like different dumpling types.
+- **Order cycling** with the R key allows you to plan your route through the shelves before you start picking.
+- **Upgrade priorities** should focus on Speed first to reduce travel time between distant shelf locations.
+- **Multi-carrying** is enabled by the Carry Capacity upgrade, allowing you to clear an entire aisle in one trip.
+</Callout>
+
+<Section icon={Map} title="Mastering the Warehouse Layout">
+
+Navigating the warehouse efficiently is the foundation of success in Pack an Order! The environment is designed to challenge your spatial memory, with items spread across various aisles and shelving units. To maximize your efficiency, you must treat the warehouse as a grid. Most beginners waste time by running back and forth between the packing station and the shelves for every single item. Instead, veteran players memorize the **pack an order item locations** to group their collection routes.
+
+The warehouse is generally divided into color-coded or themed sections. Toys are often located in the central aisles, while food items and heavy utility goods are positioned toward the perimeter. Understanding these zones allows you to "batch" your work—picking up everything needed for an order in one circular sweep rather than multiple linear trips.
+
+| Warehouse Zone | Primary Item Types | Distance from Packing | Navigation Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Central Aisle** | Toys, Small Electronics | Short | Low |
+| **Perimeter Shelves** | Food, Bulk Goods | Medium | Medium |
+| **Back Storage** | Rare Items, Utility | Long | High |
+| **Loading Dock** | Empty Boxes, Tape | Variable | Low |
+
+<Callout type="tip" title="Spatial Awareness Tip">
+Before starting a run, stand at the packing station and press R to cycle through all active orders. This gives you a mental checklist of which aisles you need to visit, preventing redundant trips to the same shelf.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Item Identification and Matching Strategies">
+
+In the heat of a timed order, many items can look identical at a glance. Pack an Order! uses subtle visual differences to distinguish between products. For example, a "Red Squishy" and a "Crimson Stress Ball" might look similar from a distance, but their labels and shapes differ upon closer inspection. Learning to identify items without relying solely on the "Inspect" button will significantly improve your leaderboard times.
+
+The game requires you to match names and quantities exactly. If an order asks for three "Matcha Dumplings," bringing two dumplings and one "Salted Butter" will stall the packing process. You must be precise. Below is a reference for common items found in the current 2026 version of the warehouse.
+
+| Item Name | Category | Visual Characteristics | Common Location |
+| :--- | :--- | :--- | :--- |
+| **Red Squishy** | Toy | Bright red, soft texture | Aisle 1 (Lower Shelf) |
+| **Matcha Dumpling** | Food | Green packaging, small size | Food Section (North) |
+| **Clicker** | Electronic | Small, handheld, metallic | Aisle 2 (Middle Shelf) |
+| **Salted Butter** | Food | Yellow wrap, rectangular | Food Section (South) |
+| **Blue Car** | Toy | Miniature vehicle, plastic | Aisle 1 (Upper Shelf) |
+
+<Callout type="warning" title="Accuracy Warning">
+Packing the wrong item into a box doesn't just waste time; it requires you to manually remove or drop the item (Q key), which can clutter your workspace and confuse teammates in co-op mode.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step: Optimized Picking Route">
+
+To achieve the fastest possible completion times, you need a standardized workflow. This "Search & Pack" method is used by top-tier players to maintain a high "Coins Per Minute" (CPM) ratio. By following a specific sequence, you minimize the "idle time" where you are moving without an item in your hands.
+
+<Steps>
+  <Step num="1" title="Review the Ticket">
+    Examine the customer order ticket at the packing station. Note the specific quantities for each item to avoid making extra trips for missed units.
+  </Step>
+  <Step num="2" title="Group by Proximity">
+    Identify which **pack an order item locations** are closest to each other. If you need two toys from Aisle 1 and one food item from the back, go to Aisle 1 first.
+  </Step>
+  <Step num="3" title="Batch Collection">
+    Use your Carry Capacity to grab multiple items. Use the scroll wheel to cycle through your inventory as you pick them up to ensure you don't accidentally drop something you need.
+  </Step>
+  <Step num="4" title="Verification & Packing">
+    Return to the packing station. Use Right Click or the Y button to verify the item name one last time before pressing E to pack it into the box.
+  </Step>
+  <Step num="5" title="Final Loading">
+    Once the box is sealed, immediately transport it to the delivery truck. Do not wait to start the next order; the truck loading is the final step of the "active" workflow.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Efficiency Bonus">
+In multiplayer, have one player stay at the packing station as the "Packer" while the other two act as "Runners." The Packer can call out item locations to the Runners, significantly reducing search time.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Upgrades to Enhance Item Discovery">
+
+As you earn Coins, you can invest in worker upgrades that directly impact how you interact with item locations. While "Speed" is the most obvious choice, "Reach" and "Carry Capacity" offer tactical advantages that change how you navigate the warehouse. For example, high Reach allows you to grab items from the top shelves without having to jump or reposition your character perfectly.
+
+<CardGrid cols={3}>
+  <Card title="Speed Upgrade">
+    - **Movement Velocity**: Increases base walking speed.
+    - **Best For**: Large warehouses and solo play.
+    - **Impact**: Reduces travel time between distant aisles by up to 40%.
+  </Card>
+  <Card title="Carry Capacity">
+    - **Inventory Size**: Hold more items simultaneously.
+    - **Best For**: High-quantity orders (e.g., 5+ of one item).
+    - **Impact**: Allows for "one-trip" completions of complex orders.
+  </Card>
+  <Card title="Reach Upgrade">
+    - **Interaction Range**: Grabs items from further away.
+    - **Best For**: Tight corners and high shelving units.
+    - **Impact**: Minimizes micro-movements needed to align with a product.
+  </Card>
+</CardGrid>
+
+| Upgrade Level | Speed Cost | Carry Cost | Reach Cost |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | 100 Coins | 150 Coins | 100 Coins |
+| **Level 2** | 250 Coins | 400 Coins | 250 Coins |
+| **Level 3** | 600 Coins | 900 Coins | 500 Coins |
+| **Level 4** | 1,500 Coins | 2,200 Coins | 1,200 Coins |
+
+<Callout type="info" title="Upgrade Strategy">
+The most balanced path for new players is **Speed 1 → Carry 1 → Speed 2 → Reach 1**. This ensures you aren't too slow, but you also aren't making three trips for a single order.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Master Checklist and FAQ">
+
+To become a warehouse pro, you should aim to clear these milestones. These goals are designed to test your knowledge of **pack an order item locations** and your ability to manage multiple tasks under pressure.
+
+<Checklist
+  id="warehouse-mastery"
+  title="Warehouse Professional Goals:"
+  items={[
+    "Memorize the location of the Top 10 most common items",
+    "Complete a 5-item order in under 45 seconds solo",
+    "Reach Level 3 in all core upgrades (Speed, Carry, Reach)",
+    "Successfully use the 'Inspect' tool to catch a wrong item before packing",
+    "Finish a co-op session with zero incorrect items packed"
+  ]}
+/>
+
+<Callout type="tip" title="Final Pro Tip">
+Items on the very top shelves are often the ones players forget. If you can't find an item at eye level, look up! The Reach upgrade is your best friend for these "hidden" locations.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What should I do if I can't find a specific item location?",
+    answer: "First, check the warehouse signage at the end of each aisle. If it's a food item, head to the perimeter. If it's a toy, check the central numbered aisles. Remember that some items are on the very top or bottom shelves, requiring you to adjust your camera angle."
+  },
+  {
+    question: "How do I handle similar-looking items in Pack an Order?",
+    answer: "The 'Inspect' mechanic (Right Click or Y) is your most reliable tool. It displays the exact name of the item you are looking at. Use this whenever you are in the Food section, as many packages have similar color schemes."
+  },
+  {
+    question: "Is it better to upgrade Speed or Carry Capacity first?",
+    answer: "Speed is generally better for the very first upgrade because it helps with every single order. Carry Capacity becomes more valuable once you start receiving orders that require 3 or more of the same item."
+  },
+  {
+    question: "Does the warehouse layout change between games?",
+    answer: "In the current version, the general aisle structure remains consistent, but the specific 'pack an order item locations' for rare items may shift slightly between updates to keep the gameplay fresh. Always check the aisle headers."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pedidos Ativos no Pack an Order: Guia de Rotas e Embalagem Eficiente",
+  description: "Domine os pedidos ativos no Pack an Order com nosso guia sobre alternância de tíquetes, navegação pelas prateleiras e melhorias no armazém para melhorar seus tempos no placar de líderes do Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f97316/fff?text=Active+Orders+Guide",
+  date: "2026-07-11",
+  author: "Equipe do Wiki Pack an Order"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Pedidos ativos no Pack an Order**: Use a **tecla R** para alternar entre múltiplos tíquetes de clientes e planejar rotas eficientes pelas prateleiras.
+- **Mecânicas Centrais**: Combine exatamente os nomes e quantidades dos brinquedos solicitados antes de carregar o caminhão de entrega.
+- **Prioridade de Melhoria**: Foque primeiro na **Velocidade de Movimento** para reduzir o tempo de viagem entre prateleiras distantes do armazém.
+- **Verificação**: Use o **Botão Direito** ou a **tecla Y** para inspecionar itens, evitando que produtos incorretos atrasem o seu fluxo de trabalho.
+- **Estratégia Co-op**: Divida as funções entre Coletores (Pickers) e Embaladores (Packers) para maximizar os ganhos de moedas por sessão.
+</Callout>
+
+<Section icon={Target} title="Dominando os Pedidos Ativos e Tíquetes no Pack an Order">
+
+Entender como gerenciar os **pedidos ativos no Pack an Order** é a base para se tornar um funcionário de armazém de elite neste simulador do Roblox. Cada solicitação de cliente é gerada como um tíquete digital que aparece na sua tela, detalhando brinquedos específicos, quantidades e o nome do cliente. Em um ambiente acelerado, simplesmente pegar o primeiro item que você vê é ineficiente. Em vez disso, você deve aprender a ler os dados do tíquete e priorizar seu movimento com base na proximidade das prateleiras.
+
+**Destaques do Vídeo:**
+- Visão geral do layout do armazém e organização das prateleiras.
+- Como usar as teclas de interação para coleta e embalagem.
+- Demonstração da diferença entre rotas de embalagem solo e em equipe.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Pack an Order Roblox Gameplay" />
+
+Ao lidar com múltiplas tarefas, a habilidade de alternar pela sua fila é vital. O jogo permite que você segure várias solicitações pendentes ao mesmo tempo. Ao alternar entre elas, você pode identificar se dois clientes diferentes precisam do mesmo item, como "Matcha Dumplings" ou "Red Squishies", permitindo que você os colete em uma única viagem até aquela zona específica de prateleiras.
+
+| Elemento do Tíquete | Descrição | Utilidade Prática |
+| :--- | :--- | :--- |
+| **Número do Pedido** | ID único para a solicitação atual do cliente | Ajuda a acompanhar o progresso durante sessões longas |
+| **Nome do Cliente** | O NPC ou jogador que receberá o pacote | Usado para identificação na doca de carregamento |
+| **Lista de Itens** | Lista de brinquedos e quantidades necessárias | Referência principal para busca nas prateleiras |
+| **Rastreador de Qtd.** | Mostra itens embalados vs itens solicitados | Evita excesso de embalagem ou itens faltantes |
+| **Tecla de Alternar (R)** | Alterna entre diferentes tíquetes ativos | Essencial para planejar rotas de múltiplos pedidos |
+
+<Callout type="tip" title="Segredo de Eficiência">
+Sempre verifique sua lista completa de **pedidos ativos no Pack an Order** antes de sair da estação de embalagem. Se três pedidos diferentes exigirem itens da prateleira do fundo à esquerda, você poderá coletar todos eles em uma única viagem se sua Capacidade de Carga estiver melhorada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Fluxo de Trabalho Passo a Passo no Armazém">
+
+O sucesso no armazém depende de um fluxo de trabalho lógico e repetível. Os iniciantes costumam sofrer com a síndrome do "vai e vem", onde correm para uma prateleira para pegar um item, voltam para embalá-lo e só então percebem que precisam de outro item da mesma prateleira. Seguir um processo estruturado reduz o tempo ocioso e aumenta o seu rendimento de Moedas por hora.
+
+<Steps>
+  <Step num="1" title="Analise o Tíquete Ativo">
+    Abra seu pedido atual e memorize os itens. Procure por palavras-chave específicas como "Clicker" ou "Salted Butter". Se tiver vários pedidos, alterne entre eles para encontrar localizações de prateleiras que se sobreponham.
+  </Step>
+  <Step num="2" title="Planeje a Rota das Prateleiras">
+    Mova-se em direção às seções de prateleiras que contêm a maioria dos itens solicitados. Use seu conhecimento do layout do armazém para fazer o caminho mais curto, evitando obstáculos e outros jogadores.
+  </Step>
+  <Step num="3" title="Verifique e Colete">
+    Aproxime-se da prateleira e use a tecla de interação (E ou Clique Esquerdo) para pegar o item. Se dois itens parecerem semelhantes, use a função Inspecionar (Clique Direito ou Y) para confirmar se o nome do produto corresponde ao tíquete.
+  </Step>
+  <Step num="4" title="Embale e Finalize">
+    Retorne à área de embalagem. Use a roda de rolagem do mouse (scroll) para selecionar o item correto do seu inventário e interaja com a caixa para embalá-lo. Assim que a lista de verificação estiver verde, leve a caixa para o caminhão de entrega.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evite Erros de Embalagem">
+Embalar um item incorreto não apenas desperdiçará o item, mas também pode exigir que você reinicie a caixa ou remova o item, prejudicando significativamente seu tempo de conclusão. Sempre inspecione brinquedos duvidosos.
+</Callout>
+
+| Estágio do Fluxo | Ação Primária | Erro Comum |
+| :--- | :--- | :--- |
+| **Coleta** | Coletar brinquedos das prateleiras | Pegar itens sem verificar o pedido |
+| **Verificação** | Inspecionar nomes dos itens | Basear-se apenas na cor ou formato do brinquedo |
+| **Inventário** | Gerenciar itens carregados | Esquecer de rolar para o item correto |
+| **Carregamento** | Mover caixas para o caminhão | Deixar caixas concluídas na estação de embalagem |
+
+</Section>
+
+<Section icon={Sparkles} title="Melhorias Principais e Progressão de Habilidades">
+
+Para lidar com os **pedidos ativos no Pack an Order** em velocidades mais altas, você deve reinvestir suas Moedas ganhas em melhorias permanentes de trabalhador. Existem três atributos principais que ditam sua eficiência: Velocidade, Alcance e Capacidade de Carga. Embora todos sejam úteis, a ordem em que você os adquire pode mudar drasticamente sua experiência no início do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Melhoria de Velocidade">
+    - **Efeito Primário**: Aumenta a velocidade de caminhada
+    - **Ideal Para**: Reduzir o tempo de viagem
+    - **Prioridade**: Alta (Benefício universal)
+  </Card>
+  <Card title="Capacidade de Carga">
+    - **Efeito Primário**: Carregar mais itens
+    - **Ideal Para**: Jogadores solo e pedidos grandes
+    - **Prioridade**: Média (Reduz viagens totais)
+  </Card>
+  <Card title="Melhoria de Alcance">
+    - **Efeito Primário**: Maior alcance de interação
+    - **Ideal Para**: Limpeza rápida de prateleiras
+    - **Prioridade**: Baixa (Qualidade de vida)
+  </Card>
+</CardGrid>
+
+Além dos atributos básicos, o jogo apresenta um sistema de habilidades. Essas são ferramentas desbloqueáveis projetadas para resolver gargalos específicos no armazém. Por exemplo, algumas habilidades ajudam a localizar produtos mais rápido, enquanto outras podem fornecer um aumento temporário de velocidade ou a capacidade de embalar itens à distância.
+
+| Tipo de Melhoria | Benefício Nível 1 | Benefício Nível 5 | Recomendado Para |
+| :--- | :--- | :--- | :--- |
+| **Velocidade de Movimento** | Leve bônus de caminhada | Corrida rápida pelo armazém | Todos os estilos de jogo |
+| **Capacidade de Carga** | +1 Espaço de item | Capacidade para múltiplos pedidos | Eficiência solo |
+| **Alcance de Interação** | Pequeno aumento de alcance | Pegar itens do outro lado dos corredores | Speedrunning |
+
+<Callout type="success" title="Estratégia Meta">
+Para jogadores solo, a build mais eficaz é **Velocidade 3 -> Capacidade de Carga 2 -> Velocidade 5**. Ser capaz de carregar quatro itens de uma vez enquanto se move rapidamente permite que você conclua a maioria dos pedidos do início do jogo em uma única viagem.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias Co-op vs Solo">
+
+O jogo suporta tanto o modo solo quanto equipes colaborativas de armazém. Dependendo do tamanho do seu grupo, sua abordagem aos **pedidos ativos no Pack an Order** deve mudar. Em uma equipe, a maior ameaça à eficiência é a duplicidade — onde dois jogadores buscam o mesmo item porque não estão se comunicando sobre qual tíquete estão trabalhando.
+
+**Estratégia Solo:**
+No modo solo, você é o coletor, o embalador e o carregador. Seu foco deve ser o gerenciamento de inventário. Como você não tem ninguém para ajudar, use a tecla R constantemente para garantir que nunca esteja andando com o inventário vazio. Se você está indo para o fundo do armazém para o Pedido A, verifique se o Pedido B precisa de algo daquela área.
+
+**Estratégia Multijogador:**
+As equipes devem atribuir funções específicas para evitar o caos. Um "Embalador" dedicado fica perto das caixas e caminhões, enquanto os "Coletores" correm para as prateleiras.
+
+<Checklist
+  id="team-roles"
+  title="Responsabilidades Essenciais da Equipe:"
+  items={[
+    "Coletor (Picker): Foca inteiramente na busca em prateleiras e em trazer os itens para o centro.",
+    "Embalador (Packer): Fica na estação, verifica os itens e enche as caixas.",
+    "Carregador (Loader): Move as caixas finalizadas para o caminhão e monitora o relógio do placar de líderes.",
+    "Coordenador: Alterna por todos os pedidos ativos e dita as localizações das prateleiras."
+  ]}
+/>
+
+<Callout type="info" title="Comunicação é a Chave">
+Use o chat do jogo ou comunicação por voz para anunciar qual pedido você está \"reivindicando\". Isso garante que, se o Pedido nº 5 precisar de um \"Red Squishy\", apenas uma pessoa se dedicará a encontrá-lo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Referência de Controles e Navegação">
+
+Dominar os controles é essencial para manter uma alta taxa de \"Pedidos Por Hora\" (OPH). A maioria das interações está mapeada para a tecla E ou Clique Esquerdo, mas jogadores avançados fazem uso constante das teclas secundárias para gerenciar seu inventário sem interromper o movimento.
+
+| Comando | Ação | Dica de Mestre |
+| :--- | :--- | :--- |
+| **E / Clique Esquerdo** | Pegar / Embalar item | Toque duplo para pegar e guardar rapidamente |
+| **Q** | Soltar item atual | Solte itens errados perto de suas prateleiras, não nos corredores |
+| **R** | Alternar pedidos ativos | Verifique isso toda vez que terminar um item |
+| **Roda do Mouse (Scroll)** | Alternar itens segurados | Alterne para o próximo item enquanto corre de volta |
+| **Clique Direito / Y** | Inspecionar produto | Use para diferenciar itens como 'Matcha' vs 'Wasabi' |
+
+A navegação adequada também envolve entender as \"zonas\" das prateleiras. O armazém geralmente é organizado por tipo de item (ex: Brinquedos, Eletrônicos, Alimentos). Memorizar qual corredor contém os \"Matcha Dumplings\" economizará mais tempo do que qualquer melhoria de velocidade jamais faria.
+
+<Callout type="tip" title="Dica de Navegação">
+Não corra apenas em linhas retas. Cortar caminho pelas pontas das prateleiras e usar o espaço aberto perto das docas de carregamento pode poupar segundos valiosos do seu tempo total de entrega.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como lidar com múltiplos pedidos ativos no Pack an Order ao mesmo tempo?",
+    answer: "Use a tecla 'R' para alternar pelos seus tíquetes atuais. Isso permite que você veja todos os itens necessários para planejar uma rota que passe por várias prateleiras em uma única viagem."
+  },
+  {
+    question: "Qual é a maneira mais rápida de ganhar Moedas?",
+    answer: "O método mais rápido é melhorar sua Velocidade de Movimento primeiro e focar em concluir os pedidos com 100% de precisão. Bônus de precisão e tempos de conclusão rápidos aumentam significativamente o pagamento em Moedas."
+  },
+  {
+    question: "Posso soltar um item se eu pegar o produto errado?",
+    answer: "Sim, pressione a tecla 'Q' para soltar o item que está atualmente em sua mão. É melhor soltá-lo perto de sua prateleira original para que outros jogadores (ou você) possam encontrá-lo facilmente mais tarde."
+  },
+  {
+    question: "A Capacidade de Carga afeta quantos pedidos posso aceitar?",
+    answer: "A Capacidade de Carga afeta quantos itens físicos você pode segurar em suas mãos/inventário. O número de pedidos ativos geralmente é fixado pelo modo de jogo ou nível, mas uma capacidade maior facilita muito o cumprimento deles."
+  }
+]} />
+
+</Section>

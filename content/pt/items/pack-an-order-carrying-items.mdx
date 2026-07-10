@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pack an Order: Guia Completo para Logística Rápida de Armazém",
+  description: "Aprenda a embalar um pedido carregando itens com eficiência no Roblox. Descubra rotas ideais, melhorias, controles e estratégias para equipes cooperativas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f97316/fff?text=Pack+An+Order+Guide",
+  date: "2026-07-11",
+  author: "Equipe do Wiki de Pack an Order"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Central**: Domine o fluxo de trabalho de como **embalar um pedido carregando itens**, combinando brinquedos, lacrando caixas e carregando caminhões sob limites de tempo apertados.
+- **Principais Melhorias**: Priorize a Velocidade primeiro para minimizar o tempo de trânsito, seguida pela Capacidade de Carga para lotes maiores e pelo Alcance para pegar itens nas prateleiras mais rapidamente.
+- **Dinâmica de Equipe**: Divida as funções nas partidas multijogador entre Coletores, Embaladores e Carregadores para otimizar o fluxo de trabalho e evitar a coleta de itens duplicados.
+- **Truque de Eficiência**: Use a roda do mouse (scroll) para alternar pelo seu inventário e pressione R para verificar diferentes pedidos de clientes antes de sair da estação de embalagem.
+</Callout>
+
+<Section icon={Map} title="Dominando o Fluxo de Trabalho do Armazém">
+
+Ter sucesso neste simulador dinâmico do Roblox exige uma compreensão clara do ciclo principal. Para **embalar um pedido carregando itens** com eficiência, você deve coordenar seus movimentos, ler os pedidos dos clientes com precisão e gerenciar o espaço do seu inventário. Não organizar sua rota leva a desperdício de tempo e menores pagamentos em moedas.
+
+**Destaques do Vídeo:**
+- **Logística Solo**: Como gerenciar vários pedidos sem se confundir.
+- **Navegação nas Prateleiras**: Memorizar a localização dos brinquedos para reduzir o tempo de busca.
+- **Caminho de Melhorias**: Demonstração em tempo real de como as melhorias de Velocidade afetam sua proporção de moedas por minuto.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Gameplay de Pack an Order no Roblox" />
+
+### O Ciclo Principal de Embalagem
+
+Cada turno no armazém segue uma sequência estruturada. Memorizar essas fases garante que você não busque o brinquedo errado nem perca cargas valiosas.
+
+| Fase | Ação | Objetivo Principal |
+| :--- | :--- | :--- |
+| **1. Revisar** | Ler Pedido | Verificar nomes dos produtos e quantidades exatas. |
+| **2. Rota** | Planejar Caminho | Localizar itens nas prateleiras antes de se mover. |
+| **3. Coletar** | Pegar Brinquedos | Encher seu inventário usando o alcance ideal. |
+| **4. Verificar** | Inspecionar Item | Usar o Botão Direito/Y para confirmar brinquedos semelhantes. |
+| **5. Embalar** | Encher Caixa | Depositar itens na caixa correspondente. |
+| **6. Enviar** | Carregar Caminhão | Entregar a caixa concluída para garantir Moedas. |
+
+<Callout type="tip" title="Dica de Mestre">
+Nunca corra para as prateleiras sem verificar o pedido ativo primeiro. Pressionar R permite que você alterne entre os pedidos para planejar uma rota que colete brinquedos para várias caixas em uma única viagem.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Controles e Gerenciamento de Inventário">
+
+Navegar pelo chão do armazém exige comandos precisos, especialmente ao carregar vários itens. Um clique errado pode fazer você derrubar um brinquedo ou colocar o produto errado na caixa de um cliente, reiniciando seu progresso naquela lista de tarefas.
+
+### Esquema de Controles Oficial
+
+| Comando | Ação | Dica Prática de Jogo |
+| :--- | :--- | :--- |
+| **E / Clique Esquerdo** | Pegar / Embalar | Verifique o pedido ativo antes de interagir para evitar erros de embalagem. |
+| **Q** | Soltar item segurado | Solte itens errados perto de suas prateleiras em vez de carregá-los até a caixa. |
+| **R** | Alternar pedidos ativos | Selecione seu pedido antes de entrar em uma zona de prateleira para maximizar a eficiência. |
+| **Roda do Mouse** | Alternar itens segurados | Mude para o produto exato necessário antes de se aproximar da caixa. |
+| **Botão Direito / Y** | Inspecionar item | Use isso para diferenciar itens com formas ou cores muito semelhantes. |
+
+### Comparação de Inventário: Solo vs. Cooperativo
+
+O gerenciamento das suas mãos muda dependendo do tamanho da sua equipe. Use esta comparação para ajustar seus hábitos de embalagem.
+
+<CardGrid cols={2}>
+  <Card title="Táticas de Inventário Solo">
+    - **Maximize a Capacidade de Carga**: Carregue até 3-4 itens de uma vez para limitar as viagens.
+    - **Coleta em Lote**: Reúna brinquedos para diferentes pedidos na mesma prateleira.
+    - **Alterne Frequentemente**: Use a roda do mouse para acompanhar sua fila.
+  </Card>
+  <Card title="Táticas de Inventário Multijogador">
+    - **Carregamento Especializado**: Coletores seguram itens brutos; Embaladores não seguram nada.
+    - **Zonas de Descarte**: Jogue itens no chão perto da estação de embalagem para seus companheiros.
+    - **Corridas de Item Único**: Foque na velocidade em vez de carregar itens em grande quantidade.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso">
+Colocar um item incorreto em uma caixa de envio desperdiça tempo. Se você não tiver certeza sobre a identidade de um item, use a função de inspeção antes de colocá-lo na embalagem.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia de Melhorias e Habilidades">
+
+As moedas ganhas com envios bem-sucedidos devem ser reinvestidas imediatamente nos atributos do seu trabalhador. Equilibrar suas melhorias principais com habilidades desbloqueáveis é a maneira mais rápida de subir nas classificações globais.
+
+### Prioridade de Melhorias Principais
+
+Existem três melhorias principais disponíveis no armazém. Atualizá-las na sequência correta evita gargalos de eficiência.
+
+<Steps>
+  <Step num="1" title="Melhoria de Velocidade">
+    Este é o seu atributo mais importante. Ele reduz o tempo de viagem entre prateleiras distantes, as mesas de embalagem e os caminhões de entrega. Compre este primeiro.
+  </Step>
+  <Step num="2" title="Capacidade de Carga">
+    Aumenta o número de itens que você pode carregar simultaneamente. Isso é altamente crítico para jogadores solo que não podem contar com companheiros de equipe para buscar partes de um pedido.
+  </Step>
+  <Step num="3" title="Melhoria de Alcance">
+    Estende a distância a partir da qual você pode pegar brinquedos ou interagir com caixas. Compre por último, assim que sua velocidade de movimento estiver otimizada.
+  </Step>
+</Steps>
+
+### Comparação de Eficiência de Melhorias
+
+| Melhoria | Melhor Para | Prioridade Solo | Prioridade de Equipe |
+| :--- | :--- | :--- | :--- |
+| **Velocidade** | Movimento universal | **Alta** (1º) | **Alta** (1º) |
+| **Capacidade de Carga** | Reduzir viagens de retorno | **Média** (2º) | **Baixa** (3º) |
+| **Alcance** | Pegar itens rapidamente | **Baixa** (3º) | **Média** (2º) |
+
+<Callout type="success" title="Habilidades Desbloqueáveis">
+Habilidades ativas complementam suas melhorias principais. Equipe habilidades que correspondam à sua área mais fraca — como aumentos de velocidade para corridas de longa distância ou radares de busca se você tiver dificuldades para localizar brinquedos específicos nas prateleiras.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégias Cooperativas e de Classificação">
+
+Embora jogar solo seja uma ótima maneira de aprender o layout, as corridas de alto nível na classificação exigem equipes multijogador coordenadas. A divisão de tarefas evita que os jogadores corram para a mesma prateleira e dupliquem o trabalho.
+
+### Distribuição de Funções na Equipe
+
+Para uma equipe de três jogadores, atribua estas funções antes de iniciar o cronômetro:
+
+1. **O Coletor**: Fica nos corredores das prateleiras. Pega os brinquedos listados nos pedidos ativos e os solta na borda da zona de embalagem.
+2. **O Embalador**: Fica nas mesas de embalagem. Inspeciona os itens que chegam, alterna entre os pedidos e os embala nas caixas corretas.
+3. **O Carregador**: Pega as caixas concluídas das mesas, corre com elas para os caminhões de entrega e monitora a próxima fila de pedidos.
+
+<Checklist
+  id="coop-milestones"
+  title="Lista de Verificação de Coordenação de Equipe:"
+  items={[
+    "Atribuir zonas de prateleira dedicadas para evitar colisões",
+    "Falar em voz alta os números dos pedidos ativos antes de correr",
+    "Descartar itens incorretos imediatamente em vez de acumulá-los",
+    "Manter a zona do caminhão de entrega livre de caixas vazias",
+    "Coordenar caminhos de melhoria para que pelo menos um jogador tenha Velocidade máxima"
+  ]}
+/>
+
+<Callout type="info" title="Nota">
+Os tempos de classificação são altamente sensíveis a erros. Um único item incorreto embalado pode adicionar segundos de atraso, o que geralmente é suficiente para arruinar uma corrida de alto nível. A precisão sempre vence a velocidade pura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para embalar um pedido carregando itens quando meu inventário está cheio?",
+    answer: "Use a roda do mouse para selecionar o item específico exigido pelo pedido ativo, aproxime-se da caixa de envio e pressione E ou o Clique Esquerdo para embalá-lo. Se você tiver itens extras que não pertencem ao pedido atual, pressione Q para soltá-los por perto para mais tarde."
+  },
+  {
+    question: "Existem códigos promocionais ativos para o Pack an Order?",
+    answer: "Atualmente, não há um sistema de resgate de códigos ativo ou menu integrado ao jogo. Verifique os anúncios dos desenvolvedores no grupo oficial do Roblox para atualizações sobre futuros sistemas de recompensa."
+  },
+  {
+    question: "O que devo melhorar primeiro como jogador solo?",
+    answer: "Melhore a Velocidade primeiro para reduzir o tempo de deslocamento pelo chão do armazém. Siga com a Capacidade de Carga para poder transportar vários brinquedos em uma única viagem, minimizando o vaivém."
+  },
+  {
+    question: "Como faço para distinguir brinquedos de aparência semelhante?",
+    answer: "Use o Botão Direito no PC ou o botão Y no controle para inspecionar o item em sua mão. Isso exibe o nome exato do produto, ajudando você a evitar erros de embalagem."
+  }
+]} />
+
+</Section>

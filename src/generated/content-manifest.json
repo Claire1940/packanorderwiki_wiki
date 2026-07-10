@@ -1,1 +1,434 @@
-{}
+{
+  "en": {
+    "abilities": [
+      {
+        "slug": "pack-an-order-abilities",
+        "file": "pack-an-order-abilities"
+      },
+      {
+        "slug": "pack-an-order-ability-unlocks",
+        "file": "pack-an-order-ability-unlocks"
+      },
+      {
+        "slug": "pack-an-order-best-abilities",
+        "file": "pack-an-order-best-abilities"
+      },
+      {
+        "slug": "pack-an-order-packing-speed-ability",
+        "file": "pack-an-order-packing-speed-ability"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "pack-an-order-codes",
+        "file": "pack-an-order-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "pack-an-order-controls",
+        "file": "pack-an-order-controls"
+      },
+      {
+        "slug": "pack-an-order-how-to-inspect-items",
+        "file": "pack-an-order-how-to-inspect-items"
+      },
+      {
+        "slug": "pack-an-order-mobile-controls",
+        "file": "pack-an-order-mobile-controls"
+      },
+      {
+        "slug": "pack-an-order-pc-controls",
+        "file": "pack-an-order-pc-controls"
+      }
+    ],
+    "guides": [
+      {
+        "slug": "pack-an-order-beginner-guide",
+        "file": "pack-an-order-beginner-guide"
+      },
+      {
+        "slug": "pack-an-order-game",
+        "file": "pack-an-order-game"
+      },
+      {
+        "slug": "pack-an-order-progression-guide",
+        "file": "pack-an-order-progression-guide"
+      },
+      {
+        "slug": "pack-an-order-roblox",
+        "file": "pack-an-order-roblox"
+      },
+      {
+        "slug": "pack-an-order-tips",
+        "file": "pack-an-order-tips"
+      },
+      {
+        "slug": "pack-an-order-walkthrough",
+        "file": "pack-an-order-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "pack-an-order-carrying-items",
+        "file": "pack-an-order-carrying-items"
+      },
+      {
+        "slug": "pack-an-order-item-locations",
+        "file": "pack-an-order-item-locations"
+      },
+      {
+        "slug": "pack-an-order-items",
+        "file": "pack-an-order-items"
+      },
+      {
+        "slug": "pack-an-order-shelf-locations",
+        "file": "pack-an-order-shelf-locations"
+      },
+      {
+        "slug": "pack-an-order-toys",
+        "file": "pack-an-order-toys"
+      }
+    ],
+    "orders": [
+      {
+        "slug": "pack-an-order-active-orders",
+        "file": "pack-an-order-active-orders"
+      },
+      {
+        "slug": "pack-an-order-delivery-truck",
+        "file": "pack-an-order-delivery-truck"
+      },
+      {
+        "slug": "pack-an-order-how-to-pack-orders",
+        "file": "pack-an-order-how-to-pack-orders"
+      },
+      {
+        "slug": "pack-an-order-how-to-read-orders",
+        "file": "pack-an-order-how-to-read-orders"
+      },
+      {
+        "slug": "pack-an-order-multiple-orders",
+        "file": "pack-an-order-multiple-orders"
+      },
+      {
+        "slug": "pack-an-order-order-matching",
+        "file": "pack-an-order-order-matching"
+      },
+      {
+        "slug": "pack-an-order-wrong-order",
+        "file": "pack-an-order-wrong-order"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "pack-an-order-best-upgrades",
+        "file": "pack-an-order-best-upgrades"
+      },
+      {
+        "slug": "pack-an-order-coin-upgrades",
+        "file": "pack-an-order-coin-upgrades"
+      },
+      {
+        "slug": "pack-an-order-first-upgrades",
+        "file": "pack-an-order-first-upgrades"
+      },
+      {
+        "slug": "pack-an-order-how-to-get-coins",
+        "file": "pack-an-order-how-to-get-coins"
+      },
+      {
+        "slug": "pack-an-order-upgrades",
+        "file": "pack-an-order-upgrades"
+      }
+    ]
+  },
+  "es": {
+    "abilities": [
+      {
+        "slug": "pack-an-order-abilities",
+        "file": "pack-an-order-abilities"
+      },
+      {
+        "slug": "pack-an-order-ability-unlocks",
+        "file": "pack-an-order-ability-unlocks"
+      },
+      {
+        "slug": "pack-an-order-best-abilities",
+        "file": "pack-an-order-best-abilities"
+      },
+      {
+        "slug": "pack-an-order-packing-speed-ability",
+        "file": "pack-an-order-packing-speed-ability"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "pack-an-order-codes",
+        "file": "pack-an-order-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "pack-an-order-controls",
+        "file": "pack-an-order-controls"
+      },
+      {
+        "slug": "pack-an-order-how-to-inspect-items",
+        "file": "pack-an-order-how-to-inspect-items"
+      },
+      {
+        "slug": "pack-an-order-mobile-controls",
+        "file": "pack-an-order-mobile-controls"
+      },
+      {
+        "slug": "pack-an-order-pc-controls",
+        "file": "pack-an-order-pc-controls"
+      }
+    ],
+    "guides": [
+      {
+        "slug": "pack-an-order-beginner-guide",
+        "file": "pack-an-order-beginner-guide"
+      },
+      {
+        "slug": "pack-an-order-game",
+        "file": "pack-an-order-game"
+      },
+      {
+        "slug": "pack-an-order-progression-guide",
+        "file": "pack-an-order-progression-guide"
+      },
+      {
+        "slug": "pack-an-order-roblox",
+        "file": "pack-an-order-roblox"
+      },
+      {
+        "slug": "pack-an-order-tips",
+        "file": "pack-an-order-tips"
+      },
+      {
+        "slug": "pack-an-order-walkthrough",
+        "file": "pack-an-order-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "pack-an-order-carrying-items",
+        "file": "pack-an-order-carrying-items"
+      },
+      {
+        "slug": "pack-an-order-item-locations",
+        "file": "pack-an-order-item-locations"
+      },
+      {
+        "slug": "pack-an-order-items",
+        "file": "pack-an-order-items"
+      },
+      {
+        "slug": "pack-an-order-shelf-locations",
+        "file": "pack-an-order-shelf-locations"
+      },
+      {
+        "slug": "pack-an-order-toys",
+        "file": "pack-an-order-toys"
+      }
+    ],
+    "orders": [
+      {
+        "slug": "pack-an-order-active-orders",
+        "file": "pack-an-order-active-orders"
+      },
+      {
+        "slug": "pack-an-order-delivery-truck",
+        "file": "pack-an-order-delivery-truck"
+      },
+      {
+        "slug": "pack-an-order-how-to-pack-orders",
+        "file": "pack-an-order-how-to-pack-orders"
+      },
+      {
+        "slug": "pack-an-order-how-to-read-orders",
+        "file": "pack-an-order-how-to-read-orders"
+      },
+      {
+        "slug": "pack-an-order-multiple-orders",
+        "file": "pack-an-order-multiple-orders"
+      },
+      {
+        "slug": "pack-an-order-order-matching",
+        "file": "pack-an-order-order-matching"
+      },
+      {
+        "slug": "pack-an-order-wrong-order",
+        "file": "pack-an-order-wrong-order"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "pack-an-order-best-upgrades",
+        "file": "pack-an-order-best-upgrades"
+      },
+      {
+        "slug": "pack-an-order-coin-upgrades",
+        "file": "pack-an-order-coin-upgrades"
+      },
+      {
+        "slug": "pack-an-order-first-upgrades",
+        "file": "pack-an-order-first-upgrades"
+      },
+      {
+        "slug": "pack-an-order-how-to-get-coins",
+        "file": "pack-an-order-how-to-get-coins"
+      },
+      {
+        "slug": "pack-an-order-upgrades",
+        "file": "pack-an-order-upgrades"
+      }
+    ]
+  },
+  "pt": {
+    "abilities": [
+      {
+        "slug": "pack-an-order-abilities",
+        "file": "pack-an-order-abilities"
+      },
+      {
+        "slug": "pack-an-order-ability-unlocks",
+        "file": "pack-an-order-ability-unlocks"
+      },
+      {
+        "slug": "pack-an-order-best-abilities",
+        "file": "pack-an-order-best-abilities"
+      },
+      {
+        "slug": "pack-an-order-packing-speed-ability",
+        "file": "pack-an-order-packing-speed-ability"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "pack-an-order-codes",
+        "file": "pack-an-order-codes"
+      }
+    ],
+    "controls": [
+      {
+        "slug": "pack-an-order-controls",
+        "file": "pack-an-order-controls"
+      },
+      {
+        "slug": "pack-an-order-how-to-inspect-items",
+        "file": "pack-an-order-how-to-inspect-items"
+      },
+      {
+        "slug": "pack-an-order-mobile-controls",
+        "file": "pack-an-order-mobile-controls"
+      },
+      {
+        "slug": "pack-an-order-pc-controls",
+        "file": "pack-an-order-pc-controls"
+      }
+    ],
+    "guides": [
+      {
+        "slug": "pack-an-order-beginner-guide",
+        "file": "pack-an-order-beginner-guide"
+      },
+      {
+        "slug": "pack-an-order-game",
+        "file": "pack-an-order-game"
+      },
+      {
+        "slug": "pack-an-order-progression-guide",
+        "file": "pack-an-order-progression-guide"
+      },
+      {
+        "slug": "pack-an-order-roblox",
+        "file": "pack-an-order-roblox"
+      },
+      {
+        "slug": "pack-an-order-tips",
+        "file": "pack-an-order-tips"
+      },
+      {
+        "slug": "pack-an-order-walkthrough",
+        "file": "pack-an-order-walkthrough"
+      }
+    ],
+    "items": [
+      {
+        "slug": "pack-an-order-carrying-items",
+        "file": "pack-an-order-carrying-items"
+      },
+      {
+        "slug": "pack-an-order-item-locations",
+        "file": "pack-an-order-item-locations"
+      },
+      {
+        "slug": "pack-an-order-items",
+        "file": "pack-an-order-items"
+      },
+      {
+        "slug": "pack-an-order-shelf-locations",
+        "file": "pack-an-order-shelf-locations"
+      },
+      {
+        "slug": "pack-an-order-toys",
+        "file": "pack-an-order-toys"
+      }
+    ],
+    "orders": [
+      {
+        "slug": "pack-an-order-active-orders",
+        "file": "pack-an-order-active-orders"
+      },
+      {
+        "slug": "pack-an-order-delivery-truck",
+        "file": "pack-an-order-delivery-truck"
+      },
+      {
+        "slug": "pack-an-order-how-to-pack-orders",
+        "file": "pack-an-order-how-to-pack-orders"
+      },
+      {
+        "slug": "pack-an-order-how-to-read-orders",
+        "file": "pack-an-order-how-to-read-orders"
+      },
+      {
+        "slug": "pack-an-order-multiple-orders",
+        "file": "pack-an-order-multiple-orders"
+      },
+      {
+        "slug": "pack-an-order-order-matching",
+        "file": "pack-an-order-order-matching"
+      },
+      {
+        "slug": "pack-an-order-wrong-order",
+        "file": "pack-an-order-wrong-order"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "pack-an-order-best-upgrades",
+        "file": "pack-an-order-best-upgrades"
+      },
+      {
+        "slug": "pack-an-order-coin-upgrades",
+        "file": "pack-an-order-coin-upgrades"
+      },
+      {
+        "slug": "pack-an-order-first-upgrades",
+        "file": "pack-an-order-first-upgrades"
+      },
+      {
+        "slug": "pack-an-order-how-to-get-coins",
+        "file": "pack-an-order-how-to-get-coins"
+      },
+      {
+        "slug": "pack-an-order-upgrades",
+        "file": "pack-an-order-upgrades"
+      }
+    ]
+  }
+}

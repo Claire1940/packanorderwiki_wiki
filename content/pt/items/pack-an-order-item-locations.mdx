@@ -1,0 +1,169 @@
+import { Map, Target, Trophy, Swords, Sparkles, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Localização de Itens em Pack an Order: Layout das Prateleiras e Guia de Busca",
+  description: "Domine o armazém em Pack an Order! Aprenda todas as localizações de itens, layouts de prateleiras e dicas de identificação para completar pedidos mais rápido neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f97316/fff?text=Item+Locations+Guide",
+  date: "2026-07-11",
+  author: "Equipe da Wiki de Pack an Order",
+  keywords: "localização de itens pack an order, guia de armazém, layout de prateleiras, dicas de embalagem"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **localizações de itens em Pack an Order** são categorizadas em zonas distintas do armazém, incluindo as seções de Brinquedos, Alimentos e Utilidades.
+- A **inspeção visual** usando o Clique Direito ou o botão Y é fundamental para distinguir itens semelhantes, como diferentes tipos de bolinhos (dumplings).
+- O **ciclo de pedidos** com a tecla R permite planejar sua rota pelas prateleiras antes de começar a coleta.
+- As **prioridades de melhoria** devem focar primeiro em Velocidade para reduzir o tempo de deslocamento entre prateleiras distantes.
+- O **carregamento múltiplo** é habilitado pela melhoria de Capacidade de Carga, permitindo limpar um corredor inteiro em uma única viagem.
+</Callout>
+
+<Section icon={Map} title="Dominando o Layout do Armazém">
+
+Navegar pelo armazém de forma eficiente é a base do sucesso em Pack an Order! O ambiente foi projetado para desafiar sua memória espacial, com itens espalhados por vários corredores e unidades de prateleiras. Para maximizar sua eficiência, você deve tratar o armazém como uma grade. A maioria dos iniciantes perde tempo correndo de um lado para o outro entre a estação de embalagem e as prateleiras para cada item individual. Em vez disso, jogadores veteranos memorizam as **localizações de itens em Pack an Order** para agrupar suas rotas de coleta.
+
+O armazém é geralmente dividido em seções codificadas por cores ou temas. Os brinquedos geralmente estão localizados nos corredores centrais, enquanto os itens alimentares e produtos utilitários pesados são posicionados em direção ao perímetro. Compreender essas zonas permite que você "agrupe" seu trabalho — pegando tudo o que é necessário para um pedido em uma varredura circular, em vez de várias viagens lineares.
+
+| Zona do Armazém | Tipos de Itens Principais | Distância da Embalagem | Dificuldade de Navegação |
+| :--- | :--- | :--- | :--- |
+| **Corredor Central** | Brinquedos, Pequenos Eletrônicos | Curta | Baixa |
+| **Prateleiras Perimetrais** | Alimentos, Produtos a Granel | Média | Média |
+| **Estoque dos Fundos** | Itens Raros, Utilidades | Longa | Alta |
+| **Doca de Carregamento** | Caixas Vazias, Fita | Variável | Baixa |
+
+<Callout type="tip" title="Dica de Percepção Espacial">
+Antes de iniciar uma rodada, fique na estação de embalagem e pressione R para alternar entre todos os pedidos ativos. Isso lhe dá um checklist mental de quais corredores você precisa visitar, evitando viagens redundantes à mesma prateleira.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Identificação de Itens e Estratégias de Correspondência">
+
+No calor de um pedido com tempo limitado, muitos itens podem parecer idênticos à primeira vista. Pack an Order! usa diferenças visuais sutis para distinguir os produtos. Por exemplo, um "Squishy Vermelho" e uma "Bola de Stress Carmesim" podem parecer semelhantes de longe, mas seus rótulos e formas diferem em uma inspeção mais próxima. Aprender a identificar itens sem depender apenas do botão "Inspecionar" melhorará significativamente seus tempos no placar de líderes.
+
+O jogo exige que você combine nomes e quantidades exatamente. Se um pedido solicitar três "Bolinhos de Matcha", trazer dois bolinhos e uma "Manteiga Salgada" interromperá o processo de embalagem. Você deve ser preciso. Abaixo está uma referência para itens comuns encontrados na versão atual de 2026 do armazém.
+
+| Nome do Item | Categoria | Características Visuais | Localização Comum |
+| :--- | :--- | :--- | :--- |
+| **Squishy Vermelho** | Brinquedo | Vermelho brilhante, textura macia | Corredor 1 (Prateleira Inferior) |
+| **Bolinho de Matcha** | Alimento | Embalagem verde, tamanho pequeno | Seção de Alimentos (Norte) |
+| **Clicker** | Eletrônico | Pequeno, de mão, metálico | Corredor 2 (Prateleira do Meio) |
+| **Manteiga Salgada** | Alimento | Embalagem amarela, retangular | Seção de Alimentos (Sul) |
+| **Carro Azul** | Brinquedo | Veículo em miniatura, plástico | Corredor 1 (Prateleira Superior) |
+
+<Callout type="warning" title="Aviso de Precisão">
+Colocar o item errado em uma caixa não apenas desperdiça tempo; exige que você remova ou solte o item manualmente (tecla Q), o que pode bagunçar seu espaço de trabalho e confundir os companheiros de equipe no modo cooperativo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Passo a Passo: Rota de Coleta Otimizada">
+
+Para alcançar os tempos de conclusão mais rápidos possíveis, você precisa de um fluxo de trabalho padronizado. Este método de "Buscar e Embalar" é usado pelos melhores jogadores para manter uma alta proporção de "Moedas Por Minuto" (CPM). Seguindo uma sequência específica, você minimiza o "tempo ocioso" em que se move sem um item nas mãos.
+
+<Steps>
+  <Step num="1" title="Revise o Ticket">
+    Examine o ticket do pedido do cliente na estação de embalagem. Observe as quantidades específicas para cada item para evitar viagens extras por unidades esquecidas.
+  </Step>
+  <Step num="2" title="Agrupe por Proximidade">
+    Identifique quais **localizações de itens em Pack an Order** estão mais próximas umas das outras. Se você precisar de dois brinquedos do Corredor 1 e um item de comida dos fundos, vá primeiro ao Corredor 1.
+  </Step>
+  <Step num="3" title="Coleta em Lote">
+    Use sua Capacidade de Carga para pegar vários itens. Use a roda do mouse para alternar pelo seu inventário enquanto os coleta para garantir que não solte acidentalmente algo que precisa.
+  </Step>
+  <Step num="4" title="Verificação e Embalagem">
+    Retorne à estação de embalagem. Use o Clique Direito ou o botão Y para verificar o nome do item uma última vez antes de pressionar E para embalá-lo na caixa.
+  </Step>
+  <Step num="5" title="Carregamento Final">
+    Assim que a caixa estiver selada, transporte-a imediatamente para o caminhão de entrega. Não espere para começar o próximo pedido; o carregamento do caminhão é a etapa final do fluxo de trabalho "ativo".
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bônus de Eficiência">
+No modo multijogador, faça com que um jogador fique na estação de embalagem como o "Embalador", enquanto os outros dois atuam como "Corredores". O Embalador pode anunciar as localizações dos itens para os Corredores, reduzindo significativamente o tempo de busca.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhorias para Aprimorar a Descoberta de Itens">
+
+À medida que ganha Moedas, você pode investir em melhorias para o trabalhador que impactam diretamente como você interage com as localizações dos itens. Embora a "Velocidade" seja a escolha mais óbvia, o "Alcance" e a "Capacidade de Carga" oferecem vantagens táticas que mudam a forma como você navega pelo armazém. Por exemplo, um Alcance alto permite que você pegue itens das prateleiras superiores sem precisar pular ou reposicionar seu personagem perfeitamente.
+
+<CardGrid cols={3}>
+  <Card title="Melhoria de Velocidade">
+    - **Velocidade de Movimento**: Aumenta a velocidade base de caminhada.
+    - **Ideal Para**: Armazéns grandes e jogo solo.
+    - **Impacto**: Reduz o tempo de viagem entre corredores distantes em até 40%.
+  </Card>
+  <Card title="Capacidade de Carga">
+    - **Tamanho do Inventário**: Segure mais itens simultaneamente.
+    - **Ideal Para**: Pedidos de alta quantidade (ex: 5+ de um item).
+    - **Impacto**: Permite conclusões de pedidos complexos em "uma única viagem".
+  </Card>
+  <Card title="Melhoria de Alcance">
+    - **Alcance de Interação**: Pega itens de mais longe.
+    - **Ideal Para**: Cantos apertados e prateleiras altas.
+    - **Impacto**: Minimiza os micro-movimentos necessários para se alinhar a um produto.
+  </Card>
+</CardGrid>
+
+| Nível de Melhoria | Custo de Velocidade | Custo de Carga | Custo de Alcance |
+| :--- | :--- | :--- | :--- |
+| **Nível 1** | 100 Moedas | 150 Moedas | 100 Moedas |
+| **Nível 2** | 250 Moedas | 400 Moedas | 250 Moedas |
+| **Nível 3** | 600 Moedas | 900 Moedas | 500 Moedas |
+| **Nível 4** | 1.500 Moedas | 2.200 Moedas | 1.200 Moedas |
+
+<Callout type="info" title="Estratégia de Melhoria">
+O caminho mais equilibrado para novos jogadores é **Velocidade 1 → Carga 1 → Velocidade 2 → Alcance 1**. Isso garante que você não seja muito lento, mas também não precise fazer três viagens para um único pedido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Mestre e FAQ">
+
+Para se tornar um profissional do armazém, você deve tentar alcançar esses marcos. Esses objetivos foram criados para testar seu conhecimento sobre as **localizações de itens em Pack an Order** e sua capacidade de gerenciar várias tarefas sob pressão.
+
+<Checklist
+  id="warehouse-mastery"
+  title="Objetivos do Profissional de Armazém:"
+  items={[
+    "Memorizar a localização dos 10 itens mais comuns",
+    "Completar um pedido de 5 itens em menos de 45 segundos jogando solo",
+    "Alcançar o Nível 3 em todas as melhorias principais (Velocidade, Carga, Alcance)",
+    "Usar com sucesso a ferramenta 'Inspecionar' para detectar um item errado antes de embalar",
+    "Terminar uma sessão cooperativa com zero itens incorretos embalados"
+  ]}
+/>
+
+<Callout type="tip" title="Dica Profissional Final">
+Os itens nas prateleiras mais altas são frequentemente os que os jogadores esquecem. Se você não conseguir encontrar um item ao nível dos olhos, olhe para cima! A melhoria de Alcance é sua melhor amiga para essas localizações "escondidas".
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que devo fazer se não conseguir encontrar a localização de um item específico?",
+    answer: "Primeiro, verifique a sinalização do armazém no final de cada corredor. Se for um item alimentício, vá para o perímetro. Se for um brinquedo, verifique os corredores centrais numerados. Lembre-se de que alguns itens estão nas prateleiras mais altas ou mais baixas, exigindo que você ajuste o ângulo da câmera."
+  },
+  {
+    question: "Como lidar com itens parecidos em Pack an Order?",
+    answer: "A mecânica de 'Inspecionar' (Clique Direito ou Y) é sua ferramenta mais confiável. Ela exibe o nome exato do item que você está olhando. Use isso sempre que estiver na seção de Alimentos, pois muitas embalagens têm esquemas de cores semelhantes."
+  },
+  {
+    question: "É melhor melhorar a Velocidade ou a Capacidade de Carga primeiro?",
+    answer: "A Velocidade é geralmente melhor para a primeiríssima melhoria porque ajuda em todos os pedidos. A Capacidade de Carga torna-se mais valiosa quando você começa a receber pedidos que exigem 3 ou mais do mesmo item."
+  },
+  {
+    question: "O layout do armazém muda entre as partidas?",
+    answer: "Na versão atual, a estrutura geral dos corredores permanece consistente, mas as localizações específicas de itens raros em Pack an Order podem mudar ligeiramente entre as atualizações para manter a jogabilidade renovada. Sempre verifique os cabeçalhos dos corredores."
+  }
+]} />
+
+</Section>

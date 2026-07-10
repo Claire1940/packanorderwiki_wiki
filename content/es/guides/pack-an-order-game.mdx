@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pack an Order Game: Mejores Mejoras y Guía de Almacén para Principiantes",
+  description: "Domina el juego pack an order en Roblox. Aprende la ubicación de los objetos, rutas de mejora óptimas, estrategias cooperativas y cómo completar rutas de entrega rápido.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Pack+An+Order+Guide",
+  date: "2026-07-11",
+  author: "Equipo de la Wiki de pack an order",
+  keywords: "pack an order, roblox, guía, mejoras, almacén, estrategia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Bucle Principal**: Encuentra los juguetes solicitados en los estantes del almacén, empácalos en cajas de pedidos y cárgalos en los camiones de entrega.
+- **Mejoras Principales**: Prioriza la **Velocidad** primero para reducir los tiempos de viaje, seguida de la **Capacidad de Carga** y el **Alcance**.
+- **Estrategia Cooperativa**: Divide los roles entre Recolectores, Empacadores y Cargadores para maximizar la eficiencia y dominar las tablas de clasificación.
+- **Controles**: Domina **E/Clic Izquierdo** para empacar, **R** para rotar pedidos y la **Rueda del Ratón** para rotar los objetos transportados.
+</Callout>
+
+<Section icon={Map} title="Cómo jugar Pack an Order Game: Flujo de trabajo para principiantes">
+
+El **juego pack an order** en Roblox es una simulación de almacén colaborativa y de ritmo rápido donde la eficiencia es clave. Ya sea que juegues solo o con un equipo, tu objetivo principal es completar los tickets de los clientes con precisión antes de que se agote el tiempo. Completar pedidos te recompensa con Monedas, que se reinvierten en mejoras de personaje para completar futuras partidas aún más rápido.
+
+| Paso | Acción | Control Clave | Consejo Pro |
+|------|--------|---------------|-------------|
+| 1 | Leer Ticket | Presionar R para rotar | Agrupa pedidos por proximidad de estantes |
+| 2 | Recoger Objetos | E / Clic Izquierdo | Lleva varios objetos para ahorrar viajes |
+| 3 | Verificar Juguetes | Clic Derecho / Y | Inspecciona formas o colores similares |
+| 4 | Empacar Caja | E / Clic Izquierdo | Suelta objetos incorrectos con Q cerca de los estantes |
+| 5 | Cargar Camión | Arrastrar al Camión | Mantén las zonas de carga despejadas |
+
+Para ayudarte a comenzar, hemos trazado el proceso completo del almacén paso a paso a continuación.
+
+<Steps>
+  <Step num="1" title="Selecciona tu modo de juego">
+    Elige entre Solo o Multijugador. Se recomienda encarecidamente jugar con amigos, ya que pueden dividirse las secciones del almacén para evitar retroceder.
+  </Step>
+  <Step num="2" title="Analiza el ticket del cliente">
+    Revisa el ticket de pedido activo en tu pantalla. Enumera el nombre del cliente, el número de pedido, los objetos requeridos y las cantidades exactas. Presiona **R** para rotar entre los pedidos disponibles y encontrar la ruta más eficiente.
+  </Step>
+  <Step num="3" title="Localiza y recupera objetos">
+    Navega por los estantes del almacén para encontrar los juguetes solicitados. Memorizar el diseño general del almacén es la forma más rápida de reducir tus tiempos de ejecución.
+  </Step>
+  <Step num="4" title="Empaca y entrega">
+    Lleva los objetos recolectados a la estación de empaque. Presiona **E** para colocarlos en la caja. Una vez completada la lista de verificación, toma la caja sellada y cárgala en el camión de entrega para reclamar tus Monedas.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo sobre el diseño del almacén">
+Dedica tus primeras partidas en solitario simplemente a recorrer los pasillos. Saber exactamente dónde se encuentran objetos como el "Matcha Dumpling" o el "Red Squishy" en los estantes te ahorrará más tiempo que cualquier mejora inicial.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores mejoras y prioridad de progresión">
+
+Reinvertir tus Monedas ganadas con esfuerzo en las mejoras adecuadas es esencial para escalar en las tablas de clasificación. El juego cuenta con tres mejoras principales: **Velocidad**, **Capacidad de Carga** y **Alcance**. Equilibrar estas estadísticas según tu estilo de juego (Solo vs. Cooperativo) determina qué tan rápido puedes escalar tus operaciones de almacén.
+
+<CardGrid cols={3}>
+  <Card title="Mejora de Velocidad">
+    - **Utilidad universal** para todas las partidas
+    - Reduce el tiempo de viaje entre estantes
+    - **Prioridad #1** tanto para Solo como para Equipos
+  </Card>
+  <Card title="Capacidad de Carga">
+    - Lleva más objetos a la vez
+    - Rota objetos con la rueda del ratón
+    - **Prioridad #2** para jugadores en solitario
+  </Card>
+  <Card title="Mejora de Alcance">
+    - Agarra objetos desde más lejos
+    - Acelera las interacciones en la estación de empaque
+    - **Prioridad #2** para equipos cooperativos
+  </Card>
+</CardGrid>
+
+Para maximizar la eficiencia de tus Monedas, utiliza las rutas de progresión de mejoras recomendadas que se detallan en la tabla a continuación.
+
+| Estilo de Juego | Ruta de Prioridad de Mejora | Razonamiento |
+|-----------|-----------------------|-----------|
+| **Jugador Solo** | Velocidad → Capacidad de Carga → Alcance | Las partidas en solitario requieren mucho retroceso; llevar más objetos por viaje es vital. |
+| **Equipo Cooperativo** | Velocidad → Alcance → Capacidad de Carga | Los equipos pueden dividirse los estantes, haciendo que el alcance de interacción sea más valioso que el tamaño del inventario. |
+| **Speedrunner** | Velocidad Máx → Alcance Máx → Capacidad | Minimiza los cuadros de movimiento y permite recogidas instantáneas desde el pasillo principal. |
+
+<Callout type="success" title="Desbloqueo del sistema de habilidades">
+A medida que subas de nivel, desbloquearás Habilidades especializadas. Equipa siempre habilidades que complementen tu estadística más débil. Por ejemplo, si no has mejorado la Capacidad de Carga, usa una habilidad de potenciación de transporte para compensar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando los controles y la verificación de objetos">
+
+En el **juego pack an order**, la velocidad no significa nada si empacas objetos incorrectos. Un solo objeto equivocado puede arruinar tu tiempo de finalización. Utilizar los controles de inspección integrados garantiza una tasa de precisión del 100%.
+
+| Tecla de Entrada | Acción | Aplicación Práctica en el Almacén |
+|-----------|--------|---------------------------------|
+| **E / Clic Izquierdo** | Recoger / Empacar | Tecla de interacción principal para estantes y cajas. |
+| **Q** | Soltar Objeto | Úsala para descartar objetos incorrectos cerca de sus estantes originales. |
+| **R** | Rotar Pedidos | Cambia entre tickets activos para reunir objetos para múltiples pedidos. |
+| **Rueda del Ratón** | Rotar Inventario | Cambia el objeto que tienes en la mano antes de acercarte a la caja. |
+| **Clic Derecho / Y** | Inspeccionar Objeto | Haz zoom en un objeto para confirmar su nombre y color. |
+
+<Callout type="warning" title="Cuidado con los parecidos">
+Varios juguetes comparten formas muy similares pero tienen nombres o colores diferentes. Usa siempre el **Clic Derecho** o **Y** para inspeccionar objetos si no estás seguro. Empacar un objeto incorrecto te obliga a perder tiempo reorganizando la caja.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Roles cooperativos y estrategias para la tabla de clasificación">
+
+Coordinar un equipo multijugador es la forma definitiva de lograr los mejores tiempos en la tabla de clasificación. En lugar de que cada jugador corra sin rumbo por el almacén, asignar roles dedicados evita el trabajo duplicado y mantiene los camiones de entrega en movimiento constante.
+
+| Rol | Responsabilidad Principal | Enfoque de Mejora Ideal | Acciones Clave |
+|------|------------------------|--------------------|-------------|
+| **Recolector** | Recuperar objetos de los estantes | Velocidad, Capacidad de Carga | Deja objetos cerca de las estaciones de empaque |
+| **Empacador** | Verificar tickets y llenar cajas | Alcance, Velocidad | Rota pedidos, gestiona el inventario |
+| **Cargador** | Mover cajas terminadas a los camiones | Velocidad | Mantiene despejado el muelle de carga |
+
+Usa esta lista de verificación para asegurarte de que tu equipo esté operando a su máxima eficiencia antes de intentar un récord de puntuación:
+
+<Checklist
+  id="coop-readiness"
+  title="Lista de verificación del equipo antes de la partida:"
+  items={[
+    "Asigna zonas de almacén distintas a cada Recolector",
+    "Asegúrate de que el Empacador esté anunciando los requisitos de los tickets activos",
+    "Haz que los Recolectores dejen los objetos en el suelo cerca del Empacador para evitar cuellos de botella",
+    "Mejora la Velocidad de todos al menos al Nivel 3 antes de intentar récords en la tabla de clasificación"
+  ]}
+/>
+
+<Callout type="info" title="La comunicación es clave">
+Usa el chat del juego o la comunicación por voz para informar sobre las cantidades completadas. Si un Recolector sabe que un compañero ya agarró los "Matcha Dumplings" requeridos, puede pasar inmediatamente al siguiente objeto del pedido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes: Guía del juego Pack an Order">
+
+<FAQ items={[
+  {
+    question: "¿Hay códigos promocionales activos para el juego pack an order en Roblox?",
+    answer: "Actualmente, no hay un sistema de canje de códigos activo ni códigos funcionales listados en la descripción oficial del juego en Roblox. Consulta el grupo de la comunidad de desarrolladores 'lost to pc to game' para futuras actualizaciones."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de ganar Monedas en el juego?",
+    answer: "La forma más rápida de farmear Monedas es jugar en un equipo de 2 a 3 jugadores. Dividir las tareas de recolección, empaque y carga te permite completar pedidos en una fracción del tiempo en comparación con el juego en solitario."
+  },
+  {
+    question: "¿Qué hago si llevo el objeto equivocado?",
+    answer: "Simplemente presiona Q para soltar el objeto. Es mejor soltarlo cerca de su estante original para que otros jugadores no lo confundan más tarde con objetos de pedidos activos."
+  },
+  {
+    question: "¿El juego es compatible con controles o dispositivos móviles?",
+    answer: "¡Sí! El juego está totalmente optimizado para jugar en móviles y consolas. Los jugadores de móviles pueden usar los objetivos táctiles en pantalla, y los jugadores con control pueden usar el botón Y para inspeccionar objetos."
+  }
+]} />
+
+</Section>

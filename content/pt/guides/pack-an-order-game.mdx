@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jogo Pack an Order: Melhores Upgrades e Guia de Armazém para Iniciantes",
+  description: "Domine o jogo pack an order no Roblox. Aprenda a localização dos itens, caminhos de upgrade ideais, estratégias de co-op e como completar rotas de entrega rapidamente.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Pack+An+Order+Guide",
+  date: "2026-07-11",
+  author: "Equipe da Wiki de Pack an Order"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ciclo Principal**: Encontre os brinquedos solicitados nas prateleiras do armazém, embale-os em caixas de pedidos e carregue os caminhões de entrega.
+- **Upgrades Primários**: Priorize **Velocidade (Speed)** primeiro para reduzir o tempo de deslocamento, seguido por **Capacidade de Carga (Carry Capacity)** e **Alcance (Reach)**.
+- **Estratégia Co-op**: Divida as funções entre Coletores, Embaladores e Carregadores para maximizar a eficiência e dominar os placares de líderes.
+- **Controles**: Domine **E/Clique Esquerdo** para embalar, **R** para alternar pedidos e a **Roda do Mouse** para alternar entre os itens carregados.
+</Callout>
+
+<Section icon={Map} title="Como Jogar Pack an Order Game: Fluxo de Trabalho para Iniciantes">
+
+O **jogo pack an order** no Roblox é uma simulação de armazém colaborativa e acelerada onde a eficiência é a chave. Seja jogando sozinho ou em equipe, seu objetivo principal é cumprir os tickets dos clientes com precisão antes que o tempo acabe. Completar pedidos recompensa você com Moedas, que são reinvestidas em upgrades de personagem para completar as próximas rodadas ainda mais rápido.
+
+| Passo | Ação | Controle Chave | Dica de Pro |
+|------|--------|-------------|---------|
+| 1 | Ler Ticket | Pressione R para Alternar | Agrupe pedidos por proximidade de prateleira |
+| 2 | Coletar Itens | E / Clique Esquerdo | Carregue vários itens para economizar viagens |
+| 3 | Verificar Brinquedos | Clique Direito / Y | Inspecione formas ou cores semelhantes |
+| 4 | Embalar Caixa | E / Clique Esquerdo | Solte itens errados com Q perto das prateleiras |
+| 5 | Carregar Caminhão | Arraste para o Caminhão | Mantenha as zonas de carregamento livres de bagunça |
+
+Para ajudar você a começar, mapeamos abaixo todo o processo passo a passo do armazém.
+
+<Steps>
+  <Step num="1" title="Selecione Seu Modo de Jogo">
+    Escolha entre Solo ou Multijogador. Jogar com amigos é altamente recomendado, pois vocês podem dividir as seções do armazém para evitar idas e vindas desnecessárias.
+  </Step>
+  <Step num="2" title="Analise o Ticket do Cliente">
+    Verifique o ticket de pedido ativo na sua tela. Ele lista o nome do cliente, o número do pedido, os itens necessários e as quantidades exatas. Pressione **R** para alternar entre os pedidos disponíveis e encontrar a rota mais eficiente.
+  </Step>
+  <Step num="3" title="Localize e Recupere os Itens">
+    Navegue pelas prateleiras do armazém para encontrar os brinquedos solicitados. Memorizar o layout geral do armazém é a maneira mais rápida de diminuir seus tempos de execução.
+  </Step>
+  <Step num="4" title="Embale e Entregue">
+    Leve os itens coletados para a estação de embalagem. Pressione **E** para colocá-los na caixa. Assim que a lista de verificação estiver completa, pegue a caixa selada e carregue-a no caminhão de entrega para resgatar suas Moedas.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Layout do Armazém">
+Passe suas primeiras rodadas solo apenas caminhando pelos corredores. Saber exatamente onde itens como o "Matcha Dumpling" ou o "Red Squishy" ficam nas prateleiras economizará mais tempo do que qualquer upgrade de início de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Melhores Upgrades e Prioridade de Progressão">
+
+Reinvestir suas Moedas suadas nos upgrades certos é essencial para subir nos placares de líderes. O jogo apresenta três upgrades principais: **Velocidade (Speed)**, **Capacidade de Carga (Carry Capacity)** e **Alcance (Reach)**. Equilibrar esses status com base no seu estilo de jogo (Solo vs. Co-op) determina o quão rápido você pode escalar suas operações no armazém.
+
+<CardGrid cols={3}>
+  <Card title="Upgrade de Velocidade">
+    - **Utilidade universal** para todas as rodadas
+    - Reduz o tempo de viagem entre as prateleiras
+    - **Prioridade nº 1** tanto para Solo quanto Equipes
+  </Card>
+  <Card title="Capacidade de Carga">
+    - Carregue mais itens de uma vez
+    - Alterne itens com a Roda do Mouse
+    - **Prioridade nº 2** para jogadores Solo
+  </Card>
+  <Card title="Upgrade de Alcance">
+    - Pegue itens de mais longe
+    - Acelera as interações na estação de embalagem
+    - **Prioridade nº 2** para equipes Co-op
+  </Card>
+</CardGrid>
+
+Para maximizar a eficiência de suas Moedas, use os caminhos de progressão de upgrade recomendados na tabela abaixo.
+
+| Estilo de Jogo | Caminho de Prioridade de Upgrade | Razão |
+|-----------|-----------------------|-----------|
+| **Jogador Solo** | Velocidade → Capacidade → Alcance | Rodadas solo exigem muito vaivém; carregar mais itens por viagem é vital. |
+| **Equipe Co-op** | Velocidade → Alcance → Capacidade | Equipes podem dividir as prateleiras, tornando o alcance de interação mais valioso que o inventário. |
+| **Speedrunner** | Velocidade Máx → Alcance Máx → Capacidade | Minimiza quadros de movimento e permite coletas instantâneas do corredor principal. |
+
+<Callout type="success" title="Desbloqueio do Sistema de Habilidades">
+Conforme você sobe de nível, desbloqueará Habilidades especializadas. Sempre equipe habilidades que complementem seu status mais fraco. Por exemplo, se você não melhorou a Capacidade de Carga, use uma habilidade de reforço de transporte para compensar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando os Controles e Verificação de Itens">
+
+No **jogo pack an order**, velocidade não significa nada se você embalar os itens incorretos. Um único item errado pode arruinar seu tempo de conclusão. Utilizar os controles de inspeção integrados garante uma taxa de precisão de 100%.
+
+| Tecla de Entrada | Ação | Aplicação Prática no Armazém |
+|-----------|--------|---------------------------------|
+| **E / Clique Esquerdo** | Pegar / Embalar | Tecla de interação primária para prateleiras e caixas. |
+| **Q** | Soltar Item | Use isso para descartar itens errados perto de suas prateleiras originais. |
+| **R** | Alternar Pedidos | Troque os tickets ativos para reunir itens de vários pedidos. |
+| **Roda do Mouse** | Alternar Inventário | Alterne seu item ativo antes de se aproximar da caixa. |
+| **Clique Direito / Y** | Inspecionar Item | Aumente o zoom em um item para confirmar seu nome e cor. |
+
+<Callout type="warning" title="Cuidado com Itens Parecidos">
+Vários brinquedos compartilham formas muito semelhantes, mas têm nomes ou cores diferentes. Sempre use o **Clique Direito** ou **Y** para inspecionar itens se não tiver certeza. Embalar um item errado força você a perder tempo organizando a caixa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Funções Co-op e Estratégias de Placar de Líderes">
+
+Coordenar uma equipe multijogador é a forma definitiva de alcançar os melhores tempos no placar de líderes. Em vez de ter cada jogador correndo sem rumo pelo armazém, atribuir funções dedicadas evita trabalho duplicado e mantém os caminhões de entrega em movimento constante.
+
+| Função | Responsabilidade Primária | Foco de Upgrade Ideal | Ações Chave |
+|------|------------------------|--------------------|-------------|
+| **Coletor** | Recuperar itens das prateleiras | Velocidade, Capacidade | Deixa os itens perto das estações de embalagem |
+| **Embalador** | Verificar tickets e encher caixas | Alcance, Velocidade | Alterna pedidos, gerencia o inventário |
+| **Carregador** | Mover caixas prontas para os caminhões | Velocidade | Mantém a doca de carregamento livre |
+
+Use esta lista de verificação para garantir que sua equipe esteja operando na eficiência máxima antes de tentar uma pontuação alta:
+
+<Checklist
+  id="coop-readiness"
+  title="Checklist da Equipe Pré-Partida:"
+  items={[
+    "Atribuir zonas distintas do armazém para cada Coletor",
+    "Garantir que o Embalador esteja anunciando os requisitos do ticket ativo",
+    "Fazer com que os Coletores deixem os itens no chão perto do Embalador para evitar gargalos",
+    "Melhorar a Velocidade de todos para pelo menos o Nível 3 antes de tentar recordes"
+  ]}
+/>
+
+<Callout type="info" title="Comunicação é a Chave">
+Use o chat do jogo ou comunicação por voz para relatar as quantidades concluídas. Se um Coletor souber que um colega de equipe já pegou os "Matcha Dumplings" necessários, ele pode passar imediatamente para o próximo item do pedido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ: Guia do Jogo Pack an Order">
+
+<FAQ items={[
+  {
+    question: "Existem códigos promocionais ativos para o jogo pack an order no Roblox?",
+    answer: "Atualmente, não há um sistema de resgate de códigos ativo ou códigos funcionais listados na descrição oficial do jogo no Roblox. Verifique o grupo da comunidade de desenvolvedores 'lost to pc to game' para atualizações futuras."
+  },
+  {
+    question: "Qual é a maneira mais rápida de ganhar Moedas no jogo?",
+    answer: "A maneira mais rápida de farmar Moedas é jogar em uma equipe de 2 a 3 jogadores. Dividir as tarefas de coleta, embalagem e carregamento permite que você complete os pedidos em uma fração do tempo em comparação ao jogo solo."
+  },
+  {
+    question: "Como lidar ao carregar o item errado?",
+    answer: "Basta pressionar Q para soltar o item. É melhor soltá-lo perto de sua prateleira original para que outros jogadores não o confundam com itens de pedidos ativos mais tarde."
+  },
+  {
+    question: "O jogo suporta entradas de celular ou controle?",
+    answer: "Sim! O jogo está totalmente otimizado para jogar no celular e no console. Jogadores de celular podem usar os botões de toque na tela, e jogadores de controle podem usar o botão Y para inspecionar itens."
+  }
+]} />
+
+</Section>

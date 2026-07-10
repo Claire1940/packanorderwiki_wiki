@@ -10,7 +10,15 @@
       "twitterDescription": "Pack an Order Roblox Wiki covering controls, orders, items, upgrades, abilities, and co-op strategies."
     }
   },
-  "nav": {},
+  "nav": {
+    "guides": "Guides",
+    "codes": "Codes",
+    "orders": "Orders",
+    "items": "Items",
+    "upgrades": "Upgrades",
+    "abilities": "Abilities",
+    "controls": "Controls"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -640,26 +648,6 @@
       },
       "featured": "Featured and Essential",
       "all": "All Controls"
-    },
-    "updates": {
-      "title": "Pack an Order Updates",
-      "description": "Track version changes, new items, abilities, balance updates, and bug fixes.",
-      "metaTitle": "Pack an Order Updates - Patch Notes and New Content",
-      "metaDescription": "Read the latest Pack an Order update log including new products, abilities, upgrades, balance changes, and bug fixes.",
-      "categoryLabel": "UPDATES",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Updates record version changes, new content, balance adjustments, and fixes released for Pack an Order.",
-      "why": "Why follow updates?",
-      "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "See new items, abilities, and upgrades",
-        "step2Title": "Adapt Strategies",
-        "step2Description": "Adjust routes when balance changes",
-        "step3Title": "Catch Fixes",
-        "step3Description": "Know which bugs have been resolved"
-      },
-      "featured": "Featured and Essential",
-      "all": "All Updates"
     }
   }
 }

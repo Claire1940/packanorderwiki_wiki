@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Camión de entrega de Pack an Order: Guía completa de carga de almacén",
+  description: "Domina el flujo de trabajo del camión de entrega en Pack an Order de Roblox. Aprende rutas de estantes, emparejamiento de artículos, prioridades de mejora y estrategias de carga cooperativa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Pack+an+Order+Truck+Guide",
+  date: "2026-07-11",
+  author: "Equipo de la Wiki de Pack an Order",
+  keywords: "pack an order, roblox, camión de entrega, guía, mejoras, almacén"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Encontrar, empacar y cargar juguetes eficientemente para **llenar un camión de entrega** antes de que se agote el tiempo.
+- **Mejoras Principales**: Prioriza la **Velocidad** para minimizar el tiempo de viaje, seguida de la **Capacidad de carga** y el **Alcance** para optimizar tu ruta.
+- **Control Clave**: Presiona **R** para alternar entre los tickets de clientes activos y planificar tus rutas de recolección en los estantes con antelación.
+- **Estrategia Cooperativa**: Divide los roles en **Recolector**, **Empacador** y **Cargador** para evitar la recolección duplicada de artículos y despejar los pedidos acumulados.
+- **Verificación de Artículos**: Usa el **clic derecho** o **Y** para inspeccionar juguetes que se parezcan antes de colocarlos en la caja de envío.
+</Callout>
+
+<Section icon={Map} title="Dominando el ciclo de entrega del almacén">
+
+Para lograr **empacar un camión de entrega** con éxito, debes dominar la coordinación rápida del almacén. El ciclo principal de juego requiere que leas los tickets de clientes activos, navegues por las estanterías para localizar productos específicos, los empaques en cajas de envío y cargues los pedidos finalizados en el camión de entrega. Minimizar el tiempo de viaje y evitar artículos incorrectos son las claves para asegurar puestos altos en la tabla de clasificación y maximizar tus ganancias de Monedas.
+
+**Puntos destacados del video:**
+- **Flujo de Pedidos**: Un recorrido completo sobre cómo leer tickets, recolectar juguetes y cargar el camión.
+- **Demostración de Controles**: Demostración visual del uso de teclas para alternar pedidos e inspeccionar artículos.
+- **Impacto de las Mejoras**: Comparación de la velocidad de movimiento base con las estadísticas de trabajador totalmente mejoradas.
+
+<YouTubeEmbed videoId="lqozi7Nuilg" title="Pack an Order Roblox Gameplay" />
+
+| Fase | Objetivo Principal | Teclas | Enfoque de Eficiencia |
+|---|---|---|---|
+| **1. Leer Ticket** | Identificar juguetes y cantidades requeridas | **R** | Alternar pedidos activos para planificar rutas |
+| **2. Recolectar Artículos** | Recuperar productos de los estantes correctos | **E** / **Clic Izquierdo** | Agrupar artículos cercanos en un solo viaje |
+| **3. Verificar Juguetes** | Asegurar que el artículo coincida con el ticket | **Clic Derecho** / **Y** | Inspeccionar productos que se parezcan |
+| **4. Empacar Caja** | Depositar los artículos correctos en la caja | **E** / **Clic Izquierdo** | Usar **Q** para soltar artículos incorrectos |
+| **5. Cargar Camión** | Transportar cajas terminadas al vehículo | **E** / **Clic Izquierdo** | Despejar el muelle de carga inmediatamente |
+
+<Callout type="tip" title="Planificación de Rutas Pro">
+Revisa siempre el ticket completo antes de salir de la estación de empaque. Si un pedido requiere varios productos ubicados en el mismo pasillo, recógelos todos en un solo viaje en lugar de hacer trayectos separados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para empacar y cargar">
+
+Completar pedidos rápidamente requiere un enfoque sistemático para la navegación por los estantes y el empaque de cajas. Sigue este flujo de trabajo paso a paso para agilizar tus recorridos por el almacén y cargar el camión de entrega sin movimientos desperdiciados.
+
+<Steps>
+  <Step num="1" title="Acepta y alterna tus pedidos">
+    Interactúa con el tablero de pedidos activos. Usa la tecla **R** para alternar entre los tickets de clientes disponibles. Analiza los nombres de los productos, las cantidades requeridas y las ubicaciones en los estantes antes de empezar a moverte.
+  </Step>
+  <Step num="2" title="Navega y recupera de los estantes">
+    Dirígete directamente a los pasillos designados. Usa **E** o el **clic izquierdo** para recoger los juguetes solicitados. Si has mejorado tu Capacidad de carga, recoge varios artículos diferentes en un solo viaje.
+  </Step>
+  <Step num="3" title="Inspecciona y verifica artículos similares">
+    Si los juguetes parecen idénticos o comparten un empaque similar, usa el **clic derecho** o **Y** para inspeccionarlos. Confirma que el nombre del artículo coincida exactamente con la lista del ticket para evitar errores de empaque.
+  </Step>
+  <Step num="4" title="Empaca la caja de envío">
+    Regresa a tu estación de empaque. Usa la rueda de desplazamiento del ratón para alternar entre los artículos que llevas, luego presiona **E** o el **clic izquierdo** para depositar los juguetes correspondientes en la caja de envío.
+  </Step>
+  <Step num="5" title="Carga el camión de entrega">
+    Una vez que la lista de la caja de envío esté completa, interactúa con la caja terminada para levantarla. Llévala directamente a la parte trasera del camión de entrega y cárgala para asegurar tus Monedas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita penalizaciones por empaque">
+Colocar un artículo incorrecto en una caja de envío desperdicia tiempo valioso. Si recoges accidentalmente el juguete equivocado, presiona **Q** para soltarlo inmediatamente cerca de su estante original en lugar de llevarlo a la estación de empaque.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores mejoras principales y progresión">
+
+Reinvertir tus Monedas ganadas con esfuerzo en mejoras permanentes para el trabajador es esencial para manejar pedidos complejos y de gran volumen. Compara las tres mejoras principales a continuación para crear la configuración más eficiente para tu estilo de juego.
+
+<CardGrid cols={3}>
+  <Card title="Mejora de Velocidad">
+    - **Beneficio Universal**: Mejora la velocidad de movimiento en todas las zonas del almacén.
+    - **Ahorro de Tiempo**: Reduce directamente el tiempo de viaje entre los estantes y el camión.
+    - **Prioridad**: **Rango 1** tanto para jugadores en solitario como para equipos multijugador.
+  </Card>
+  <Card title="Capacidad de Carga">
+    - **Transporte a Granel**: Te permite sostener varios juguetes simultáneamente.
+    - **Menos Viajes**: Reduce drásticamente los viajes de regreso a la estación de empaque.
+    - **Prioridad**: **Rango 2** para jugadores en solitario; **Rango 3** para equipos coordinados.
+  </Card>
+  <Card title="Mejora de Alcance">
+    - **Rango Extendido**: Agarra juguetes y empaca cajas desde una distancia mayor.
+    - **Movimiento Fluido**: Recolecta artículos sin necesidad de un posicionamiento preciso.
+    - **Prioridad**: **Rango 3** para jugadores en solitario; **Rango 2** para equipos coordinados.
+  </Card>
+</CardGrid>
+
+| Estadística de Mejora | Impacto Principal en el Juego | Mejor Uso Para | Prioridad Solo | Prioridad Equipo |
+|---|---|---|---|---|
+| **Velocidad** | Reduce el tiempo de caminata | Rutas largas en el almacén | ★★★★★ | ★★★★★ |
+| **Capacidad de Carga** | Sostiene más artículos a la vez | Tickets de pedidos con varios artículos | ★★★★☆ | ★★★☆☆ |
+| **Alcance** | Extiende la distancia de interacción | Recolección rápida en estantes | ★★★☆☆ | ★★★★☆ |
+
+<Callout type="success" title="Rutas de Mejora">
+Para jugadores en solitario, sigue la ruta **Velocidad → Capacidad de carga → Alcance** para minimizar el retroceso. Para equipos multijugador organizados, utiliza la ruta **Velocidad → Alcance → Capacidad de carga**, ya que los jugadores pueden dividirse y conquistar pasillos específicos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Roles cooperativos y estrategias para la tabla de clasificación">
+
+Coordinarse con los compañeros de equipo es la forma más rápida de **empacar un camión de entrega** y escalar en las tablas de clasificación globales. Sin una comunicación clara, los jugadores duplicarán el trabajo, buscarán los mismos artículos y dejarán el muelle de carga congestionado.
+
+| Tamaño del Equipo | Roles Recomendados | Estrategia de Coordinación | Error Común |
+|---|---|---|---|
+| **Solo** | Todo en uno | Alternar tickets, recolectar artículos por lotes y maximizar la Capacidad de carga. | Retroceder por artículos individuales |
+| **2 Jugadores** | 1 Recolector, 1 Empacador/Cargador | El recolector se queda en los pasillos; el empacador gestiona cajas y carga el camión. | Ambos jugadores abandonando la estación |
+| **3 Jugadores** | 1 Recolector, 1 Empacador, 1 Cargador | El recolector cosecha estantes; el empacador llena cajas; el cargador lleva las cajas al camión. | Dejar que las cajas terminadas se acumulen |
+| **4+ Jugadores** | Especialistas en Pasillos, 1 Cargador | Asignar jugadores a zonas de estantes específicas; el cargador coordina los tickets. | Recolectar artículos duplicados |
+
+<Callout type="info" title="La comunicación es clave">
+Cuando juegues en multijugador, usa el chat del equipo o la comunicación por voz para anunciar los nombres de los clientes activos (ej. "Recolectando el pedido de Becca"). Esto evita que los compañeros pierdan tiempo recogiendo exactamente los mismos juguetes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de eficiencia del almacén">
+
+Usa esta lista de verificación para monitorear tu desempeño y asegurar que tu equipo del almacén esté operando con la máxima eficiencia de carga.
+
+<Checklist
+  id="truck-loading-goals"
+  title="Hitos de carga del camión de entrega:"
+  items={[
+    "Memorizar el diseño general de los estantes de juguetes para eliminar retrasos en la búsqueda.",
+    "Mejorar la Velocidad al menos al Nivel 3 antes de invertir en otras estadísticas.",
+    "Usar con éxito la rueda de desplazamiento para gestionar un inventario de 3 o más artículos.",
+    "Completar una partida cooperativa de 3 jugadores sin que ningún jugador duplique la búsqueda de un artículo.",
+    "Empacar y cargar un pedido complejo de varios artículos en menos de 45 segundos."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo puedo empacar un camión de entrega de pedidos más rápido jugando solo?",
+    answer: "Para empacar el camión de entrega rápidamente como jugador en solitario, prioriza mejorar tu Velocidad y Capacidad de carga. Lee el ticket de pedido completo antes de salir de la estación de empaque, recolecta todos los artículos requeridos de los estantes en un solo viaje y usa la rueda de desplazamiento para alternar y empacarlos eficientemente."
+  },
+  {
+    question: "¿Qué debo hacer si recojo un artículo incorrecto?",
+    answer: "Presiona la tecla Q en PC para soltar el artículo incorrecto inmediatamente. Es mejor soltarlo cerca de su estante original para que no estorbe en la estación de empaque ni bloquee a otros jugadores."
+  },
+  {
+    question: "¿Hay códigos activos disponibles para Pack an Order?",
+    answer: "Actualmente, no hay un sistema de códigos activos ni un menú de canje integrado en el juego. Consulta la descripción oficial del juego en Roblox y la página de la comunidad de desarrolladores para futuras actualizaciones sobre códigos de recompensa gratuitos."
+  },
+  {
+    question: "¿Por qué debería usar la función de inspección?",
+    answer: "Algunos juguetes tienen formas, colores o empaques muy similares. Presionar el clic derecho o Y para inspeccionar un artículo muestra su nombre preciso, asegurando que no empaques el producto equivocado y pierdas tiempo."
+  }
+]} />
+
+</Section>
