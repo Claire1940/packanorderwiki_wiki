@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "description": "Pack an Order Roblox Wiki with beginner tips, controls, order routes, item locations, upgrades, abilities, co-op strategies, leaderboards, and update news.",
+      "keywords": "Pack an Order, Roblox, codes, wiki, upgrades, abilities, controls, orders, co-op, leaderboard",
+      "ogTitle": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "ogDescription": "Pack an Order Roblox Wiki with beginner tips, controls, order routes, item locations, upgrades, abilities, co-op strategies, leaderboards, and update news.",
+      "twitterTitle": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "twitterDescription": "Pack an Order Roblox Wiki covering controls, orders, items, upgrades, abilities, and co-op strategies."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Fast-Paced Co-op Warehouse Simulator",
+    "title": "Pack an Order Wiki",
+    "description": "Find toys, complete customer orders, pack boxes, load delivery trucks, earn coins, unlock abilities, upgrade your worker, and compete for faster warehouse times.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
+        "value": "5.3K",
         "label": "Players Online"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "85%",
+        "label": "Player Rating"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "3",
+        "label": "Core Upgrades"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Solo + Co-op",
+        "label": "Play Modes"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Pack an Order Gameplay",
+    "description": "Find toys on the shelves, match customer orders, pack boxes, load delivery trucks, and upgrade your worker in this fast-paced Roblox co-op warehouse game."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -756,55 +756,55 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Pack an Order",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is Pack an Order multiplayer?",
+        "answer": "Yes. Pack an Order is a co-op warehouse game on Roblox. You can play solo or team up with friends to find toys, pack orders, and load delivery trucks faster."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What are the core upgrades in Pack an Order?",
+        "answer": "The three core upgrades are Speed, Reach, and Carry Capacity. They permanently improve your worker and help you complete orders much faster."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play Pack an Order?",
+        "answer": "Pack an Order is available for free on Roblox. You can play it on PC, mobile, Xbox, and any other device that supports Roblox."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Pack an Order have codes?",
+        "answer": "The game is newly launched and an official codes system has not been confirmed yet. We track the codes status and will list working codes as soon as they are verified."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Does Pack an Order support controllers?",
+        "answer": "Roblox supports controllers on compatible platforms, but keyboard and mouse or touch are the smoothest options for quickly grabbing and packing items."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Will Pack an Order receive updates?",
+        "answer": "Yes. As a live Roblox game, Pack an Order is expected to receive updates with new items, abilities, upgrades, and balance changes over time."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Pack an Order?",
+    "description": "Jump into Pack an Order on Roblox, find toys on the shelves, pack boxes fast, and beat the clock solo or with friends!",
+    "joinCommunity": "Play on Roblox",
+    "joinGame": "Watch Gameplay"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Pack an Order Wiki",
+    "description": "Your complete resource hub for Pack an Order Roblox guides, orders, items, upgrades, abilities, controls, and codes.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Play on Roblox",
+    "twitter": "Watch Gameplay",
+    "steamCommunity": "Roblox Charts",
+    "steamStore": "Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Pack an Order Wiki. Not affiliated with the developers of Pack an Order or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "description": "Pack an Order Roblox Wiki with beginner tips, controls, order routes, item locations, upgrades, abilities, co-op strategies, leaderboards, and update news.",
+      "keywords": "Pack an Order, Roblox, codes, wiki, upgrades, abilities, controls, orders, co-op, leaderboard",
+      "ogTitle": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "ogDescription": "Pack an Order Roblox Wiki with beginner tips, controls, order routes, item locations, upgrades, abilities, co-op strategies, leaderboards, and update news.",
+      "twitterTitle": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "twitterDescription": "Pack an Order Roblox Wiki covering controls, orders, items, upgrades, abilities, and co-op strategies."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Главная",
     "more": "Ещё",
-    "playNow": "Играть на Steam",
+    "playNow": "Играть на Roblox",
     "switchLanguage": "Сменить язык",
     "switchTheme": "Сменить тему",
     "lightMode": "Светлая тема",
@@ -34,38 +34,38 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Fast-Paced Co-op Warehouse Simulator",
+    "title": "Pack an Order Wiki",
+    "description": "Find toys, complete customer orders, pack boxes, load delivery trucks, earn coins, unlock abilities, upgrade your worker, and compete for faster warehouse times.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "5.3K",
+        "label": "Players Online"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "85%",
+        "label": "Player Rating"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "3",
+        "label": "Core Upgrades"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "Solo + Co-op",
+        "label": "Play Modes"
       }
     }
   },
   "gameFeature": {
-    "title": "Геймплей Lucid Blocks",
-    "description": "Исследуйте сюрреалистичные биомы, объединяйте предметы с помощью Apotheosis и выживайте среди странных существ в этой похожей на сон воксельной песочнице на Steam."
+    "title": "Pack an Order Gameplay",
+    "description": "Find toys on the shelves, match customer orders, pack boxes, load delivery trucks, and upgrade your worker in this fast-paced Roblox co-op warehouse game."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Pack an Order",
     "titleHighlight": "Ресурсы",
-    "subtitle": "Все, что вам нужно для исследования, крафта и выживания в Lucid Blocks",
+    "subtitle": "Все, что вам нужно для исследования, крафта и выживания в Pack an Order",
     "cards": [
       {
         "icon": "BookOpen",
@@ -129,7 +129,7 @@
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck и контроллер",
+        "title": "Roblox Deck и контроллер",
         "description": "Настройка Proton 9.0.4 и советы по управлению"
       },
       {
@@ -150,65 +150,65 @@
     ]
   },
   "faq": {
-    "title": "Часто задаваемые",
-    "titleHighlight": "вопросы",
-    "subtitle": "Всё, что вам нужно знать о Lucid Blocks",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Pack an Order",
     "questions": [
       {
-        "question": "Является ли Lucid Blocks одиночной игрой?",
-        "answer": "Да. Lucid Blocks — это исключительно одиночная игра, мультиплеер или кооператив не планируются."
+        "question": "Is Pack an Order multiplayer?",
+        "answer": "Yes. Pack an Order is a co-op warehouse game on Roblox. You can play solo or team up with friends to find toys, pack orders, and load delivery trucks faster."
       },
       {
-        "question": "Что такое система Apotheosis в Lucid Blocks?",
-        "answer": "Apotheosis — это система свободного крафта путём слияния в Lucid Blocks. Вместо того чтобы следовать фиксированным рецептам, вы комбинируете материалы и открываете собственные пути создания предметов."
+        "question": "What are the core upgrades in Pack an Order?",
+        "answer": "The three core upgrades are Speed, Reach, and Carry Capacity. They permanently improve your worker and help you complete orders much faster."
       },
       {
-        "question": "Где я могу поиграть в Lucid Blocks?",
-        "answer": "На данный момент Lucid Blocks доступна в Steam для Windows. Поддержка Linux и Steam Deck реализована через Proton 9.0."
+        "question": "Where can I play Pack an Order?",
+        "answer": "Pack an Order is available for free on Roblox. You can play it on PC, mobile, Xbox, and any other device that supports Roblox."
       },
       {
-        "question": "Сколько стоит Lucid Blocks?",
-        "answer": "Lucid Blocks стоит $9.99 в Steam."
+        "question": "Does Pack an Order have codes?",
+        "answer": "The game is newly launched and an official codes system has not been confirmed yet. We track the codes status and will list working codes as soon as they are verified."
       },
       {
-        "question": "Поддерживает ли Lucid Blocks контроллеры?",
-        "answer": "Да, но играть с контроллером не рекомендуется, так как меню не оптимизированы под него. Клавиатура и мышь — более удобный вариант."
+        "question": "Does Pack an Order support controllers?",
+        "answer": "Roblox supports controllers on compatible platforms, but keyboard and mouse or touch are the smoothest options for quickly grabbing and packing items."
       },
       {
-        "question": "Будет ли Lucid Blocks получать обновления?",
-        "answer": "Да. После релиза планируются некоторые контентные обновления, но они не будут выходить по постоянному графику в течение неопределённого времени."
+        "question": "Will Pack an Order receive updates?",
+        "answer": "Yes. As a live Roblox game, Pack an Order is expected to receive updates with new items, abilities, upgrades, and balance changes over time."
       }
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Pack an Order?",
+    "description": "Jump into Pack an Order on Roblox, find toys on the shelves, pack boxes fast, and beat the clock solo or with friends!",
+    "joinCommunity": "Play on Roblox",
+    "joinGame": "Watch Gameplay"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "title": "Pack an Order Wiki",
+    "description": "Your complete resource hub for Pack an Order Roblox guides, orders, items, upgrades, abilities, controls, and codes.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "Play on Roblox",
+    "twitter": "Watch Gameplay",
+    "steamCommunity": "Roblox Charts",
+    "steamStore": "Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Pack an Order Wiki. Not affiliated with the developers of Pack an Order or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
-      "title": "Руководства по Lucid Blocks",
+      "title": "Руководства по Pack an Order",
       "description": "Полные руководства по игровому процессу: от основ для новичков до продвинутых стратегий Apotheosis. Освойте выживание и крафт.",
-      "metaTitle": "Руководства по Lucid Blocks — стратегии от новичка до эксперта",
-      "metaDescription": "Полные руководства по Lucid Blocks, включающие советы для начинающих, систему Apotheosis, стратегии выживания и тактики экспертов для освоения сюрреалистичной песочницы.",
+      "metaTitle": "Руководства по Pack an Order — стратегии от новичка до эксперта",
+      "metaDescription": "Полные руководства по Pack an Order, включающие советы для начинающих, систему Apotheosis, стратегии выживания и тактики экспертов для освоения сюрреалистичной песочницы.",
       "categoryLabel": "ИГРОВЫЕ РУКОВОДСТВА",
       "whatIs": "Что такое руководства?",
       "whatIsDescription": "Подробные руководства, охватывающие механики геймплея, стратегии выживания и систему крафта Apotheosis. Узнайте всё: от первых шагов до продвинутых техник.",
@@ -225,10 +225,10 @@
       "all": "Все руководства"
     },
     "crafting": {
-      "title": "Крафт в Lucid Blocks",
+      "title": "Крафт в Pack an Order",
       "description": "Освойте систему слияния Apotheosis с механикой эссенций, рецептами и стратегиями крафта мощных предметов.",
-      "metaTitle": "Крафт в Lucid Blocks — система Apotheosis и рецепты",
-      "metaDescription": "Освойте систему крафта Apotheosis в Lucid Blocks. Изучите механику эссенций, рецепты слияния и стратегии создания мощных инструментов и оружия.",
+      "metaTitle": "Крафт в Pack an Order — система Apotheosis и рецепты",
+      "metaDescription": "Освойте систему крафта Apotheosis в Pack an Order. Изучите механику эссенций, рецепты слияния и стратегии создания мощных инструментов и оружия.",
       "categoryLabel": "СИСТЕМА КРАФТА",
       "whatIs": "Что такое крафт?",
       "whatIsDescription": "Система Apotheosis — это уникальная механика слияния на основе эссенций, где вы объединяете до шести предметов для открытия новых рецептов. Никаких фиксированных меню крафта — ключ в экспериментах.",
@@ -245,10 +245,10 @@
       "all": "Все руководства по крафту"
     },
     "items": {
-      "title": "Предметы в Lucid Blocks",
+      "title": "Предметы в Pack an Order",
       "description": "Подробные руководства по предметам, охватывающие инструменты, оружие, снаряжение для передвижения и решения для хранения с рецептами крафта и советами по использованию.",
-      "metaTitle": "Предметы в Lucid Blocks — руководство по инструментам, оружию и снаряжению",
-      "metaDescription": "Полная база данных предметов для Lucid Blocks, включая инструменты, оружие, снаряжение для передвижения и хранение. Узнайте, как эффективно создавать и использовать каждый предмет.",
+      "metaTitle": "Предметы в Pack an Order — руководство по инструментам, оружию и снаряжению",
+      "metaDescription": "Полная база данных предметов для Pack an Order, включая инструменты, оружие, снаряжение для передвижения и хранение. Узнайте, как эффективно создавать и использовать каждый предмет.",
       "categoryLabel": "ПРЕДМЕТЫ И СНАРЯЖЕНИЕ",
       "whatIs": "Что такое предметы?",
       "whatIsDescription": "Всеобъемлющие руководства по инструментам, оружию, снаряжению для передвижения и функциональным предметам. Изучите рецепты крафта, стратегии использования и оптимальные комбинации.",
@@ -265,10 +265,10 @@
       "all": "Все предметы"
     },
     "biomes": {
-      "title": "Биомы Lucid Blocks",
+      "title": "Биомы Pack an Order",
       "description": "Исследуйте регионы мира, особенности окружающей среды, места расположения ресурсов и советы по выживанию в каждом биоме.",
-      "metaTitle": "Биомы Lucid Blocks — регионы мира и исследование",
-      "metaDescription": "Исследуйте биомы Lucid Blocks, включая Лей-линии Тиаманы, Fog Meadow и сюрреалистичные регионы. Находите ресурсы, избегайте опасностей и ориентируйтесь в бесконечном мире.",
+      "metaTitle": "Биомы Pack an Order — регионы мира и исследование",
+      "metaDescription": "Исследуйте биомы Pack an Order, включая Лей-линии Тиаманы, Fog Meadow и сюрреалистичные регионы. Находите ресурсы, избегайте опасностей и ориентируйтесь в бесконечном мире.",
       "categoryLabel": "РЕГИОНЫ МИРА",
       "whatIs": "Что такое биомы?",
       "whatIsDescription": "Руководства по различным регионам мира, особенностям среды, распределению ресурсов и опасным зонам. Узнайте, чего ожидать и как подготовиться к каждой области.",
@@ -285,10 +285,10 @@
       "all": "Все биомы"
     },
     "building": {
-      "title": "Строительство в Lucid Blocks",
+      "title": "Строительство в Pack an Order",
       "description": "Освойте личные измерения Квалиа, строительство баз, управление хранилищем и креативные техники возведения построек.",
-      "metaTitle": "Строительство в Lucid Blocks — Квалиа и возведение баз",
-      "metaDescription": "Освойте строительство в Lucid Blocks с личными измерениями Квалиа, возведением баз, решениями для хранения и креативными техниками строительства.",
+      "metaTitle": "Строительство в Pack an Order — Квалиа и возведение баз",
+      "metaDescription": "Освойте строительство в Pack an Order с личными измерениями Квалиа, возведением баз, решениями для хранения и креативными техниками строительства.",
       "categoryLabel": "СТРОИТЕЛЬСТВО И БАЗЫ",
       "whatIs": "Что такое строительство?",
       "whatIsDescription": "Руководства по системе личных измерений Квалиа, строительству баз, управлению хранилищу и креативному строительству. Научитесь создавать свое безопасное убежище в сюрреалистичном мире.",
@@ -305,13 +305,13 @@
       "all": "Все руководства по строительству"
     },
     "support": {
-      "title": "Поддержка Lucid Blocks",
+      "title": "Поддержка Pack an Order",
       "description": "Техническая поддержка, совместимость платформ, оптимизация производительности и устранение распространенных проблем.",
-      "metaTitle": "Поддержка Lucid Blocks — техническая помощь и исправления",
-      "metaDescription": "Получите техническую поддержку по Lucid Blocks, включая настройку Steam Deck, исправление вылетов, оптимизацию производительности и руководства по совместимости платформ.",
+      "metaTitle": "Поддержка Pack an Order — техническая помощь и исправления",
+      "metaDescription": "Получите техническую поддержку по Pack an Order, включая настройку Roblox Deck, исправление вылетов, оптимизацию производительности и руководства по совместимости платформ.",
       "categoryLabel": "ТЕХНИЧЕСКАЯ ПОДДЕРЖКА",
       "whatIs": "Что такое поддержка?",
-      "whatIsDescription": "Технические руководства, охватывающие совместимость платформ, оптимизацию производительности, исправление вылетов и общие проблемы. Получите помощь по Steam Deck, вопросам мультиплеера и настройкам.",
+      "whatIsDescription": "Технические руководства, охватывающие совместимость платформ, оптимизацию производительности, исправление вылетов и общие проблемы. Получите помощь по Roblox Deck, вопросам мультиплеера и настройкам.",
       "why": "Зачем обращаться в поддержку?",
       "whySteps": {
         "step1Title": "Исправляйте технические проблемы",
@@ -319,7 +319,7 @@
         "step2Title": "Оптимизируйте производительность",
         "step2Description": "Настройте параметры для лучшего опыта на вашей платформе",
         "step3Title": "Совместимость платформ",
-        "step3Description": "Узнайте о Steam Deck, поддержке контроллеров и системных требованиях"
+        "step3Description": "Узнайте о Roblox Deck, поддержке контроллеров и системных требованиях"
       },
       "featured": "Рекомендуемое и важное",
       "all": "Все статьи поддержки"
@@ -327,9 +327,9 @@
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Руководство для начинающих по Lucid Blocks",
+      "title": "Руководство для начинающих по Pack an Order",
       "displayType": "steps",
-      "intro": "Начните с изучения того, как связаны исследование, слияние и прогрессия. Lucid Blocks поощряет эксперименты, поэтому ранний прогресс достигается за счет сбора необычных материалов, тестирования комбинаций и разблокировки вашей личной Квалии.",
+      "intro": "Начните с изучения того, как связаны исследование, слияние и прогрессия. Pack an Order поощряет эксперименты, поэтому ранний прогресс достигается за счет сбора необычных материалов, тестирования комбинаций и разблокировки вашей личной Квалии.",
       "steps": [
         {
           "title": "Исследуйте, прежде чем принимать решения",
@@ -345,7 +345,7 @@
         },
         {
           "title": "Записывайте удачные слияния",
-          "description": "Отслеживайте успешные комбинации в своем журнале. В Lucid Blocks существует множество путей слияния, поэтому запись полезных результатов сэкономит много времени."
+          "description": "Отслеживайте успешные комбинации в своем журнале. В Pack an Order существует множество путей слияния, поэтому запись полезных результатов сэкономит много времени."
         }
       ],
       "quickTips": [
@@ -356,7 +356,7 @@
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Крафт через Apotheosis в Lucid Blocks",
+      "title": "Крафт через Apotheosis в Pack an Order",
       "displayType": "cards",
       "intro": "Apotheosis — это неограниченная система слияния в игре. Вместо того чтобы заучивать традиционную книгу рецептов, вы комбинируете материалы, наблюдаете за результатом и со временем накапливаете собственные знания о крафте.",
       "cards": [
@@ -384,9 +384,9 @@
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Инструменты и оружие в Lucid Blocks",
+      "title": "Инструменты и оружие в Pack an Order",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks сочетает в себе официальное вспомогательное снаряжение с ранним оружием, открытым сообществом. Лучшая сборка — это обычно сочетание быстрой добычи, безопасного перемещения и одного надежного боевого варианта.",
+      "intro": "Pack an Order сочетает в себе официальное вспомогательное снаряжение с ранним оружием, открытым сообществом. Лучшая сборка — это обычно сочетание быстрой добычи, безопасного перемещения и одного надежного боевого варианта.",
       "items": [
         {
           "name": "Морозная кирка",
@@ -431,9 +431,9 @@
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Хранение и инвентарь в Lucid Blocks",
+      "title": "Хранение и инвентарь в Pack an Order",
       "displayType": "solutionCards",
-      "intro": "Проблема нехватки места в инвентаре возникает в Lucid Blocks рано, поэтому создание хранилища должно стать одной из ваших первых целей. Несколько проверенных игроками решений уже выделяются на общем фоне.",
+      "intro": "Проблема нехватки места в инвентаре возникает в Pack an Order рано, поэтому создание хранилища должно стать одной из ваших первых целей. Несколько проверенных игроками решений уже выделяются на общем фоне.",
       "solutions": [
         {
           "name": "Куб-тайник",
@@ -464,9 +464,9 @@
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Квалия и строительство базы в Lucid Blocks",
+      "title": "Квалия и строительство базы в Pack an Order",
       "displayType": "cards",
-      "intro": "Квалия — одна из важнейших вех прогресса в Lucid Blocks. Она дает вам личное пространство для перегруппировки, хранения материалов и постепенного превращения результатов исследований в настоящую домашнюю базу.",
+      "intro": "Квалия — одна из важнейших вех прогресса в Pack an Order. Она дает вам личное пространство для перегруппировки, хранения материалов и постепенного превращения результатов исследований в настоящую домашнюю базу.",
       "cards": [
         {
           "name": "Личная Квалия",
@@ -478,7 +478,7 @@
         },
         {
           "name": "Творческое домостроение",
-          "description": "Lucid Blocks поддерживает творческое строительство, и игроки уже используют пространства Квалии для создания домов и персонализированных планировок."
+          "description": "Pack an Order поддерживает творческое строительство, и игроки уже используют пространства Квалии для создания домов и персонализированных планировок."
         },
         {
           "name": "Центр прогрессии",
@@ -493,9 +493,9 @@
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Регионы мира в Lucid Blocks",
+      "title": "Регионы мира в Pack an Order",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks использует бесконечную генерацию мира, поэтому игроки постоянно открывают новые среды и структуры. Несколько именованных мест уже фигурируют в достижениях и обсуждениях сообщества.",
+      "intro": "Pack an Order использует бесконечную генерацию мира, поэтому игроки постоянно открывают новые среды и структуры. Несколько именованных мест уже фигурируют в достижениях и обсуждениях сообщества.",
       "regions": [
         {
           "name": "Fog Meadow",
@@ -520,9 +520,9 @@
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Существа и враги в Lucid Blocks",
+      "title": "Существа и враги в Pack an Order",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks смешивает сюрреалистичных существ с реальной опасностью. Официальные описания и посты сообщества указывают на мир, полный странной жизни, враждебных угроз и нескольких запоминающихся встреч.",
+      "intro": "Pack an Order смешивает сюрреалистичных существ с реальной опасностью. Официальные описания и посты сообщества указывают на мир, полный странной жизни, враждебных угроз и нескольких запоминающихся встреч.",
       "creatures": [
         {
           "name": "Манекены",
@@ -562,9 +562,9 @@
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Снаряжение для мобильности в Lucid Blocks",
+      "title": "Снаряжение для мобильности в Pack an Order",
       "displayType": "itemCards",
-      "intro": "Улучшения передвижения — это один из самых больших скачков в качестве жизни в Lucid Blocks. Как только вы разблокируете свои первые инструменты перемещения, исследование станет быстрее, безопаснее и гораздо выгоднее.",
+      "intro": "Улучшения передвижения — это один из самых больших скачков в качестве жизни в Pack an Order. Как только вы разблокируете свои первые инструменты перемещения, исследование станет быстрее, безопаснее и гораздо выгоднее.",
       "items": [
         {
           "name": "Hookshot",
@@ -605,9 +605,9 @@
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Фермерство и рост в Lucid Blocks",
+      "title": "Фермерство и рост в Pack an Order",
       "displayType": "mixedCards",
-      "intro": "Рост — это часть реального прогресса в Lucid Blocks. Фермерство — это не только посадка и сбор урожая, но и создание повторяющихся маршрутов получения материалов для ваших инструментов, оружия и вариантов крафта.",
+      "intro": "Рост — это часть реального прогресса в Pack an Order. Фермерство — это не только посадка и сбор урожая, но и создание повторяющихся маршрутов получения материалов для ваших инструментов, оружия и вариантов крафта.",
       "sections": [
         {
           "name": "Прогрессия семян",
@@ -634,9 +634,9 @@
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Лучшие ранние разблокировки в Lucid Blocks",
+      "title": "Лучшие ранние разблокировки в Pack an Order",
       "displayType": "priorityCards",
-      "intro": "Самые сильные ранние разблокировки — это те, которые улучшают безопасность, хранение и передвижение. В Lucid Blocks несколько практичных улучшений могут сделать прохождение всей остальной игры гораздо более плавным.",
+      "intro": "Самые сильные ранние разблокировки — это те, которые улучшают безопасность, хранение и передвижение. В Pack an Order несколько практичных улучшений могут сделать прохождение всей остальной игры гораздо более плавным.",
       "priorities": [
         {
           "name": "Личная Квалия",
@@ -671,9 +671,9 @@
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Трекер достижений Lucid Blocks",
+      "title": "Трекер достижений Pack an Order",
       "displayType": "achievementGrid",
-      "intro": "В Lucid Blocks на данный момент 19 достижений в Steam, и они естественным образом делятся на исследование, крафт, мобильность, бой и развитие.",
+      "intro": "В Pack an Order на данный момент 19 достижений в Steam, и они естественным образом делятся на исследование, крафт, мобильность, бой и развитие.",
       "groups": [
         {
           "name": "Исследование",
@@ -779,72 +779,72 @@
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ по одиночной игре и платформам Lucid Blocks",
+      "title": "FAQ по одиночной игре и платформам Pack an Order",
       "displayType": "accordion",
-      "intro": "Это основные вопросы о платформах и доступе, которые игроки задают перед покупкой Lucid Blocks.",
+      "intro": "Это основные вопросы о платформах и доступе, которые игроки задают перед покупкой Pack an Order.",
       "faqs": [
         {
-          "question": "Является ли Lucid Blocks одиночной игрой?",
-          "answer": "Да. Lucid Blocks — это одиночная игра."
+          "question": "Является ли Pack an Order одиночной игрой?",
+          "answer": "Да. Pack an Order — это одиночная игра."
         },
         {
           "question": "Планируется ли мультиплеер или кооператив?",
           "answer": "Нет. Мультиплеер не планируется ни для релиза, ни для будущих обновлений."
         },
         {
-          "question": "Где я могу поиграть в Lucid Blocks?",
+          "question": "Где я могу поиграть в Pack an Order?",
           "answer": "В настоящее время игра доступна в Steam для Windows."
         },
         {
-          "question": "Сколько стоит Lucid Blocks?",
+          "question": "Сколько стоит Pack an Order?",
           "answer": "$9.99 в Steam."
         },
         {
-          "question": "Поддерживает ли Lucid Blocks контроллеры?",
+          "question": "Поддерживает ли Pack an Order контроллеры?",
           "answer": "Да, но игра с контроллером не рекомендуется, так как меню не адаптированы под него."
         },
         {
-          "question": "Работает ли Lucid Blocks на Steam Deck?",
-          "answer": "Да. Proton 9.0 или 9.0.4 — рекомендуемые настройки для Steam Deck."
+          "question": "Работает ли Pack an Order на Roblox Deck?",
+          "answer": "Да. Proton 9.0 или 9.0.4 — рекомендуемые настройки для Roblox Deck."
         },
         {
-          "question": "Работает ли Lucid Blocks на Linux?",
-          "answer": "Да. Сообщается, что Proton 9.0 хорошо работает на Linux и Steam Deck."
+          "question": "Работает ли Pack an Order на Linux?",
+          "answer": "Да. Сообщается, что Proton 9.0 хорошо работает на Linux и Roblox Deck."
         },
         {
           "question": "Будут ли поддерживаться Mac или Android?",
           "answer": "Возможно, они будут поддержаны в будущем, но на данный момент они не являются целевыми платформами."
         },
         {
-          "question": "Есть ли в Lucid Blocks переводы?",
+          "question": "Есть ли в Pack an Order переводы?",
           "answer": "Нет. В настоящее время переводы не планируются."
         },
         {
-          "question": "Будет ли Lucid Blocks получать обновления?",
+          "question": "Будет ли Pack an Order получать обновления?",
           "answer": "Да. После релиза планируются некоторые контентные обновления, но они не будут выходить по постоянному графику неопределенный срок."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks на Steam Deck и контроллере",
+      "title": "Pack an Order на Roblox Deck и контроллере",
       "displayType": "accordion",
-      "intro": "Lucid Blocks может работать на Steam Deck, но стандартные настройки могут потребовать корректировки. Клавиатура и мышь остаются более удобным вариантом для меню и игры в целом.",
+      "intro": "Pack an Order может работать на Roblox Deck, но стандартные настройки могут потребовать корректировки. Клавиатура и мышь остаются более удобным вариантом для меню и игры в целом.",
       "faqs": [
         {
-          "question": "Работает ли Lucid Blocks на Steam Deck?",
-          "answer": "Да. Proton 9.0 работает хорошо, а Proton 9.0.4 — часто рекомендуемое решение проблем на Steam Deck."
+          "question": "Работает ли Pack an Order на Roblox Deck?",
+          "answer": "Да. Proton 9.0 работает хорошо, а Proton 9.0.4 — часто рекомендуемое решение проблем на Roblox Deck."
         },
         {
-          "question": "Что делать, если управление на Steam Deck не работает?",
+          "question": "Что делать, если управление на Roblox Deck не работает?",
           "answer": "Принудительно включите совместимость и переключите игру на Proton 9.0.4. Стандартная конфигурация может некорректно принимать ввод с контроллера."
         },
         {
-          "question": "Поддерживает ли Lucid Blocks контроллеры?",
+          "question": "Поддерживает ли Pack an Order контроллеры?",
           "answer": "Да, но игра с контроллером не рекомендуется, так как меню игры не адаптированы под него."
         },
         {
           "question": "Возможна ли поддержка Linux?",
-          "answer": "Да. Сообщается, что Proton 9.0 хорошо работает на Linux и Steam Deck."
+          "answer": "Да. Сообщается, что Proton 9.0 хорошо работает на Linux и Roblox Deck."
         },
         {
           "question": "Какая настройка ввода лучше всего?",
@@ -853,9 +853,9 @@
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Настройки и доступность в Lucid Blocks",
+      "title": "Настройки и доступность в Pack an Order",
       "displayType": "settingCards",
-      "intro": "В Lucid Blocks уже есть несколько практичных настроек и примечаний о совместимости, которые важны при первом запуске игры.",
+      "intro": "В Pack an Order уже есть несколько практичных настроек и примечаний о совместимости, которые важны при первом запуске игры.",
       "settings": [
         {
           "name": "Настройки дисплея",
@@ -880,9 +880,9 @@
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Обновления и список изменений Lucid Blocks",
+      "title": "Обновления и список изменений Pack an Order",
       "displayType": "timeline",
-      "intro": "Lucid Blocks уже получает быстрые исправления после запуска и небольшие обновления удобства использования.",
+      "intro": "Pack an Order уже получает быстрые исправления после запуска и небольшие обновления удобства использования.",
       "entries": [
         {
           "title": "Обновление 2.8.2",
@@ -902,7 +902,7 @@
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Исправление вылетов и решение проблем в Lucid Blocks",
+      "title": "Исправление вылетов и решение проблем в Pack an Order",
       "displayType": "steps",
       "intro": "Большинство проблем с запуском и вылетами следует проверять в простом порядке: версия патча, поддержка графики, совместимость платформ и логи.",
       "steps": [
@@ -912,11 +912,11 @@
         },
         {
           "title": "Проверьте поддержку Vulkan",
-          "description": "Lucid Blocks требует поддержки Vulkan. Системы без Vulkan могут страдать от вылетов или серьезных проблем с рендерингом."
+          "description": "Pack an Order требует поддержки Vulkan. Системы без Vulkan могут страдать от вылетов или серьезных проблем с рендерингом."
         },
         {
-          "title": "Используйте Proton 9.0.4 на Steam Deck",
-          "description": "Если ввод или запуск на Steam Deck не работают, принудительно включите совместимость и переключитесь на Proton 9.0.4."
+          "title": "Используйте Proton 9.0.4 на Roblox Deck",
+          "description": "Если ввод или запуск на Roblox Deck не работают, принудительно включите совместимость и переключитесь на Proton 9.0.4."
         },
         {
           "title": "Соберите логи вылетов",

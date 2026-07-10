@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "description": "Pack an Order Roblox Wiki with beginner tips, controls, order routes, item locations, upgrades, abilities, co-op strategies, leaderboards, and update news.",
+      "keywords": "Pack an Order, Roblox, codes, wiki, upgrades, abilities, controls, orders, co-op, leaderboard",
+      "ogTitle": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "ogDescription": "Pack an Order Roblox Wiki with beginner tips, controls, order routes, item locations, upgrades, abilities, co-op strategies, leaderboards, and update news.",
+      "twitterTitle": "Pack an Order Wiki - Roblox Upgrades, Abilities & Guides",
+      "twitterDescription": "Pack an Order Roblox Wiki covering controls, orders, items, upgrades, abilities, and co-op strategies."
     }
   },
   "nav": {
@@ -34,36 +34,36 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Fast-Paced Co-op Warehouse Simulator",
+    "title": "Pack an Order Wiki",
+    "description": "Find toys, complete customer orders, pack boxes, load delivery trucks, earn coins, unlock abilities, upgrade your worker, and compete for faster warehouse times.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "5.3K",
+        "label": "Players Online"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "85%",
+        "label": "Player Rating"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "3",
+        "label": "Core Upgrades"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "Solo + Co-op",
+        "label": "Play Modes"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Pack an Order Gameplay",
+    "description": "Find toys on the shelves, match customer orders, pack boxes, load delivery trucks, and upgrade your worker in this fast-paced Roblox co-op warehouse game."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Pack an Order",
     "titleHighlight": "Ressourcen",
     "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
     "cards": [
@@ -151,7 +151,7 @@
   },
   "modules": {
     "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
+      "title": "Pack an Order Demo-Download",
       "subtitle": "Hol dir die kostenlose Demo auf Steam",
       "downloadSize": "2,62 GiB",
       "diskSize": "4,88 GiB",
@@ -161,7 +161,7 @@
       "engine": "Unity",
       "primaryCTA": "Demo herunterladen",
       "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
+      "installPath": "Steam\\steamapps\\common\\Pack an Order Demo",
       "sections": [
         {
           "heading": "Wo man es herunterladen kann",
@@ -180,7 +180,7 @@
       ]
     },
     "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
+      "title": "Pack an Order Anfängerleitfaden",
       "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
       "steps": [
         {
@@ -228,7 +228,7 @@
       ]
     },
     "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
+      "title": "Pack an Order Koop-Leitfaden",
       "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
       "maxPlayers": 6,
       "roles": [
@@ -262,7 +262,7 @@
       "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
     },
     "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
+      "title": "Pack an Order Aufgaben & Ziele",
       "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
       "taskTypes": [
         {
@@ -293,7 +293,7 @@
       ]
     },
     "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
+      "title": "Pack an Order Steuerung & Tastenbelegung",
       "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
       "keybinds": [
         {
@@ -372,7 +372,7 @@
       "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
     },
     "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
+      "title": "Pack an Order Inhaltseinstellungen",
       "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
       "descriptors": [
         "Etwas Nacktheit oder sexuelle Inhalte",
@@ -397,7 +397,7 @@
       ]
     },
     "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
+      "title": "Pack an Order Crafting & Ausrüstung",
       "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
       "equipment": [
         {
@@ -434,7 +434,7 @@
       ]
     },
     "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
+      "title": "Pack an Order Beute & Gegenstände",
       "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
       "categories": [
         {
@@ -477,7 +477,7 @@
       ]
     },
     "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
+      "title": "Pack an Order Gegner & Gefahren",
       "subtitle": "Wisse, was dich erwischen kann",
       "threats": [
         {
@@ -519,7 +519,7 @@
       ]
     },
     "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
+      "title": "Pack an Order Stealth & Flucht Tipps",
       "subtitle": "Stehle mehr, stirb weniger",
       "do": [
         "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
@@ -549,7 +549,7 @@
       ]
     },
     "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
+      "title": "Pack an Order Haus-Upgrades",
       "subtitle": "Craften, bauen, verbessern",
       "branches": [
         {
@@ -607,7 +607,7 @@
       ]
     },
     "community": {
-      "title": "Lucid Blocks Community & Discord",
+      "title": "Pack an Order Community & Discord",
       "subtitle": "Finde Trupps, Updates, Diskussionen",
       "links": [
         {
@@ -633,7 +633,7 @@
       ]
     },
     "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
+      "title": "Pack an Order Mods & BepInEx Setup",
       "subtitle": "Installiere Mods auf saubere Weise",
       "steps": [
         {
@@ -660,17 +660,17 @@
       "paths": [
         {
           "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
+          "path": "Steam\\steamapps\\common\\Pack an Order Demo\\"
         },
         {
           "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
+          "path": "Steam\\steamapps\\common\\Pack an Order Demo\\BepInEx\\plugins\\"
         }
       ],
       "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
     },
     "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
+      "title": "Pack an Order Beliebte Mods",
       "subtitle": "Top-Community-Auswahlen",
       "mods": [
         {
@@ -737,7 +737,7 @@
       ]
     },
     "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
+      "title": "Pack an Order Controller-Unterstützung",
       "subtitle": "Volle Gamepad-Steuerung",
       "native": {
         "title": "In-Game-Einstellungen",
@@ -757,7 +757,7 @@
       ]
     },
     "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
+      "title": "Pack an Order Spielerzahl & Trend",
       "subtitle": "Live-Popularitäts-Schnappschuss",
       "stats": {
         "now": {
@@ -788,65 +788,65 @@
     }
   },
   "faq": {
-    "title": "Häufig gestellte",
-    "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Pack an Order",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Is Pack an Order multiplayer?",
+        "answer": "Yes. Pack an Order is a co-op warehouse game on Roblox. You can play solo or team up with friends to find toys, pack orders, and load delivery trucks faster."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "What are the core upgrades in Pack an Order?",
+        "answer": "The three core upgrades are Speed, Reach, and Carry Capacity. They permanently improve your worker and help you complete orders much faster."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Where can I play Pack an Order?",
+        "answer": "Pack an Order is available for free on Roblox. You can play it on PC, mobile, Xbox, and any other device that supports Roblox."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Does Pack an Order have codes?",
+        "answer": "The game is newly launched and an official codes system has not been confirmed yet. We track the codes status and will list working codes as soon as they are verified."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Does Pack an Order support controllers?",
+        "answer": "Roblox supports controllers on compatible platforms, but keyboard and mouse or touch are the smoothest options for quickly grabbing and packing items."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Will Pack an Order receive updates?",
+        "answer": "Yes. As a live Roblox game, Pack an Order is expected to receive updates with new items, abilities, upgrades, and balance changes over time."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Ready to Pack an Order?",
+    "description": "Jump into Pack an Order on Roblox, find toys on the shelves, pack boxes fast, and beat the clock solo or with friends!",
+    "joinCommunity": "Play on Roblox",
+    "joinGame": "Watch Gameplay"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
-    "resources": "Ressourcen",
+    "title": "Pack an Order Wiki",
+    "description": "Your complete resource hub for Pack an Order Roblox guides, orders, items, upgrades, abilities, controls, and codes.",
+    "resources": "Resources",
     "community": "Community",
-    "legal": "Rechtliches",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
-    "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "legal": "Legal",
+    "discord": "Play on Roblox",
+    "twitter": "Watch Gameplay",
+    "steamCommunity": "Roblox Charts",
+    "steamStore": "Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Pack an Order Wiki. Not affiliated with the developers of Pack an Order or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Leitfäden",
+      "title": "Pack an Order Leitfäden",
       "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
+      "metaTitle": "Pack an Order Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
+      "metaDescription": "Vollständige Pack an Order Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
       "categoryLabel": "SPIEL-LEITFÄDEN",
       "whatIs": "Was sind Leitfäden?",
       "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
@@ -863,10 +863,10 @@
       "all": "Alle Leitfäden"
     },
     "crafting": {
-      "title": "Lucid Blocks Handwerk",
+      "title": "Pack an Order Handwerk",
       "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
+      "metaTitle": "Pack an Order Handwerk – Apotheosis-System & Rezepte",
+      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Pack an Order. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
       "categoryLabel": "HANDWERKSSYSTEM",
       "whatIs": "Was ist Handwerk?",
       "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
@@ -883,10 +883,10 @@
       "all": "Alle Handwerks-Leitfäden"
     },
     "items": {
-      "title": "Lucid Blocks Gegenstände",
+      "title": "Pack an Order Gegenstände",
       "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
+      "metaTitle": "Pack an Order Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
+      "metaDescription": "Vollständige Gegenstandsdatenbank für Pack an Order, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
       "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
       "whatIs": "Was sind Gegenstände?",
       "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
@@ -903,10 +903,10 @@
       "all": "Alle Gegenstände"
     },
     "biomes": {
-      "title": "Lucid Blocks Biome",
+      "title": "Pack an Order Biome",
       "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
+      "metaTitle": "Pack an Order Biome – Weltregionen & Erkundung",
+      "metaDescription": "Erkunden Sie die Biome von Pack an Order, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
       "categoryLabel": "WELTREGIONEN",
       "whatIs": "Was sind Biome?",
       "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
@@ -923,10 +923,10 @@
       "all": "Alle Biome"
     },
     "building": {
-      "title": "Lucid Blocks Bauen",
+      "title": "Pack an Order Bauen",
       "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
+      "metaTitle": "Pack an Order Bauen – Qualia & Basisbau",
+      "metaDescription": "Meistern Sie das Bauen in Pack an Order mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
       "categoryLabel": "BAUEN & BASEN",
       "whatIs": "Was ist Bauen?",
       "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
@@ -943,13 +943,13 @@
       "all": "Alle Bau-Leitfäden"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "Pack an Order Support",
       "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
+      "metaTitle": "Pack an Order Support – Technische Hilfe & Fehlerbehebungen",
+      "metaDescription": "Erhalten Sie technischen Support für Pack an Order, einschließlich Roblox Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
       "categoryLabel": "TECHNISCHER SUPPORT",
       "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
+      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Roblox Deck, Multiplayer-Fragen und Einstellungen.",
       "why": "Warum Support prüfen?",
       "whySteps": {
         "step1Title": "Technische Probleme beheben",
@@ -957,7 +957,7 @@
         "step2Title": "Leistung optimieren",
         "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
         "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step3Description": "Erfahren Sie mehr über Roblox Deck, Controller-Unterstützung und Systemanforderungen"
       },
       "featured": "Hervorgehoben & Essenziell",
       "all": "Alle Support-Artikel"
